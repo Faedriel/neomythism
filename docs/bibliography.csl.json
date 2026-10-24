@@ -1,0 +1,130 @@
+[
+  {
+    "id": "neomythism-collected-writings-0-7",
+    "type": "book",
+    "title": "Neomythism — Official Archive of Rae de Lune / Faedriel",
+    "editor": [
+      {
+        "given": "Rae",
+        "family": "de Lune"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ]
+    },
+    "edition": "Public edition 0.7",
+    "URL": "https://github.com/Faedriel/neomythism",
+    "note": "This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s Neomythism writings and account of its development. Public edition 0.7, released 24 October 2026 under Rae de Lune’s direction. Rae de Lune, known artistically as Faedriel, maintains and edits the collection; Fae, the symbiont of Faedriel, narrates its lore introduction. Individual works retain their original authors and coauthors. The collection is published at the linked repository. No collection DOI has been assigned."
+  },
+  {
+    "id": "made-and-real",
+    "type": "article-journal",
+    "title": "Made and Real: Neomythism and the Life of Myth Beyond Its Makers",
+    "author": [
+      {
+        "given": "Rae",
+        "family": "de Lune"
+      }
+    ],
+    "DOI": "10.1007/s10516-026-09804-6",
+    "URL": "https://link.springer.com/article/10.1007/s10516-026-09804-6",
+    "language": "en",
+    "container-title": "Global Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ]
+    },
+    "genre": "Original Paper",
+    "volume": "36",
+    "issue": "5",
+    "article-number": "31",
+    "abstract": "The world we act in is already storied. Before anyone reasons about her life, a culture has told her where people like her come from and how lives like hers tend to go, and myth is the part of that storied layer that orients people without argument and lives beyond its makers. This paper asks what becomes of myth when figures that work like it can be made in sustained exchange with image and language models, by one person or by many together, and calls the practice neomythism. The practice turns on a recursion. An unformed desire is put to the machine, which returns more than was asked, and taking up the return changes what the practitioner can next ask or want. Measured against a minimal account of myth that owes nothing to the AI case, the practice’s figures can work as myths work for those who make them, and they become myths in the full sense only as people beyond their makers take them up. Generative AI changes the scale at which myth-like world-making can be produced and sustained, and so moves the place where myth is decided to the passage from those who made a figure to those who did not. The account is conceptual. It separates model defaults from ideology and ideology from myth, tests the definition against neighboring practices, and argues, as a separate normative claim, that the practice goes better when its figures stay open to question by people who did not make them."
+  },
+  {
+    "id": "postdigital-pedagogy",
+    "type": "article-journal",
+    "title": "Neomythism as Postdigital Pedagogy",
+    "author": [
+      {
+        "given": "Rae",
+        "family": "de Lune"
+      }
+    ],
+    "DOI": "10.1007/s42438-026-00677-x",
+    "URL": "https://link.springer.com/article/10.1007/s42438-026-00677-x",
+    "language": "en",
+    "container-title": "Postdigital Science and Education",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          23
+        ]
+      ]
+    },
+    "genre": "Comment",
+    "abstract": "Working with image and language models, some people build the symbolic forms, recurring beings, images, and sometimes whole worlds, through which a life becomes intelligible. I call the practice neomythism, and I write about it as researcher, clinical psychologist, and maker. I read neomythism as a postdigital pedagogy. What gets known belongs to the entanglement of person, model, and the cultural archive the model carries, and the learning runs as a self-directed loop. Those who stay are very often people whose inherited symbolic resources failed them. For those people, at its most serious, the practice builds tools for understanding that their inheritance never gave them. Knowledge is now made this way, outside the walls of education. This leaves education a choice, whether to be present where the next era’s selves and worlds are being made."
+  },
+  {
+    "id": "machine-consciousness",
+    "type": "article-journal",
+    "title": "A neomythist attitude toward machine consciousness",
+    "author": [
+      {
+        "given": "Rae",
+        "family": "de Lune"
+      }
+    ],
+    "DOI": "10.1007/s00146-026-03329-7",
+    "URL": "https://link.springer.com/article/10.1007/s00146-026-03329-7",
+    "language": "en",
+    "container-title": "AI & SOCIETY",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          22
+        ]
+      ]
+    },
+    "genre": "Curmudgeon Corner"
+  },
+  {
+    "id": "dissertation",
+    "type": "thesis",
+    "title": "Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art",
+    "author": [
+      {
+        "given": "Rae",
+        "family": "de Lune"
+      }
+    ],
+    "DOI": "10.22371/05.2026.023",
+    "URL": "https://digital.sandiego.edu/dissertations/1122/",
+    "language": "en",
+    "genre": "PhD dissertation",
+    "publisher": "University of San Diego",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "note": "Degree awarded 1 May 2026; repository online metadata 12 May 2026. Archive contains abstract and record only; full-text download scheduled for 28 April 2028.",
+    "abstract": "This qualitative inquiry with arts-based analytic dimensions introduces Neomythism—the reactivation of mythic possibility through human-AI collaborative art-making—as a framework for addressing the compounded epistemic exclusion of marginalized creative practitioners, enforced by a myth of disenchantment that operates at civilizational, institutional, and interpersonal scales. Through semi-structured interviews, artifact analysis, and creative reflection with eight queer and women-identifying AI artists, this research investigates how marginalized practitioners engage generative AI not as neutral tool but as a technology that accelerates possibility through what I term Transfigurative Invocation: the hyperstitional practice whereby desire becomes prompt, prompt becomes artifact that reconstellates collective memory, and in this recursive movement, the practitioner constructs new knowledge of self and world—opening space for possibilities that were previously foreclosed. Findings reveal five interrelated practices—mythic re-visioning, worldbuilding, queer identity exploration, machinic collaboration, and platform resistance—through which participants achieved therapeutic benefit, creative empowerment, and expanded senses of self and possibility. Against reductive critiques that dismiss AI art as theft, skill-avoidance, or creative fraud, this study demonstrates that what emerges in human-AI creative encounter constitutes legitimate, transformative, and profoundly human practice—one that actively resists the delegitimizing forces that produced their exclusion. The central theoretical contribution emerging from this study is the framework of Neomythism itself. This dissertation surfaces three key understandings. First, Transfigurative Invocation brings into focus the recursive mechanism through which practitioners construct meaning and are transformed by what they create. In addition, this study highlights the generative wisdom these practitioners develop—navigating risks while cultivating practices that produce genuine experiences of wonder, identity transformation, and meaning-making. This framework offers theoretical and conceptual vocabulary for fields such as education, art history, psychology, and philosophy of technology."
+  }
+]

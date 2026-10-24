@@ -1,0 +1,11 @@
+{
+  "name": "neomythism-archive",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python3 scripts/build_site.py"
+  },
+  "devDependencies": {
+    "marked": "17.0.5"
+  }
+}

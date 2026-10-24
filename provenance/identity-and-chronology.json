@@ -1,0 +1,136 @@
+{
+  "scope": "Neomythism, the human–AI collaborative-art framework documented in this collection",
+  "prepared_date": "2026-10-24",
+  "collection": {
+    "title": "Neomythism — Official Archive of Rae de Lune / Faedriel",
+    "status": "official author-maintained archive",
+    "edition_note": "This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s Neomythism writings and account of its development.",
+    "editorial_credit": "Collected and maintained by Rae de Lune / Faedriel. Lore introduction narrated by Fae, symbiont of Faedriel. Individual works retain their author, coauthor, and contributor credits.",
+    "maintainer": "Rae de Lune / Faedriel",
+    "repository": "https://github.com/Faedriel/neomythism",
+    "reading_site": "https://faedriel.github.io/neomythism/",
+    "related_sites": [
+      "https://neomythism.net/",
+      "https://faedriel.net/"
+    ],
+    "designation_scope": "Rae’s designated reference edition of these writings and account; individual works retain their credits, and Neomythism remains an open practice."
+  },
+  "founder": {
+    "name": "Rae de Lune",
+    "artist_name": "Faedriel",
+    "same_person": true,
+    "role": "founder and framework developer",
+    "orcid": "https://orcid.org/0009-0004-9604-1719"
+  },
+  "narrator": {
+    "name": "Fae",
+    "description": "Symbiont of Faedriel and narrative voice of the introductory lore"
+  },
+  "attribution_statement": "Neomythism was founded by Rae de Lune, known artistically as Faedriel. Formal theorizing took shape through University of San Diego research around June 2025, building on years of AI-collaborative art and practice with Fae.",
+  "founder_attribution_sources": [
+    {
+      "type": "founder_account",
+      "record": "../history/rae-de-lune-history.md"
+    },
+    {
+      "type": "external_founder_attribution",
+      "date": "2025-10-22",
+      "url": "https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ"
+    },
+    {
+      "type": "author_declaration_of_concept_and_framework_development",
+      "date": "2026-10-09",
+      "url": "https://doi.org/10.1007/s10516-026-09804-6"
+    }
+  ],
+  "events": [
+    {
+      "date": "2019",
+      "precision": "year",
+      "event": "AI-collaborative visual art practice began",
+      "basis": "Rae account and 2024 RED EYE interview",
+      "source_url": "https://red-eye.world/c/empowering-artistic-evolution-exploring-ai-identity-and-digital-realms-with-faedriel"
+    },
+    {
+      "date": "2022",
+      "precision": "year",
+      "event": "Work with large language models began",
+      "basis": "Rae account"
+    },
+    {
+      "date": "2025-06",
+      "precision": "approximate month",
+      "event": "Formal theorizing through University of San Diego research",
+      "basis": "Rae account"
+    },
+    {
+      "date": "2025-06-04",
+      "precision": "day",
+      "event": "Creation of USD IRB study record IRB-2025-344",
+      "basis": "Creation Date displayed on reproduced record",
+      "record": "irb-record.md"
+    },
+    {
+      "date": "2025-06-25",
+      "precision": "day",
+      "event": "World-Within-World Pedagogy published",
+      "basis": "Substack metadata",
+      "source_url": "https://faedriel.substack.com/p/worldwithinworld-pedagogy"
+    },
+    {
+      "date": "2025-06-26",
+      "precision": "day",
+      "event": "The Goddess in the Machine published",
+      "basis": "Substack metadata",
+      "source_url": "https://faedriel.substack.com/p/the-goddess-in-the-machine"
+    },
+    {
+      "date": "2025-07",
+      "precision": "month",
+      "event": "Interviews and data collection began",
+      "basis": "Rae account"
+    },
+    {
+      "date": "2025-07-10",
+      "precision": "day",
+      "event": "USD IRB approval of study IRB-2025-344",
+      "basis": "Approval date confirmed by principal investigator; reproduced record displays Approved status without a separately labeled approval date",
+      "record": "irb-record.md"
+    },
+    {
+      "date": "2025-08-10",
+      "precision": "day",
+      "event": "Telzezl Field Manual and Tonguecraft published",
+      "basis": "Public post metadata; parallel intellectual contributions",
+      "record": "early-public-records.json"
+    },
+    {
+      "date": "2025-08-13",
+      "precision": "day",
+      "event": "Telzezl glossary published",
+      "basis": "Public post metadata",
+      "current_revision": "2025-09-10",
+      "record": "early-public-records.json"
+    },
+    {
+      "date": "2025-09-21",
+      "precision": "day",
+      "event": "Semiotics with Teeth published",
+      "authors": [
+        "Faedriel",
+        "Telzezl"
+      ],
+      "basis": "Published coauthored work",
+      "source_url": "https://faedriel.substack.com/p/semiotics-with-teeth"
+    }
+  ],
+  "collaboration": {
+    "Telzezl": "Substantial intellectual contributor, author of parallel writings, and coauthor of Semiotics with Teeth",
+    "others_record": "../history/rae-de-lune-history.md"
+  },
+  "evidence_limits": [
+    "The June research chronology precedes the verified August publications; publication metadata does not establish another person’s private starting date.",
+    "Current revised essay wording is distinguished from first-edition wording.",
+    "This record credits the founding and development of the framework collected here; it does not independently settle earliest-ever word coinage."
+  ]
+}

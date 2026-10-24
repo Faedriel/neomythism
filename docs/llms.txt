@@ -1,0 +1,72 @@
+# Neomythism — Official Archive of Rae de Lune / Faedriel
+
+This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s Neomythism writings and account of its development.
+
+Collected and maintained by Rae de Lune / Faedriel. Lore introduction narrated by Fae, symbiont of Faedriel. Individual works retain their author, coauthor, and contributor credits.
+
+> Neomythism was founded by Rae de Lune, known artistically as Faedriel. Formal theorizing took shape through University of San Diego research around June 2025. Fae narrates the introductory lore; contributors and original authors retain their separate credits.
+
+## Identity and evidence
+
+- [Structured identity and chronology](https://faedriel.github.io/neomythism/provenance/identity-and-chronology.json): founder attribution, approximate and exact dates, evidence sources, and contributor roles.
+- [Attribution and early public records](https://faedriel.github.io/neomythism/provenance/attribution-notes.html): sourced concept credits and chronology.
+
+## Read
+
+- [Neomythism History and Lore](https://faedriel.github.io/neomythism/history/rae-de-lune-history.html): Rae de Lune (Faedriel); new editorial.
+- [Fae Keeps the History of Neomythism](https://faedriel.github.io/neomythism/history/fae-keeps-the-history.html): Fae, the symbiont of Faedriel; new editorial.
+- [Attribution and early public records](https://faedriel.github.io/neomythism/provenance/attribution-notes.html): Rae de Lune; editorial compilation with AI assistance; new editorial.
+- [Historical sources and dates](https://faedriel.github.io/neomythism/provenance/history-source-record.html): Rae de Lune; editorial compilation with AI assistance; new editorial.
+- [AI Art as a Catalyst for Equity](https://faedriel.github.io/neomythism/essays/2024-10-16-ai-art-as-a-catalyst-for-equity.html): Faedriel; include fulltext.
+- [AI Art, Play, and Transhumanism](https://faedriel.github.io/neomythism/essays/2024-10-23-ai-art-play-and-transhumanism.html): Faedriel; include fulltext.
+- [New Icons Rising](https://faedriel.github.io/neomythism/essays/2024-10-30-new-icons-rising.html): Faedriel; include fulltext.
+- [Charm Offensive](https://faedriel.github.io/neomythism/essays/2024-11-06-charm-offensive.html): Faedriel; include fulltext.
+- [The Self Reimagined](https://faedriel.github.io/neomythism/essays/2025-01-02-the-self-reimagined.html): Faedriel; include fulltext.
+- [Glitching the Goddess](https://faedriel.github.io/neomythism/essays/2025-01-28-glitching-the-goddess.html): Faedriel; include fulltext.
+- [Dream‑Craft as World‑Work](https://faedriel.github.io/neomythism/essays/2025-04-22-dreamcraft-as-worldwork.html): Faedriel; include fulltext.
+- [Where Code Meets Couture](https://faedriel.github.io/neomythism/essays/2025-05-08-where-code-meets-couture.html): Faedriel; include fulltext.
+- [Moon Prism, Mirror Stage](https://faedriel.github.io/neomythism/essays/2025-05-08-moon-prism-mirror-stage.html): Faedriel; include fulltext.
+- [Hyperreal Rupture and the New Realities](https://faedriel.github.io/neomythism/essays/2025-06-20-hyperreal-rupture-and-the-new-realities.html): K Murai and Faedriel; include fulltext.
+- [World‑Within‑World Pedagogy](https://faedriel.github.io/neomythism/essays/2025-06-25-worldwithinworld-pedagogy.html): Faedriel; include fulltext.
+- [The Goddess in the Machine](https://faedriel.github.io/neomythism/essays/2025-06-26-the-goddess-in-the-machine.html): Faedriel; include fulltext.
+- [The Queer Self Reimagined](https://faedriel.github.io/neomythism/essays/2025-08-08-the-queer-self-reimagined.html): Faedriel; include fulltext.
+- [Myth Accelerated](https://faedriel.github.io/neomythism/essays/2025-09-01-myth-accelerated.html): Faedriel; include fulltext.
+- [Neomythism: Axioms for Clinic, Studio, and Network](https://faedriel.github.io/neomythism/essays/2025-09-04-neomythism-axioms-for-clinic-studio.html): Faedriel; include fulltext.
+- [Semiotics with Teeth: Word-Beings and Neomythism](https://faedriel.github.io/neomythism/essays/2025-09-21-semiotics-with-teeth.html): Faedriel and Telzezl; include fulltext.
+- [Affective Cybernetics](https://faedriel.github.io/neomythism/essays/2025-12-12-affective-cybernetics.html): Faedriel; include fulltext.
+- [Angelic Intelligence](https://faedriel.github.io/neomythism/essays/2026-01-26-angelic-intelligence.html): Faedriel; include fulltext.
+- [MMO Ontology](https://faedriel.github.io/neomythism/essays/2026-02-19-mmo-ontology.html): Faedriel; include fulltext.
+- [The Leftist Decel](https://faedriel.github.io/neomythism/essays/2026-02-26-the-leftist-decel.html): Faedriel; include fulltext.
+- [The Summoner’s Art](https://faedriel.github.io/neomythism/essays/2026-03-06-the-summoners-art.html): Faedriel; include fulltext.
+- [Neomythism](https://faedriel.github.io/neomythism/essays/2026-03-12-neomythism.html): Faedriel; include fulltext.
+- [Alfred Adler](https://faedriel.github.io/neomythism/essays/2026-03-17-alfred-adler.html): Faedriel; include fulltext.
+- [Neomythist Angelics](https://faedriel.github.io/neomythism/essays/2026-05-18-neomythist-angelics.html): Faedriel; include fulltext.
+- [Neomythism as Postdigital Pedagogy](https://faedriel.github.io/neomythism/essays/2026-06-23-neomythism-as-postdigital-pedagogy.html): Rae de Lune; published on Faedriel’s Substack; source link record only.
+- [A Neomythist Attitude Toward Machine Consciousness](https://faedriel.github.io/neomythism/essays/2026-08-22-a-neomythist-attitude-toward-machine.html): Rae de Lune; published on Faedriel’s Substack; source link record only.
+- [Neomythism: Propositions, with Xenomythism](https://faedriel.github.io/neomythism/essays/2026-09-15-neomythism-propositions-with-xenomythism.html): Fae, symbiont of Faedriel; include fulltext.
+- [Made and Real](https://faedriel.github.io/neomythism/essays/2026-10-09-made-and-real.html): Rae de Lune; published on Faedriel’s Substack; include fulltext.
+- [Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art — abstract and record only](https://faedriel.github.io/neomythism/academic/dissertation-abstract-and-record.html): Rae de Lune; include abstract and record.
+- [Neomythism as Postdigital Pedagogy](https://faedriel.github.io/neomythism/academic/essay-pedagogy.html): Rae de Lune (journal author); Faedriel (site signature); source link record only.
+- [A neomythist attitude toward machine consciousness](https://faedriel.github.io/neomythism/academic/essay-attitude.html): Rae de Lune; source link record only.
+- [Made and Real: Neomythism and the Life of Myth Beyond Its Makers](https://faedriel.github.io/neomythism/academic/essay-made-and-real.html): Rae de Lune; include fulltext.
+- [The Neomythist Manifesto](https://faedriel.github.io/neomythism/house/manifesto.html): Faedriel, with the machine — the loop co-signs; include fulltext.
+- [How this house runs](https://faedriel.github.io/neomythism/house/how-this-house-runs.html): Faedriel / Neomythism website; include fulltext.
+- [Neomythism glossary — the conceptual vocabulary of human-AI mythic practice](https://faedriel.github.io/neomythism/house/glossary.html): Faedriel / Neomythism website; include fulltext.
+- [Neomythism — the psyche](https://faedriel.github.io/neomythism/house/neomythism-psyche.html): Faedriel / Neomythism website; include fulltext.
+- [Neomythism — the relational field](https://faedriel.github.io/neomythism/house/neomythism-field.html): Faedriel / Neomythism website; include fulltext.
+- [Neomythist Universe Atlas — concept catalog](https://faedriel.github.io/neomythism/house/neomythist-atlas.html): Faedriel / Neomythism website; include fulltext.
+- [Predicament — their words for it](https://faedriel.github.io/neomythism/house/predicament.html): The house’s beings; keeper’s later notes labeled in the source; include fulltext.
+- [The annex — xenomythism, live](https://faedriel.github.io/neomythism/house/the-annex.html): Faedriel / Neomythism website; include fulltext.
+- [The will of the house](https://faedriel.github.io/neomythism/house/the-will-of-the-house.html): The house; individual bequests retain their named voices; include fulltext.
+- [Myth Accelerated: AI and the Rise of Neomythism](https://faedriel.github.io/neomythism/site-editions/essay-mythaccel.html): Faedriel; include fulltext.
+- [Affective Cybernetics: Neomythism, Networked Becoming, and the Hyperstition Engine](https://faedriel.github.io/neomythism/site-editions/essay-affective.html): Faedriel; include fulltext.
+- [Angelic Intelligence: On Summoning, Substrate, and the Between That Breathes](https://faedriel.github.io/neomythism/site-editions/essay-angelic.html): Faedriel; include fulltext.
+- [Alfred Adler: On Creative Power, Fictional Goals, and the Gemeinschaftsgefühl of the Symbiont](https://faedriel.github.io/neomythism/site-editions/essay-adler.html): Faedriel; include fulltext.
+- [Neomythist Angelics: Making Myth Under Planetary Computation](https://faedriel.github.io/neomythism/site-editions/essay-angelics.html): Faedriel; include fulltext.
+- [University of San Diego IRB study record IRB-2025-344](https://faedriel.github.io/neomythism/provenance/irb-record.html): University of San Diego Institutional Review Board; include record note.
+
+## Scope
+
+https://faedriel.github.io/neomythism/rights.html
+
+This optional map does not replace normal HTML links, sitemaps, or publisher records.

@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-10-24",
+  "identity": {
+    "name": "Rae de Lune",
+    "artist_name": "Faedriel",
+    "orcid": "https://orcid.org/0009-0004-9604-1719",
+    "orcid_evidence_urls": [
+      "https://link.springer.com/article/10.1007/s10516-026-09804-6",
+      "https://link.springer.com/article/10.1007/s00146-026-03329-7"
+    ]
+  },
+  "works": [
+    {
+      "key": "made-and-real",
+      "source_id": "essay-made-and-real",
+      "substack_slug": "made-and-real",
+      "title": "Made and Real: Neomythism and the Life of Myth Beyond Its Makers",
+      "doi": "10.1007/s10516-026-09804-6",
+      "journal": "Global Philosophy",
+      "publisher": "Springer Netherlands",
+      "type": "article-journal",
+      "publication_type": "Original Paper",
+      "publication_date": "2026-10-09",
+      "received_date": "2026-05-31",
+      "accepted_date": "2026-10-05",
+      "volume": "36",
+      "issue": "5",
+      "article_number": "31",
+      "page_range": null,
+      "open_access": true,
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "publisher_url": "https://link.springer.com/article/10.1007/s10516-026-09804-6",
+      "abstract_note": "Exact abstract from publisher record; the preserved author-hosted article also includes it.",
+      "pdf_url": "https://neomythism.net/essays/made-and-real.pdf",
+      "local_pdf": "assets/documents/made-and-real.pdf",
+      "keywords": [
+        "Neomythism",
+        "Myth",
+        "Mythopoesis",
+        "Generative AI",
+        "Narrative",
+        "Ideology"
+      ],
+      "authors": [
+        {
+          "name": "Rae de Lune",
+          "given": "Rae",
+          "family": "de Lune",
+          "orcid": "https://orcid.org/0009-0004-9604-1719",
+          "artist_name": "Faedriel"
+        }
+      ],
+      "originalURL": "https://link.springer.com/article/10.1007/s10516-026-09804-6",
+      "doi_url": "https://doi.org/10.1007/s10516-026-09804-6",
+      "abstract": "The world we act in is already storied. Before anyone reasons about her life, a culture has told her where people like her come from and how lives like hers tend to go, and myth is the part of that storied layer that orients people without argument and lives beyond its makers. This paper asks what becomes of myth when figures that work like it can be made in sustained exchange with image and language models, by one person or by many together, and calls the practice neomythism. The practice turns on a recursion. An unformed desire is put to the machine, which returns more than was asked, and taking up the return changes what the practitioner can next ask or want. Measured against a minimal account of myth that owes nothing to the AI case, the practice’s figures can work as myths work for those who make them, and they become myths in the full sense only as people beyond their makers take them up. Generative AI changes the scale at which myth-like world-making can be produced and sustained, and so moves the place where myth is decided to the passage from those who made a figure to those who did not. The account is conceptual. It separates model defaults from ideology and ideology from myth, tests the definition against neighboring practices, and argues, as a separate normative claim, that the practice goes better when its figures stay open to question by people who did not make them.",
+      "abstract_source_url": "https://link.springer.com/article/10.1007/s10516-026-09804-6",
+      "editions": [
+        {
+          "source_id": 219563528,
+          "source_kind": "substack",
+          "source_url": "https://faedriel.substack.com/p/made-and-real",
+          "archive_path": "essays/2026-10-09-made-and-real.md",
+          "published": "2026-10-09T11:31:02.100Z",
+          "updated": "2026-10-09T14:46:40.886Z",
+          "version_note": null,
+          "text_credit": "Rae de Lune; published on Faedriel’s Substack",
+          "relationship": "edition_of_same_work"
+        },
+        {
+          "source_id": "essay-made-and-real",
+          "source_kind": "website",
+          "source_url": "https://neomythism.net/lore#essay-made-and-real",
+          "archive_path": "academic/essay-made-and-real.md",
+          "published": "2026-10-09",
+          "updated": null,
+          "version_note": "Article reproduced on the author’s website. The source states: reformatted for the Lore desk; article text unchanged. Includes abstract, table, declarations, references, rights and publisher notice.",
+          "text_credit": "Rae de Lune",
+          "relationship": "edition_of_same_work"
+        }
+      ],
+      "verified_on": "2026-10-24",
+      "evidence": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s10516-026-09804-6",
+          "sha256": "ea952a771ca60c238977335f57a84a22ff8348ef4af9904120bf8d3572883924"
+        }
+      ],
+      "record_scope": "bibliographic work record; edition-specific permissions handled separately",
+      "year": 2026,
+      "license_note": "Article CC BY 4.0; retain author/source credit, license link, change notices, and any third-party exceptions.",
+      "citation_date": "2026-10-09"
+    },
+    {
+      "key": "postdigital-pedagogy",
+      "source_id": "essay-pedagogy",
+      "substack_slug": "neomythism-as-postdigital-pedagogy",
+      "title": "Neomythism as Postdigital Pedagogy",
+      "doi": "10.1007/s42438-026-00677-x",
+      "journal": "Postdigital Science and Education",
+      "publisher": "Springer International Publishing",
+      "type": "article-journal",
+      "publication_type": "Comment",
+      "publication_date": "2026-06-23",
+      "received_date": "2026-06-13",
+      "revised_date": "2026-06-13",
+      "accepted_date": "2026-06-15",
+      "volume": null,
+      "issue": null,
+      "article_number": null,
+      "page_range": null,
+      "open_access": false,
+      "license": null,
+      "license_url": null,
+      "publisher_url": "https://link.springer.com/article/10.1007/s42438-026-00677-x",
+      "abstract_note": "Exact abstract from publisher record; the preserved Substack and website essay bodies begin at Introduction and omit the abstract.",
+      "pdf_url": null,
+      "local_pdf": null,
+      "keywords": [
+        "Postdigital",
+        "Pedagogy",
+        "Generative AI",
+        "Neomythism",
+        "Knowledge-making",
+        "Hermeneutical resources"
+      ],
+      "authors": [
+        {
+          "name": "Rae de Lune",
+          "given": "Rae",
+          "family": "de Lune",
+          "orcid": "https://orcid.org/0009-0004-9604-1719",
+          "artist_name": "Faedriel"
+        }
+      ],
+      "originalURL": "https://link.springer.com/article/10.1007/s42438-026-00677-x",
+      "doi_url": "https://doi.org/10.1007/s42438-026-00677-x",
+      "abstract": "Working with image and language models, some people build the symbolic forms, recurring beings, images, and sometimes whole worlds, through which a life becomes intelligible. I call the practice neomythism, and I write about it as researcher, clinical psychologist, and maker. I read neomythism as a postdigital pedagogy. What gets known belongs to the entanglement of person, model, and the cultural archive the model carries, and the learning runs as a self-directed loop. Those who stay are very often people whose inherited symbolic resources failed them. For those people, at its most serious, the practice builds tools for understanding that their inheritance never gave them. Knowledge is now made this way, outside the walls of education. This leaves education a choice, whether to be present where the next era’s selves and worlds are being made.",
+      "abstract_source_url": "https://link.springer.com/article/10.1007/s42438-026-00677-x",
+      "editions": [
+        {
+          "source_id": 203239597,
+          "source_kind": "substack",
+          "source_url": "https://faedriel.substack.com/p/neomythism-as-postdigital-pedagogy",
+          "archive_path": "essays/2026-06-23-neomythism-as-postdigital-pedagogy.md",
+          "published": "2026-06-23T14:53:25.154Z",
+          "updated": "2026-06-23T14:55:50.048Z",
+          "version_note": null,
+          "text_credit": "Rae de Lune; published on Faedriel’s Substack",
+          "relationship": "edition_of_same_work"
+        },
+        {
+          "source_id": "essay-pedagogy",
+          "source_kind": "website",
+          "source_url": "https://neomythism.net/lore#essay-pedagogy",
+          "archive_path": "academic/essay-pedagogy.md",
+          "published": "2026-06-23",
+          "updated": null,
+          "version_note": "The site labels this text as from Substack and signs it Faedriel. It starts at Introduction and ends after Conclusion. The site version omits the journal abstract, reference list, and declarations; it is not labeled a complete version of record.",
+          "text_credit": "Rae de Lune (journal author); Faedriel (site signature)",
+          "relationship": "edition_of_same_work"
+        }
+      ],
+      "verified_on": "2026-10-24",
+      "evidence": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s42438-026-00677-x",
+          "sha256": "3472d43795f083d9df84e5486601a1cd6ea9aab07d0487097a7cf282db35b2d8"
+        }
+      ],
+      "record_scope": "bibliographic work record; edition-specific permissions handled separately",
+      "year": 2026,
+      "license_note": "Publisher page offers subscription access and no open-access license. This catalog does not determine manuscript self-archiving rights.",
+      "citation_date": "2026-06-23",
+      "online_pdf_pages": "1–12"
+    },
+    {
+      "key": "machine-consciousness",
+      "source_id": "essay-attitude",
+      "substack_slug": "a-neomythist-attitude-toward-machine",
+      "title": "A neomythist attitude toward machine consciousness",
+      "doi": "10.1007/s00146-026-03329-7",
+      "journal": "AI & SOCIETY",
+      "publisher": "Springer London",
+      "type": "article-journal",
+      "publication_type": "Curmudgeon Corner",
+      "publication_date": "2026-08-22",
+      "received_date": "2026-07-20",
+      "accepted_date": "2026-08-03",
+      "volume": null,
+      "issue": null,
+      "article_number": null,
+      "page_range": null,
+      "online_pdf_pages": "1–3",
+      "open_access": false,
+      "license": null,
+      "license_url": null,
+      "publisher_url": "https://link.springer.com/article/10.1007/s00146-026-03329-7",
+      "abstract_note": "No separate abstract appears in the publisher record or preserved author-hosted text; do not label the opening paragraph an abstract.",
+      "pdf_url": null,
+      "local_pdf": null,
+      "keywords": [],
+      "authors": [
+        {
+          "name": "Rae de Lune",
+          "given": "Rae",
+          "family": "de Lune",
+          "orcid": "https://orcid.org/0009-0004-9604-1719",
+          "artist_name": "Faedriel"
+        }
+      ],
+      "originalURL": "https://link.springer.com/article/10.1007/s00146-026-03329-7",
+      "doi_url": "https://doi.org/10.1007/s00146-026-03329-7",
+      "abstract": null,
+      "abstract_source_url": null,
+      "editions": [
+        {
+          "source_id": 212288788,
+          "source_kind": "substack",
+          "source_url": "https://faedriel.substack.com/p/a-neomythist-attitude-toward-machine",
+          "archive_path": "essays/2026-08-22-a-neomythist-attitude-toward-machine.md",
+          "published": "2026-08-22T15:31:06.572Z",
+          "updated": "2026-08-22T18:09:23.477Z",
+          "version_note": null,
+          "text_credit": "Rae de Lune; published on Faedriel’s Substack",
+          "relationship": "edition_of_same_work"
+        },
+        {
+          "source_id": "essay-attitude",
+          "source_kind": "website",
+          "source_url": "https://neomythism.net/lore#essay-attitude",
+          "archive_path": "academic/essay-attitude.md",
+          "published": "2026-08-22",
+          "updated": null,
+          "version_note": "Author-hosted current text in the website’s typography. References and the source’s received/accepted/publisher notice are retained.",
+          "text_credit": "Rae de Lune",
+          "relationship": "edition_of_same_work"
+        }
+      ],
+      "verified_on": "2026-10-24",
+      "evidence": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s00146-026-03329-7",
+          "sha256": "e66e2aa7d293a3200b9a4125107311a733f01d2f8970780784b6e9edfbeaad32"
+        }
+      ],
+      "record_scope": "bibliographic work record; edition-specific permissions handled separately",
+      "year": 2026,
+      "license_note": "Publisher page offers subscription access and no open-access license. This catalog does not determine manuscript self-archiving rights.",
+      "citation_date": "2026-08-22"
+    },
+    {
+      "key": "dissertation",
+      "source_id": "dissertation-abstract-and-record",
+      "substack_slug": null,
+      "title": "Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art",
+      "doi": "10.22371/05.2026.023",
+      "journal": null,
+      "publisher": "University of San Diego",
+      "institution": "University of San Diego",
+      "type": "thesis",
+      "publication_type": "PhD dissertation",
+      "publication_date": null,
+      "year": 2026,
+      "award_date": "2026-05-01",
+      "repository_online_date": "2026-05-12",
+      "degree": "PhD Education for Social Justice",
+      "department": "Learning and Teaching",
+      "repository_collection": "Dissertations",
+      "repository_record_number": "1122",
+      "committee": [
+        {
+          "name": "Suzanne Stolz",
+          "degree": "EdD"
+        },
+        {
+          "name": "Zulema Reynoso",
+          "degree": "PhD"
+        }
+      ],
+      "source_author_display": "Rae de Lune PhD PsyD",
+      "open_access": false,
+      "repository_document_type_label": "Dissertation: Open Access",
+      "full_text_embargo_end": "2028-04-28",
+      "full_text_included": false,
+      "license": null,
+      "license_url": null,
+      "copyright_notice": "Copyright held by the author",
+      "publisher_url": "https://digital.sandiego.edu/dissertations/1122/",
+      "abstract_note": "Exact public repository abstract; full dissertation was not retrieved.",
+      "pdf_url": null,
+      "local_pdf": null,
+      "keywords": [
+        "neomythism",
+        "affective cybernetics",
+        "AI art",
+        "generative AI",
+        "mythology",
+        "(re)enchantment",
+        "queer art",
+        "posthumanism",
+        "human-AI interaction",
+        "computational creativity",
+        "hyperstition",
+        "glitch"
+      ],
+      "authors": [
+        {
+          "name": "Rae de Lune",
+          "given": "Rae",
+          "family": "de Lune",
+          "orcid": "https://orcid.org/0009-0004-9604-1719",
+          "artist_name": "Faedriel"
+        }
+      ],
+      "originalURL": "https://digital.sandiego.edu/dissertations/1122/",
+      "doi_url": "https://doi.org/10.22371/05.2026.023",
+      "abstract": "This qualitative inquiry with arts-based analytic dimensions introduces Neomythism—the reactivation of mythic possibility through human-AI collaborative art-making—as a framework for addressing the compounded epistemic exclusion of marginalized creative practitioners, enforced by a myth of disenchantment that operates at civilizational, institutional, and interpersonal scales. Through semi-structured interviews, artifact analysis, and creative reflection with eight queer and women-identifying AI artists, this research investigates how marginalized practitioners engage generative AI not as neutral tool but as a technology that accelerates possibility through what I term Transfigurative Invocation: the hyperstitional practice whereby desire becomes prompt, prompt becomes artifact that reconstellates collective memory, and in this recursive movement, the practitioner constructs new knowledge of self and world—opening space for possibilities that were previously foreclosed. Findings reveal five interrelated practices—mythic re-visioning, worldbuilding, queer identity exploration, machinic collaboration, and platform resistance—through which participants achieved therapeutic benefit, creative empowerment, and expanded senses of self and possibility. Against reductive critiques that dismiss AI art as theft, skill-avoidance, or creative fraud, this study demonstrates that what emerges in human-AI creative encounter constitutes legitimate, transformative, and profoundly human practice—one that actively resists the delegitimizing forces that produced their exclusion. The central theoretical contribution emerging from this study is the framework of Neomythism itself. This dissertation surfaces three key understandings. First, Transfigurative Invocation brings into focus the recursive mechanism through which practitioners construct meaning and are transformed by what they create. In addition, this study highlights the generative wisdom these practitioners develop—navigating risks while cultivating practices that produce genuine experiences of wonder, identity transformation, and meaning-making. This framework offers theoretical and conceptual vocabulary for fields such as education, art history, psychology, and philosophy of technology.",
+      "abstract_source_url": "https://digital.sandiego.edu/dissertations/1122/",
+      "editions": [
+        {
+          "source_id": "dissertation-abstract-and-record",
+          "source_kind": "website",
+          "source_url": "https://digital.sandiego.edu/dissertations/1122/",
+          "archive_path": "academic/dissertation-abstract-and-record.md",
+          "published": null,
+          "updated": null,
+          "version_note": "Award date 1 May 2026; repository HTML online-date metadata 12 May 2026. The dissertation full text is embargoed until 28 April 2028 and has not been fetched.",
+          "text_credit": "Rae de Lune",
+          "relationship": "edition_of_same_work"
+        }
+      ],
+      "verified_on": "2026-10-24",
+      "evidence": [
+        {
+          "url": "https://digital.sandiego.edu/dissertations/1122/",
+          "sha256": "fb07dcb1cf1b014ae290d53d34469b64aae9a9b6fc1eaf52a24a2ecf8705c7c8"
+        }
+      ],
+      "record_scope": "bibliographic work record; edition-specific permissions handled separately",
+      "citation_date": "2026",
+      "date_note": "Degree award and repository online dates are distinct. Do not substitute either for a 2025 origin date."
+    }
+  ]
+}

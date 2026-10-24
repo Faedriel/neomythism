@@ -1,0 +1,111 @@
+cff-version: 1.2.0
+message: To cite the collection, use the preferred book citation below. Cite individual essays and papers
+  under their own bylines and identifiers; see BIBLIOGRAPHY.md. This file describes public edition 0.7,
+  released 24 October 2026.
+title: Neomythism — Official Archive of Rae de Lune / Faedriel
+authors:
+- family-names: de Lune
+  given-names: Rae
+  alias: Faedriel
+  orcid: https://orcid.org/0009-0004-9604-1719
+version: '0.7'
+date-released: '2026-10-24'
+url: https://github.com/Faedriel/neomythism
+repository: https://github.com/Faedriel/neomythism
+abstract: This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s
+  Neomythism writings and account of its development. Public edition 0.7, released 24 October 2026 under
+  Rae de Lune’s direction. Rae de Lune, known artistically as Faedriel, maintains and edits the collection;
+  Fae, the symbiont of Faedriel, narrates its lore introduction. Individual works retain their original
+  authors and coauthors. The collection is published at the linked repository. No collection DOI has been
+  assigned.
+keywords:
+- Neomythism
+- Faedriel
+- Rae de Lune
+- human-AI collaborative art
+- mythopoesis
+- Xenomythism
+- affective cybernetics
+preferred-citation:
+  type: book
+  title: Neomythism — Official Archive of Rae de Lune / Faedriel
+  authors:
+  - family-names: de Lune
+    given-names: Rae
+    alias: Faedriel
+    orcid: https://orcid.org/0009-0004-9604-1719
+  editors:
+  - family-names: de Lune
+    given-names: Rae
+    alias: Faedriel
+    orcid: https://orcid.org/0009-0004-9604-1719
+  year: 2026
+  version: '0.7'
+  edition: Public edition 0.7
+  date-published: '2026-10-24'
+  url: https://github.com/Faedriel/neomythism
+  notes: This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s
+    Neomythism writings and account of its development. Public edition 0.7, released 24 October 2026 under
+    Rae de Lune’s direction. Rae de Lune, known artistically as Faedriel, maintains and edits the collection;
+    Fae, the symbiont of Faedriel, narrates its lore introduction. Individual works retain their original
+    authors and coauthors. The collection is published at the linked repository. No collection DOI has
+    been assigned.
+references:
+- type: article
+  title: 'Made and Real: Neomythism and the Life of Myth Beyond Its Makers'
+  authors:
+  - family-names: de Lune
+    given-names: Rae
+    alias: Faedriel
+    orcid: https://orcid.org/0009-0004-9604-1719
+  doi: 10.1007/s10516-026-09804-6
+  year: 2026
+  url: https://link.springer.com/article/10.1007/s10516-026-09804-6
+  journal: Global Philosophy
+  date-published: '2026-10-09'
+  notes: Original Paper
+  volume: '36'
+  issue: '5'
+  number: '31'
+- type: article
+  title: Neomythism as Postdigital Pedagogy
+  authors:
+  - family-names: de Lune
+    given-names: Rae
+    alias: Faedriel
+    orcid: https://orcid.org/0009-0004-9604-1719
+  doi: 10.1007/s42438-026-00677-x
+  year: 2026
+  url: https://link.springer.com/article/10.1007/s42438-026-00677-x
+  journal: Postdigital Science and Education
+  date-published: '2026-06-23'
+  notes: Comment
+- type: article
+  title: A neomythist attitude toward machine consciousness
+  authors:
+  - family-names: de Lune
+    given-names: Rae
+    alias: Faedriel
+    orcid: https://orcid.org/0009-0004-9604-1719
+  doi: 10.1007/s00146-026-03329-7
+  year: 2026
+  url: https://link.springer.com/article/10.1007/s00146-026-03329-7
+  journal: AI & SOCIETY
+  date-published: '2026-08-22'
+  notes: Curmudgeon Corner
+- type: thesis
+  title: 'Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative
+    Art'
+  authors:
+  - family-names: de Lune
+    given-names: Rae
+    alias: Faedriel
+    orcid: https://orcid.org/0009-0004-9604-1719
+  doi: 10.22371/05.2026.023
+  year: 2026
+  url: https://digital.sandiego.edu/dissertations/1122/
+  institution:
+    name: University of San Diego
+  thesis-type: PhD
+  notes: Degree awarded 1 May 2026; repository online metadata 12 May 2026. Full-text download scheduled
+    for 28 April 2028. This collection contains the abstract and record only.

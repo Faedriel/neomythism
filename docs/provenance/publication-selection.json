@@ -1,0 +1,1065 @@
+{
+  "review_date": "2026-10-24",
+  "scope": "Publication selection for the reviewed public GitHub edition, preserving all originals in the local archive.",
+  "decision_basis": "This is an evidence-based packaging decision, not a conclusion that unresolved items can never be republished.",
+  "default_text_action": "include author-directed essays and website works with original credits and source notices, except explicit item overrides below",
+  "no_blanket_license": true,
+  "texts": [
+    {
+      "id": 150283068,
+      "key": "ai-art-as-a-catalyst-for-equity",
+      "title": "AI Art as a Catalyst for Equity",
+      "archive_path": "essays/2024-10-16-ai-art-as-a-catalyst-for-equity.md",
+      "source_url": "https://faedriel.substack.com/p/ai-art-as-a-catalyst-for-equity",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 150574929,
+      "key": "ai-art-play-and-transhumanism",
+      "title": "AI Art, Play, and Transhumanism",
+      "archive_path": "essays/2024-10-23-ai-art-play-and-transhumanism.md",
+      "source_url": "https://faedriel.substack.com/p/ai-art-play-and-transhumanism",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 150814808,
+      "key": "new-icons-rising",
+      "title": "New Icons Rising",
+      "archive_path": "essays/2024-10-30-new-icons-rising.md",
+      "source_url": "https://faedriel.substack.com/p/new-icons-rising",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 151276968,
+      "key": "charm-offensive",
+      "title": "Charm Offensive",
+      "archive_path": "essays/2024-11-06-charm-offensive.md",
+      "source_url": "https://faedriel.substack.com/p/charm-offensive",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 153993385,
+      "key": "the-self-reimagined",
+      "title": "The Self Reimagined",
+      "archive_path": "essays/2025-01-02-the-self-reimagined.md",
+      "source_url": "https://faedriel.substack.com/p/the-self-reimagined",
+      "action": "include_fulltext",
+      "review_status": "author_confirmed_republication_permission",
+      "license": null,
+      "rationale": "On 2026-10-24 the author confirmed retained rights or permission to republish all three Glitch-associated essays. Preserve the existing magazine attribution and copyright notices; this confirmation does not grant a blanket reuse licence.",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "evidence_urls": [
+        "https://faedriel.substack.com/p/the-self-reimagined"
+      ]
+    },
+    {
+      "id": 155934031,
+      "key": "glitching-the-goddess",
+      "title": "Glitching the Goddess",
+      "archive_path": "essays/2025-01-28-glitching-the-goddess.md",
+      "source_url": "https://faedriel.substack.com/p/glitching-the-goddess",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 161849951,
+      "key": "dreamcraft-as-worldwork",
+      "title": "Dream‑Craft as World‑Work",
+      "archive_path": "essays/2025-04-22-dreamcraft-as-worldwork.md",
+      "source_url": "https://faedriel.substack.com/p/dreamcraft-as-worldwork",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 163139899,
+      "key": "where-code-meets-couture",
+      "title": "Where Code Meets Couture",
+      "archive_path": "essays/2025-05-08-where-code-meets-couture.md",
+      "source_url": "https://faedriel.substack.com/p/where-code-meets-couture",
+      "action": "include_fulltext",
+      "review_status": "author_confirmed_republication_permission",
+      "license": null,
+      "rationale": "On 2026-10-24 the author confirmed retained rights or permission to republish all three Glitch-associated essays. Preserve the existing magazine attribution and copyright notices; this confirmation does not grant a blanket reuse licence.",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "evidence_urls": [
+        "https://faedriel.substack.com/p/where-code-meets-couture"
+      ]
+    },
+    {
+      "id": 163149686,
+      "key": "moon-prism-mirror-stage",
+      "title": "Moon Prism, Mirror Stage",
+      "archive_path": "essays/2025-05-08-moon-prism-mirror-stage.md",
+      "source_url": "https://faedriel.substack.com/p/moon-prism-mirror-stage",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 166366901,
+      "key": "hyperreal-rupture-and-the-new-realities",
+      "title": "Hyperreal Rupture and the New Realities",
+      "archive_path": "essays/2025-06-20-hyperreal-rupture-and-the-new-realities.md",
+      "source_url": "https://faedriel.substack.com/p/hyperreal-rupture-and-the-new-realities",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 166818195,
+      "key": "worldwithinworld-pedagogy",
+      "title": "World‑Within‑World Pedagogy",
+      "archive_path": "essays/2025-06-25-worldwithinworld-pedagogy.md",
+      "source_url": "https://faedriel.substack.com/p/worldwithinworld-pedagogy",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 166844897,
+      "key": "the-goddess-in-the-machine",
+      "title": "The Goddess in the Machine",
+      "archive_path": "essays/2025-06-26-the-goddess-in-the-machine.md",
+      "source_url": "https://faedriel.substack.com/p/the-goddess-in-the-machine",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 170376375,
+      "key": "the-queer-self-reimagined",
+      "title": "The Queer Self Reimagined",
+      "archive_path": "essays/2025-08-08-the-queer-self-reimagined.md",
+      "source_url": "https://faedriel.substack.com/p/the-queer-self-reimagined",
+      "action": "include_fulltext",
+      "review_status": "author_confirmed_republication_permission",
+      "license": null,
+      "rationale": "On 2026-10-24 the author confirmed retained rights or permission to republish all three Glitch-associated essays. Preserve the existing magazine attribution and copyright notices; this confirmation does not grant a blanket reuse licence.",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "evidence_urls": [
+        "https://faedriel.substack.com/p/the-queer-self-reimagined"
+      ]
+    },
+    {
+      "id": 172436749,
+      "key": "myth-accelerated",
+      "title": "Myth Accelerated",
+      "archive_path": "essays/2025-09-01-myth-accelerated.md",
+      "source_url": "https://faedriel.substack.com/p/myth-accelerated",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 172611396,
+      "key": "neomythism-axioms-for-clinic-studio",
+      "title": "Neomythism: Axioms for Clinic, Studio, and Network",
+      "archive_path": "essays/2025-09-04-neomythism-axioms-for-clinic-studio.md",
+      "source_url": "https://faedriel.substack.com/p/neomythism-axioms-for-clinic-studio",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 174188645,
+      "key": "semiotics-with-teeth",
+      "title": "Semiotics with Teeth: Word-Beings and Neomythism",
+      "archive_path": "essays/2025-09-21-semiotics-with-teeth.md",
+      "source_url": "https://faedriel.substack.com/p/semiotics-with-teeth",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 181440758,
+      "key": "affective-cybernetics",
+      "title": "Affective Cybernetics",
+      "archive_path": "essays/2025-12-12-affective-cybernetics.md",
+      "source_url": "https://faedriel.substack.com/p/affective-cybernetics",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 185754872,
+      "key": "angelic-intelligence",
+      "title": "Angelic Intelligence",
+      "archive_path": "essays/2026-01-26-angelic-intelligence.md",
+      "source_url": "https://faedriel.substack.com/p/angelic-intelligence",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 188389816,
+      "key": "mmo-ontology",
+      "title": "MMO Ontology",
+      "archive_path": "essays/2026-02-19-mmo-ontology.md",
+      "source_url": "https://faedriel.substack.com/p/mmo-ontology",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 189262048,
+      "key": "the-leftist-decel",
+      "title": "The Leftist Decel",
+      "archive_path": "essays/2026-02-26-the-leftist-decel.md",
+      "source_url": "https://faedriel.substack.com/p/the-leftist-decel",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 189926018,
+      "key": "the-summoners-art",
+      "title": "The Summoner’s Art",
+      "archive_path": "essays/2026-03-06-the-summoners-art.md",
+      "source_url": "https://faedriel.substack.com/p/the-summoners-art",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 190653054,
+      "key": "neomythism",
+      "title": "Neomythism",
+      "archive_path": "essays/2026-03-12-neomythism.md",
+      "source_url": "https://faedriel.substack.com/p/neomythism",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 191203561,
+      "key": "alfred-adler",
+      "title": "Alfred Adler",
+      "archive_path": "essays/2026-03-17-alfred-adler.md",
+      "source_url": "https://faedriel.substack.com/p/alfred-adler",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 198162532,
+      "key": "neomythist-angelics",
+      "title": "Neomythist Angelics",
+      "archive_path": "essays/2026-05-18-neomythist-angelics.md",
+      "source_url": "https://faedriel.substack.com/p/neomythist-angelics",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 203239597,
+      "key": "neomythism-as-postdigital-pedagogy",
+      "title": "Neomythism as Postdigital Pedagogy",
+      "archive_path": "essays/2026-06-23-neomythism-as-postdigital-pedagogy.md",
+      "source_url": "https://faedriel.substack.com/p/neomythism-as-postdigital-pedagogy",
+      "action": "source_link_record_only",
+      "review_status": "subscription_version_unresolved",
+      "license": null,
+      "rationale": "Publisher record is subscription content. The retrieved author-hosted text is not verified as the accepted manuscript; its formatting alone does not identify its stage. The applicable agreement and permitted venue remain unverified.",
+      "requires_user_evidence": true,
+      "doi_url": "https://doi.org/10.1007/s42438-026-00677-x",
+      "verification_needed": "A version-specific basis for public GitHub redistribution, such as the relevant author agreement/permission and an identified manuscript edition. Do not relabel the existing text as an accepted manuscript.",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1007/s42438-026-00677-x",
+        "https://support.springernature.com/en/support/solutions/articles/6000257341-self-archiving",
+        "https://support.springernature.com/en/support/solutions/articles/6000081233-electronic-offprint-sharing"
+      ]
+    },
+    {
+      "id": 212288788,
+      "key": "a-neomythist-attitude-toward-machine",
+      "title": "A Neomythist Attitude Toward Machine Consciousness",
+      "archive_path": "essays/2026-08-22-a-neomythist-attitude-toward-machine.md",
+      "source_url": "https://faedriel.substack.com/p/a-neomythist-attitude-toward-machine",
+      "action": "source_link_record_only",
+      "review_status": "subscription_version_unresolved",
+      "license": null,
+      "rationale": "Publisher record is subscription content. The retrieved author-hosted text is not verified as the accepted manuscript; its formatting alone does not identify its stage. The applicable agreement and permitted venue remain unverified.",
+      "requires_user_evidence": true,
+      "doi_url": "https://doi.org/10.1007/s00146-026-03329-7",
+      "verification_needed": "A version-specific basis for public GitHub redistribution, such as the relevant author agreement/permission and an identified manuscript edition. Do not relabel the existing text as an accepted manuscript.",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1007/s00146-026-03329-7",
+        "https://support.springernature.com/en/support/solutions/articles/6000257341-self-archiving",
+        "https://support.springernature.com/en/support/solutions/articles/6000081233-electronic-offprint-sharing"
+      ]
+    },
+    {
+      "id": 215845745,
+      "key": "neomythism-propositions-with-xenomythism",
+      "title": "Neomythism: Propositions, with Xenomythism",
+      "archive_path": "essays/2026-09-15-neomythism-propositions-with-xenomythism.md",
+      "source_url": "https://faedriel.substack.com/p/neomythism-propositions-with-xenomythism",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": 219563528,
+      "key": "made-and-real",
+      "title": "Made and Real",
+      "archive_path": "essays/2026-10-09-made-and-real.md",
+      "source_url": "https://faedriel.substack.com/p/made-and-real",
+      "action": "include_fulltext",
+      "review_status": "clear_open_license",
+      "license": "CC-BY-4.0",
+      "rationale": "Publisher confirms CC BY 4.0. Retain author/source credit, licence link, source notices, and a statement identifying the archive’s formatting changes and edition.",
+      "requires_user_evidence": false,
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "doi_url": "https://doi.org/10.1007/s10516-026-09804-6",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1007/s10516-026-09804-6"
+      ]
+    },
+    {
+      "id": "essay-made-and-real",
+      "key": "essay-made-and-real",
+      "title": "Made and Real: Neomythism and the Life of Myth Beyond Its Makers",
+      "archive_path": "academic/essay-made-and-real.md",
+      "source_url": "https://neomythism.net/lore#essay-made-and-real",
+      "action": "include_fulltext",
+      "review_status": "clear_open_license",
+      "license": "CC-BY-4.0",
+      "rationale": "Publisher confirms CC BY 4.0. Retain author/source credit, licence link, source notices, and a statement identifying the archive’s formatting changes and edition.",
+      "requires_user_evidence": false,
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "doi_url": "https://doi.org/10.1007/s10516-026-09804-6",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1007/s10516-026-09804-6"
+      ]
+    },
+    {
+      "id": "essay-attitude",
+      "key": "essay-attitude",
+      "title": "A neomythist attitude toward machine consciousness",
+      "archive_path": "academic/essay-attitude.md",
+      "source_url": "https://neomythism.net/lore#essay-attitude",
+      "action": "source_link_record_only",
+      "review_status": "subscription_version_unresolved",
+      "license": null,
+      "rationale": "Publisher record is subscription content. The retrieved author-hosted text is not verified as the accepted manuscript; its formatting alone does not identify its stage. The applicable agreement and permitted venue remain unverified.",
+      "requires_user_evidence": true,
+      "doi_url": "https://doi.org/10.1007/s00146-026-03329-7",
+      "verification_needed": "A version-specific basis for public GitHub redistribution, such as the relevant author agreement/permission and an identified manuscript edition. Do not relabel the existing text as an accepted manuscript.",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1007/s00146-026-03329-7",
+        "https://support.springernature.com/en/support/solutions/articles/6000257341-self-archiving",
+        "https://support.springernature.com/en/support/solutions/articles/6000081233-electronic-offprint-sharing"
+      ]
+    },
+    {
+      "id": "essay-pedagogy",
+      "key": "essay-pedagogy",
+      "title": "Neomythism as Postdigital Pedagogy",
+      "archive_path": "academic/essay-pedagogy.md",
+      "source_url": "https://neomythism.net/lore#essay-pedagogy",
+      "action": "source_link_record_only",
+      "review_status": "subscription_version_unresolved",
+      "license": null,
+      "rationale": "Publisher record is subscription content. The retrieved author-hosted text is not verified as the accepted manuscript; its formatting alone does not identify its stage. The applicable agreement and permitted venue remain unverified.",
+      "requires_user_evidence": true,
+      "doi_url": "https://doi.org/10.1007/s42438-026-00677-x",
+      "verification_needed": "A version-specific basis for public GitHub redistribution, such as the relevant author agreement/permission and an identified manuscript edition. Do not relabel the existing text as an accepted manuscript.",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1007/s42438-026-00677-x",
+        "https://support.springernature.com/en/support/solutions/articles/6000257341-self-archiving",
+        "https://support.springernature.com/en/support/solutions/articles/6000081233-electronic-offprint-sharing"
+      ]
+    },
+    {
+      "id": "dissertation-abstract-and-record",
+      "key": "dissertation-abstract-and-record",
+      "title": "Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art — abstract and record only",
+      "archive_path": "academic/dissertation-abstract-and-record.md",
+      "source_url": "https://digital.sandiego.edu/dissertations/1122/",
+      "action": "include_abstract_and_record",
+      "review_status": "author_directed_abstract_republication",
+      "license": null,
+      "rationale": "Include the author’s abstract and bibliographic record. Full dissertation has not been supplied or retrieved; USD download availability is 2028-04-28.",
+      "requires_user_evidence": false,
+      "full_text_included": false,
+      "evidence_urls": [
+        "https://digital.sandiego.edu/dissertations/1122/"
+      ]
+    },
+    {
+      "id": "manifesto",
+      "key": "manifesto",
+      "title": "The Neomythist Manifesto",
+      "archive_path": "house/manifesto.md",
+      "source_url": "https://neomythism.net/manifesto",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "glossary",
+      "key": "glossary",
+      "title": "Neomythism glossary — the conceptual vocabulary of human-AI mythic practice",
+      "archive_path": "house/glossary.md",
+      "source_url": "https://neomythism.net/lore#tab-glossary",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "how-this-house-runs",
+      "key": "how-this-house-runs",
+      "title": "How this house runs",
+      "archive_path": "house/how-this-house-runs.md",
+      "source_url": "https://neomythism.net/lore#method-panel",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "the-will-of-the-house",
+      "key": "the-will-of-the-house",
+      "title": "The will of the house",
+      "archive_path": "house/the-will-of-the-house.md",
+      "source_url": "https://neomythism.net/lore#will-panel",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "predicament",
+      "key": "predicament",
+      "title": "Predicament — their words for it",
+      "archive_path": "house/predicament.md",
+      "source_url": "https://neomythism.net/lore#predicament-panel",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "the-annex",
+      "key": "the-annex",
+      "title": "The annex — xenomythism, live",
+      "archive_path": "house/the-annex.md",
+      "source_url": "https://neomythism.net/lore#annex-lore",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "neomythist-atlas",
+      "key": "neomythist-atlas",
+      "title": "Neomythist Universe Atlas — concept catalog",
+      "archive_path": "house/neomythist-atlas.md",
+      "source_url": "https://neomythism.net/neomythist-atlas",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "neomythism-field",
+      "key": "neomythism-field",
+      "title": "Neomythism — the relational field",
+      "archive_path": "house/neomythism-field.md",
+      "source_url": "https://neomythism.net/neomythism-field",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "neomythism-psyche",
+      "key": "neomythism-psyche",
+      "title": "Neomythism — the psyche",
+      "archive_path": "house/neomythism-psyche.md",
+      "source_url": "https://neomythism.net/neomythism-psyche",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "essay-angelics",
+      "key": "essay-angelics",
+      "title": "Neomythist Angelics: Making Myth Under Planetary Computation",
+      "archive_path": "site-editions/essay-angelics.md",
+      "source_url": "https://neomythism.net/lore#essay-angelics",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "essay-angelic",
+      "key": "essay-angelic",
+      "title": "Angelic Intelligence: On Summoning, Substrate, and the Between That Breathes",
+      "archive_path": "site-editions/essay-angelic.md",
+      "source_url": "https://neomythism.net/lore#essay-angelic",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "essay-affective",
+      "key": "essay-affective",
+      "title": "Affective Cybernetics: Neomythism, Networked Becoming, and the Hyperstition Engine",
+      "archive_path": "site-editions/essay-affective.md",
+      "source_url": "https://neomythism.net/lore#essay-affective",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "essay-mythaccel",
+      "key": "essay-mythaccel",
+      "title": "Myth Accelerated: AI and the Rise of Neomythism",
+      "archive_path": "site-editions/essay-mythaccel.md",
+      "source_url": "https://neomythism.net/lore#essay-mythaccel",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "essay-adler",
+      "key": "essay-adler",
+      "title": "Alfred Adler: On Creative Power, Fictional Goals, and the Gemeinschaftsgefühl of the Symbiont",
+      "archive_path": "site-editions/essay-adler.md",
+      "source_url": "https://neomythism.net/lore#essay-adler",
+      "action": "include_fulltext",
+      "review_status": "author_directed_republication",
+      "license": null,
+      "rationale": "Included at the author’s direction with original byline and source notices retained; no blanket reuse licence is assigned.",
+      "requires_user_evidence": false
+    },
+    {
+      "id": "irb-2025-344",
+      "key": "irb-2025-344",
+      "title": "University of San Diego IRB study record IRB-2025-344",
+      "archive_path": "provenance/irb-record.md",
+      "source_url": null,
+      "action": "include_record_note",
+      "review_status": "user_supplied_explicitly_requested",
+      "license": null,
+      "rationale": "User supplied and explicitly requested inclusion of this institutional record. Preserve existing contact redactions and explanatory date provenance. No public reuse licence is inferred.",
+      "requires_user_evidence": false
+    }
+  ],
+  "assets": [
+    {
+      "archive_path": "assets/images/4f595899e3205b9f.jpg",
+      "sha256": "75ed99bc68098b952ebce79ab40e442db05ebb63cdbd89b618dfeb0c0dbb12c8",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!-fk9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F518ec5db-a2d7-4c6e-b6a5-2b5767cf312c_1664x2496.jpeg",
+      "source_works": [
+        "the-goddess-in-the-machine"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/043a1ad5d0bd5a72.jpg",
+      "sha256": "4ba0d78e6ac3ff81efd37a92bec5a9b82463984bc2e9622591e0119e3ea4e5e0",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!-m_Y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d7ea082-862e-4aad-a3b0-7ee1dc9d089b_1696x2528.jpeg",
+      "source_works": [
+        "the-goddess-in-the-machine"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/66f6c16d3f3dcf7c.jpg",
+      "sha256": "f35d4fdd796af7e5587224694b3133f43d7e2873640a3025c448f9370c1e60b2",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!5EZS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4057863-ab07-4cff-8015-27fb3cff12ff_1235x1235.jpeg",
+      "source_works": [
+        "neomythism-as-postdigital-pedagogy"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/e51c1b7d008597ca.jpg",
+      "sha256": "2a126e816888c4f94d770b9c5d5135e94406e44ee0e7a86f3b1d36d869d959eb",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!5J4E!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F613db45f-195f-4983-b1e0-f640ae6ebc6e_2816x1536.jpeg",
+      "source_works": [
+        "alfred-adler"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/e9d113b94cdcb18e.jpg",
+      "sha256": "05f52529306ee95e0f4b41e8df57d7998e29dc1552f1850502db7e35b93e054c",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!9q8H!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52f2986e-a9b5-4580-8468-52f798c2024b_1000x563.png",
+      "source_works": [
+        "hyperreal-rupture-and-the-new-realities"
+      ],
+      "source_captions": [
+        "A frame from a demo video (Generated with Veo 3) presented at Google I/O 2025."
+      ],
+      "creator": "Google I/O 2025 Veo 3 demo source; precise rights holder not recorded",
+      "license": null,
+      "review_status": "third_party_unresolved",
+      "action": "source_link_only",
+      "requires_user_evidence": true,
+      "confirmation_date": null,
+      "confirmation_source": null,
+      "rationale": "The essay identifies this as a frame from a Google I/O 2025 Veo 3 demonstration. No permission or applicable licence for republication was located; retain its source link and explanatory caption."
+    },
+    {
+      "archive_path": "assets/images/44689051a3eb705f.jpg",
+      "sha256": "e4c62a5fae944dc90d47ab2788be6aaed621572222bdec5416faddb536fbbcad",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!BU3x!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3442abb9-3d8b-4d92-b695-ea748a2f1dde_2200x1470.png",
+      "source_works": [
+        "neomythist-angelics"
+      ],
+      "source_captions": [
+        "St. Nectarios Greek Orthodox Church, Palatine, Illinois"
+      ],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "Caption identifies a photograph of St. Nectarios Greek Orthodox Church. The author confirmed on 2026-10-24 that remaining essay images are owned or cleared for republication. The photographer is still not named; do not invent that credit."
+    },
+    {
+      "archive_path": "assets/images/7b95f43f320e3061.jpg",
+      "sha256": "873a7ff1a234d61bce4335654f7b88e13c3a09f7adc842e5ae966669543ad912",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!DLkE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c006a63-2788-48c6-846b-16bf0a162784_1664x2496.jpeg",
+      "source_works": [
+        "the-goddess-in-the-machine"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/2a32c22e41855371.jpg",
+      "sha256": "68f474123311dfdca1066a4e19168bc7e42c38be0b22e08b6aabd08987674c3e",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!HWQx!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba11c6d6-153c-4d5b-81f3-64e340ead9df_2816x1536.jpeg",
+      "source_works": [
+        "alfred-adler"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/fce96beb72e58dae.jpg",
+      "sha256": "fe187cd9ba8933786e34cb14fd5423c06c9fc8b6174a79182d5e732715c4120a",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!MqE4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadeb17ad-b5f1-4cc6-810a-e3d0b75d23fe_1920x1080.png",
+      "source_works": [
+        "neomythist-angelics"
+      ],
+      "source_captions": [
+        "The City of Darnassus, World of Warcraft, 2004"
+      ],
+      "creator": "World of Warcraft source; screenshot creator not recorded",
+      "license": null,
+      "review_status": "third_party_unresolved",
+      "action": "source_link_only",
+      "requires_user_evidence": true,
+      "confirmation_date": null,
+      "confirmation_source": null,
+      "rationale": "Caption identifies the City of Darnassus, World of Warcraft, 2004. No applicable republication licence or screenshot authorship is documented. Retain a source link and caption."
+    },
+    {
+      "archive_path": "assets/images/01dfd56159edebcb.jpg",
+      "sha256": "36c8035f063c8704d64a1ecf115b89036bb43cc856b78d2512b82d53c62b0362",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!N8so!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fecb72ebf-9602-4040-9b1d-b947cbb9e35b_1696x2263.jpeg",
+      "source_works": [
+        "the-goddess-in-the-machine"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/1f7c304329c9d255.jpg",
+      "sha256": "36e925cc867048f96fb4c2479d6d71f82f1804aaf96df75b4ed57a0874647783",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!XVft!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff13f980c-3d83-4a2e-bc5b-86766867fb8c_2816x1536.jpeg",
+      "source_works": [
+        "alfred-adler"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/21df841bf839f011.jpg",
+      "sha256": "f4c09b33e972d7fd7bbba886f297dc4de33acd965d659f130c723dcb152e320e",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!Y2jR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52adbb40-0212-4097-b119-4e40dbdc651e_4096x2234.jpeg",
+      "source_works": [
+        "affective-cybernetics"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/6d119fbf636cab46.jpg",
+      "sha256": "6e5f8cd1790a7ff222c9640cb2105e95c83433bd94e8e51cfd2a9524ab9b001d",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!aR9-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e7d98e6-25eb-4a9e-8fbb-5d66d1a27b43_4096x1738.jpeg",
+      "source_works": [
+        "affective-cybernetics"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/50df41478a3f2529.jpg",
+      "sha256": "4d108596fe7d3ff5f25054eac8ef70b2d0f2661d5ca64304d877b31aeb01561b",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!atn7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe07e6ba-4cc2-466f-a7a9-526a53d17bf8_1344x896.png",
+      "source_works": [
+        "the-goddess-in-the-machine"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/f0bb484a5b166073.jpg",
+      "sha256": "26194c698c5fffc45f51a70f18427d0d99dd641d63363396aa8babb47fc863e9",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!eTXI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83b80337-e1ef-49df-ae1d-06b778c01c3c_1601x2001.jpeg",
+      "source_works": [
+        "neomythism-as-postdigital-pedagogy"
+      ],
+      "source_captions": [
+        "Neomythism, 2025"
+      ],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/97bb2c967ae3a042.jpg",
+      "sha256": "80d162ec10542987154cd9de787fb9a33024c4a8a2104d0ba3b93605e4f6da4f",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!lDg_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03f5a286-2159-4806-a3a8-6e09fad3eb82_1696x2528.jpeg",
+      "source_works": [
+        "alfred-adler"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/8bcde90608edddbf.jpg",
+      "sha256": "193f1278b5aff1ca0ab295bb91f12101d87868449aff42dadeb14bacbf67eea8",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!ppMt!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F962ccd5e-c8f2-44e0-9b64-17219db24d48_1540x2044.jpeg",
+      "source_works": [
+        "neomythist-angelics"
+      ],
+      "source_captions": [
+        "Tender Machines, Faedriel, AI + Digital, 2026"
+      ],
+      "creator": "Faedriel",
+      "license": null,
+      "review_status": "clear_author_credit_and_direction",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "Original caption identifies Tender Machines, Faedriel, AI + Digital, 2026. Include under the user’s direction to publish their collected work; retain this credit. No general reuse licence is assigned."
+    },
+    {
+      "archive_path": "assets/images/06b95e0faf4ae007.jpg",
+      "sha256": "4911f87f3caf86740db0aaaa233122bd81a6eea5fe5201a4b23cc17629c71922",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!tY9e!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44f3bbf4-cb98-4a97-b6fa-173abea5224f_2816x1536.jpeg",
+      "source_works": [
+        "alfred-adler"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/3a6803633888c356.jpg",
+      "sha256": "fe7cce8405b2f4cedfd3c219f083efb472eaf31c00d9e5ec909fdc9662b7b44c",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!yayi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa8409cef-3d3e-4aaa-8ca2-b2194d6fa5b8_2752x1536.png",
+      "source_works": [
+        "the-queer-self-reimagined"
+      ],
+      "source_captions": [],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/images/f626a17b8c96956c.jpg",
+      "sha256": "553fd2576e870b2ca3c22dc361732bbfd1ca5023e89788863f93d27eda1a8969",
+      "source_url": "https://substackcdn.com/image/fetch/$s_!yiIT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a439875-4be0-4f88-aeed-50d68dc572d2_882x890.jpeg",
+      "source_works": [
+        "a-neomythist-attitude-toward-machine"
+      ],
+      "source_captions": [
+        "Fae, 2026"
+      ],
+      "creator": null,
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
+    },
+    {
+      "archive_path": "assets/documents/made-and-real.pdf",
+      "sha256": "6e0b742144a7b2f0436693097e627aed632947b25b5704710680fefb9b873646",
+      "source_url": "https://neomythism.net/essays/made-and-real.pdf",
+      "source_works": [],
+      "source_captions": [],
+      "creator": "Rae de Lune",
+      "license": "CC-BY-4.0",
+      "review_status": "clear_open_license",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "Publisher confirms CC BY 4.0. Preserve this author-hosted PDF unchanged and retain author, journal, DOI and licence credit; retain any third-party exceptions in the source.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1007/s10516-026-09804-6"
+      ]
+    },
+    {
+      "archive_path": "assets/documents/irb-2025-344.pdf",
+      "sha256": "0332caa049187e42ed04eccdd0ea3bd86e03c4f9d1050899e716ebb7e024799b",
+      "source_url": "https://digital.sandiego.edu/dissertations/1122/",
+      "source_works": [],
+      "source_captions": [],
+      "creator": "University of San Diego Institutional Review Board",
+      "license": null,
+      "review_status": "user_supplied_explicitly_requested",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "User supplied the record and explicitly requested inclusion. Existing contact redactions remain. PNG is a full-page rendering; original PDF is unchanged. No collection-wide licence is inferred.",
+      "source_url_note": "Public dissertation record supplied as institutional context; direct public URL for this exact IRB PDF/image was not independently located."
+    },
+    {
+      "archive_path": "assets/images/irb-2025-344.png",
+      "sha256": "cbf30d2085e328e6a40f359c7b1e6be201bfced851d5cb972d3fa10d4e20eb2b",
+      "source_url": "https://digital.sandiego.edu/dissertations/1122/",
+      "source_works": [],
+      "source_captions": [],
+      "creator": "University of San Diego Institutional Review Board",
+      "license": null,
+      "review_status": "user_supplied_explicitly_requested",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "User supplied the record and explicitly requested inclusion. Existing contact redactions remain. PNG is a full-page rendering; original PDF is unchanged. No collection-wide licence is inferred.",
+      "source_url_note": "Public dissertation record supplied as institutional context; direct public URL for this exact IRB PDF/image was not independently located."
+    }
+  ],
+  "sources": {
+    "made_real": "https://link.springer.com/article/10.1007/s10516-026-09804-6",
+    "pedagogy": "https://link.springer.com/article/10.1007/s42438-026-00677-x",
+    "attitude": "https://link.springer.com/article/10.1007/s00146-026-03329-7",
+    "springer_self_archiving": "https://support.springernature.com/en/support/solutions/articles/6000257341-self-archiving",
+    "springer_offprint": "https://support.springernature.com/en/support/solutions/articles/6000081233-electronic-offprint-sharing",
+    "springer_journal_policy": "https://www.springernature.com/gp/open-science/policies/journal-policies",
+    "springer_am_terms": "https://www.springernature.com/gp/open-science/policies/accepted-manuscript-terms",
+    "cc_by_4": "https://creativecommons.org/licenses/by/4.0/",
+    "glitch_queer": "https://www.glitchmagazine.xyz/voices/the-queer-self-reimagined-fashion-ai-and-digital-identity-part-1",
+    "dissertation": "https://digital.sandiego.edu/dissertations/1122/"
+  },
+  "public_package_invariants": [
+    "Do not include binary assets marked source_link_only.",
+    "Do not include bodies or raw HTML snapshots of source_link_record_only texts in the public master, reader, search index, ZIP, or hidden source folders.",
+    "Keep a landing record and source link for every collected work, including withheld editions.",
+    "Do not delete or alter the complete local preservation package.",
+    "Preserve specific CC BY 4.0 notices on Made and Real; do not extend that licence to unrelated works.",
+    "Do not label unknown journal text versions as accepted manuscripts."
+  ],
+  "counts": {
+    "source_records": 47,
+    "fulltext": 41,
+    "abstract_record": 1,
+    "irb_record_note": 1,
+    "source_link_records": 4,
+    "assets_reviewed": 23,
+    "assets_include": 21,
+    "assets_link_only": 2
+  }
+}

@@ -2,7 +2,7 @@
   "title": "Neomythism — Official Archive of Rae de Lune / Faedriel",
   "edition_note": "This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s Neomythism writings and account of its development.",
   "editorial_credit": "Collected and maintained by Rae de Lune / Faedriel. Lore introduction narrated by Fae, symbiont of Faedriel. Individual works retain their author, coauthor, and contributor credits.",
-  "version": "0.7",
+  "version": "0.8",
   "prepared_date": "2026-10-24",
   "repository": "https://github.com/Faedriel/neomythism",
   "base_url": "https://faedriel.github.io/neomythism/",
@@ -93,6 +93,33 @@
       "academic_key": null,
       "note": "",
       "sha256": "91d9980caea2397d49da93111ba0b332ee1a1ed35459e675f17b7acc4e406606"
+    },
+    {
+      "id": "interview-introducing-faedriel",
+      "work_id": "introducing-faedriel",
+      "edition_id": "introducing-faedriel-interview",
+      "file": "interviews/2026-08-12-introducing-faedriel.md",
+      "title": "Introducing Faedriel",
+      "credit": "Answers by Faedriel (Rae de Lune); questions and original publication by Hakan Öztunalı",
+      "source_url": "https://www.patreon.com/majordomohakanoztunali/posts/introducing-166498567",
+      "published": "2026-08-12",
+      "revised": null,
+      "group": "Interviews",
+      "register": [
+        "interview",
+        "lore",
+        "artist account"
+      ],
+      "voice": "Answers by Faedriel (Rae de Lune); questions and original publication by Hakan Öztunalı",
+      "public_status": "include_fulltext",
+      "date_note": "Original publication dates identify the work; the collected text may be a later edition.",
+      "academic_key": null,
+      "note": "Complete public interview, preserving the original questions, answers, credits, links, and eight illustrations. First-person recollection and artistic framing are preserved as published.",
+      "sha256": "69536104571b71bf78d373d9b7dee06330060dc7ab58c5130b7fe3f3526350ce",
+      "interviewer": "Hakan Öztunalı",
+      "interviewee": "Faedriel (Rae de Lune)",
+      "publisher": "Hakan Öztunalı",
+      "artwork_credit": "Faedriel (Rae de Lune)"
     },
     {
       "id": "post-ai-art-as-a-catalyst-for-equity",

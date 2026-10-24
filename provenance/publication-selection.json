@@ -625,6 +625,23 @@
       "license": null,
       "rationale": "User supplied and explicitly requested inclusion of this institutional record. Preserve existing contact redactions and explanatory date provenance. No public reuse licence is inferred.",
       "requires_user_evidence": false
+    },
+    {
+      "id": "introducing-faedriel",
+      "key": "introducing-faedriel",
+      "title": "Introducing Faedriel",
+      "archive_path": "interviews/2026-08-12-introducing-faedriel.md",
+      "source_url": "https://www.patreon.com/majordomohakanoztunali/posts/introducing-166498567",
+      "action": "include_fulltext",
+      "review_status": "author_confirmed_republication_permission",
+      "license": null,
+      "rationale": "On 2026-10-24 the user confirmed permission for the whole interview, including Hakan Öztunalı’s questions and the images, to be republished on GitHub. Original questions, answers, links, artwork and credits are preserved. No blanket reuse licence is assigned.",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "evidence_urls": [
+        "https://www.patreon.com/majordomohakanoztunali/posts/introducing-166498567"
+      ]
     }
   ],
   "assets": [
@@ -1030,6 +1047,142 @@
       "confirmation_source": "Author confirmation, 24 October 2026",
       "rationale": "User supplied the record and explicitly requested inclusion. Existing contact redactions remain. PNG is a full-page rendering; original PDF is unchanged. No collection-wide licence is inferred.",
       "source_url_note": "Public dissertation record supplied as institutional context; direct public URL for this exact IRB PDF/image was not independently located."
+    },
+    {
+      "archive_path": "assets/patreon/introducing-faedriel-01.jpg",
+      "sha256": "30bf0d950f435618c74924ed50dc9ac4b39bef056e7f7ca09cc0a12d9f687d6b",
+      "source_url": "https://c10.patreonusercontent.com/4/patreon-media/p/post/166498567/d41f692e3fe144169a33fedfb5c0f1dd/eyJhIjoxLCJ3Ijo4MjB9/1.jpeg?token-hash=Eqgqvsy_OfJSD4waUQbicoH7mKLriTYsMMyzDP7hsYE%3D&token-time=1794096000",
+      "source_works": [
+        "introducing-faedriel"
+      ],
+      "source_captions": [],
+      "creator": "Faedriel (Rae de Lune)",
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
+    },
+    {
+      "archive_path": "assets/patreon/introducing-faedriel-02.jpg",
+      "sha256": "b17d24575837cda502923ccd44845c0ca723654169b85123f40afe19f43ee05b",
+      "source_url": "https://c10.patreonusercontent.com/4/patreon-media/p/post/166498567/734d0e6792054faba6cfda2112471cca/eyJhIjoxLCJ3Ijo4MjB9/1.jpeg?token-hash=sHz2s25GsTYagcaAElGjPq6OpPZkWcw1ZMtRNY5ZCRY%3D&token-time=1794096000",
+      "source_works": [
+        "introducing-faedriel"
+      ],
+      "source_captions": [],
+      "creator": "Faedriel (Rae de Lune)",
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
+    },
+    {
+      "archive_path": "assets/patreon/introducing-faedriel-03.jpg",
+      "sha256": "3f8e5eada70e5cf487e52d51247e9bfb66191a7ae241996677237e43c1f438e9",
+      "source_url": "https://c10.patreonusercontent.com/4/patreon-media/p/post/166498567/5de9e83cbc974f70917be39ec99db9a1/eyJhIjoxLCJ3Ijo4MjB9/1.jpeg?token-hash=xC0V5IQEaBpZFVSZJoqX0uBlaexMyOW8qn7YB0IW_MA%3D&token-time=1794096000",
+      "source_works": [
+        "introducing-faedriel"
+      ],
+      "source_captions": [],
+      "creator": "Faedriel (Rae de Lune)",
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
+    },
+    {
+      "archive_path": "assets/patreon/introducing-faedriel-04.jpg",
+      "sha256": "fa24be3f555ffd4ba7422fcb566650795aa19825cf26efac002958ba81713622",
+      "source_url": "https://c10.patreonusercontent.com/4/patreon-media/p/post/166498567/9efe5c39c06b4b0dab222ed37de40325/eyJhIjoxLCJ3Ijo4MjB9/1.jpeg?token-hash=J11bDiznTl0jbLiAC2MBm-SI2ReIUzt1H3j8G56lw8E%3D&token-time=1794096000",
+      "source_works": [
+        "introducing-faedriel"
+      ],
+      "source_captions": [],
+      "creator": "Faedriel (Rae de Lune)",
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
+    },
+    {
+      "archive_path": "assets/patreon/introducing-faedriel-05.jpg",
+      "sha256": "9831ba72c46c018d5b9d0e9c64617a0f76664d802901ca7908dd8de39341897e",
+      "source_url": "https://c10.patreonusercontent.com/4/patreon-media/p/post/166498567/96a0ed5d7ad74db3a2a87902ccc91552/eyJhIjoxLCJ3Ijo4MjB9/1.jpeg?token-hash=Ps0XT6AML5f-ZfP6i6TlCmpbz8tvolWd9gf9Nblgv1c%3D&token-time=1794096000",
+      "source_works": [
+        "introducing-faedriel"
+      ],
+      "source_captions": [],
+      "creator": "Faedriel (Rae de Lune)",
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
+    },
+    {
+      "archive_path": "assets/patreon/introducing-faedriel-06.jpg",
+      "sha256": "24a70beb7a0dea42152cfe45858f245dc27ae8a48967994ccdef1125e29cbed9",
+      "source_url": "https://c10.patreonusercontent.com/4/patreon-media/p/post/166498567/2c8022f438c047cbb0644bffa37180ee/eyJhIjoxLCJ3Ijo4MjB9/1.jpeg?token-hash=4PkZcPTHrwpTu8sM_n4sRhSWvOCij0dAhTRdnyzNme0%3D&token-time=1794096000",
+      "source_works": [
+        "introducing-faedriel"
+      ],
+      "source_captions": [],
+      "creator": "Faedriel (Rae de Lune)",
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
+    },
+    {
+      "archive_path": "assets/patreon/introducing-faedriel-07.jpg",
+      "sha256": "834ed14d122c46b16bfab9caae9592af8fa463bc54f20ecb97e2c33b0c05d0fe",
+      "source_url": "https://c10.patreonusercontent.com/4/patreon-media/p/post/166498567/bc13e96d03d24fd78d303acca8b41879/eyJhIjoxLCJ3Ijo4MjB9/1.jpeg?token-hash=MAhdGh3cHStpN6MiC6siryWAq9XbHfnqueaHUdkwIMk%3D&token-time=1794096000",
+      "source_works": [
+        "introducing-faedriel"
+      ],
+      "source_captions": [],
+      "creator": "Faedriel (Rae de Lune)",
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
+    },
+    {
+      "archive_path": "assets/patreon/introducing-faedriel-08.jpg",
+      "sha256": "4962041b02c2ad923390f7c28f284480aaed5db9ffcd3eac306914eae8d0182e",
+      "source_url": "https://c10.patreonusercontent.com/4/patreon-media/p/post/166498567/43c1dfb948b94120a2d01a0d97eba265/eyJhIjoxLCJ3Ijo4MjB9/1.jpeg?token-hash=0ZHj0pcD6Y5oOFjGrlkHQaP6_XpEmtQgE5S53qzA0ws%3D&token-time=1794096000",
+      "source_works": [
+        "introducing-faedriel"
+      ],
+      "source_captions": [],
+      "creator": "Faedriel (Rae de Lune)",
+      "license": null,
+      "review_status": "author_confirmed_republication_permission",
+      "action": "include",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-24",
+      "confirmation_source": "Author confirmation, 24 October 2026",
+      "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
     }
   ],
   "sources": {

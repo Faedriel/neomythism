@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: To cite the collection, use the preferred book citation below. Cite individual essays and papers
-  under their own bylines and identifiers; see BIBLIOGRAPHY.md. This file describes public edition 0.7,
+  under their own bylines and identifiers; see BIBLIOGRAPHY.md. This file describes public edition 0.8,
   released 24 October 2026.
 title: Neomythism — Official Archive of Rae de Lune / Faedriel
 authors:
@@ -8,12 +8,12 @@ authors:
   given-names: Rae
   alias: Faedriel
   orcid: https://orcid.org/0009-0004-9604-1719
-version: '0.7'
+version: '0.8'
 date-released: '2026-10-24'
 url: https://github.com/Faedriel/neomythism
 repository: https://github.com/Faedriel/neomythism
 abstract: This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s
-  Neomythism writings and account of its development. Public edition 0.7, released 24 October 2026 under
+  Neomythism writings and account of its development. Public edition 0.8, released 24 October 2026 under
   Rae de Lune’s direction. Rae de Lune, known artistically as Faedriel, maintains and edits the collection;
   Fae, the symbiont of Faedriel, narrates its lore introduction. Individual works retain their original
   authors and coauthors. The collection is published at the linked repository. No collection DOI has been
@@ -40,12 +40,12 @@ preferred-citation:
     alias: Faedriel
     orcid: https://orcid.org/0009-0004-9604-1719
   year: 2026
-  version: '0.7'
-  edition: Public edition 0.7
+  version: '0.8'
+  edition: Public edition 0.8
   date-published: '2026-10-24'
   url: https://github.com/Faedriel/neomythism
   notes: This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s
-    Neomythism writings and account of its development. Public edition 0.7, released 24 October 2026 under
+    Neomythism writings and account of its development. Public edition 0.8, released 24 October 2026 under
     Rae de Lune’s direction. Rae de Lune, known artistically as Faedriel, maintains and edits the collection;
     Fae, the symbiont of Faedriel, narrates its lore introduction. Individual works retain their original
     authors and coauthors. The collection is published at the linked repository. No collection DOI has
@@ -109,3 +109,16 @@ references:
   thesis-type: PhD
   notes: Degree awarded 1 May 2026; repository online metadata 12 May 2026. Full-text download scheduled
     for 28 April 2028. This collection contains the abstract and record only.
+- type: blog
+  title: Introducing Faedriel
+  authors:
+  - family-names: de Lune
+    given-names: Rae
+    alias: Faedriel
+    orcid: https://orcid.org/0009-0004-9604-1719
+  date-published: '2026-08-12'
+  year: 2026
+  url: https://www.patreon.com/majordomohakanoztunali/posts/introducing-166498567
+  notes: 'Interviewee and answers: Faedriel (Rae de Lune). Interviewer and original publisher: Hakan Öztunalı,
+    on Patreon. Complete interview and accompanying artwork reproduced with permission confirmed by Rae
+    de Lune.'

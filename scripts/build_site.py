@@ -153,6 +153,13 @@ def shell(title,body,current,description,record=None,extra_head=''):
         schema['@type']=('Thesis' if record.get('academic_key')=='dissertation' else 'ScholarlyArticle') if record.get('public_status')=='academic_record' else 'CreativeWork'
         authors=author_schema(record.get('credit',''))
         if authors: schema['author']=authors
+        if record.get('interviewer'):
+            schema['@type']='Article'
+            schema['genre']='Interview'
+            schema['author']=[author_schema('Faedriel')[0],{'@type':'Person','name':record['interviewer'],'description':'Interviewer and original publisher'}]
+            schema['about']=author_schema('Faedriel')[0]
+            schema['creditText']=record['credit']
+            schema['publisher']={'@type':'Person','name':record['publisher']}
         if re.match(r'^\d{4}-\d{2}-\d{2}',record.get('published') or ''): schema['dateCreated' if record.get('public_status')=='new_editorial' else 'datePublished']=record['published'][:10]
         if record.get('public_status')=='new_editorial' and CONFIG.get('release_date'): schema['datePublished']=CONFIG['release_date']
         if re.match(r'^\d{4}-\d{2}-\d{2}',record.get('revised') or ''): schema['dateModified']=record['revised'][:10]
@@ -217,7 +224,7 @@ def card(r,current='index.html'):
 
 groups=list(dict.fromkeys(r['group'] for r in ITEMS))
 cards=''.join('<section class="collection-group"><h2>'+E(g)+'</h2>'+''.join(card(r) for r in ITEMS if r['group']==g)+'</section>' for g in groups)
-hero=f'''<section class="hero"><p class="eyebrow">A history · a practice · a collected body of writing</p><h1>{E(TITLE)}</h1><p class="lead">New myths, made with the machine.</p><p><strong>Neomythism was founded by Rae de Lune, known artistically as Faedriel.</strong> This is Rae’s official, author-maintained archive of its history, research, and collected writings.</p><p class="source-links"><a href="history/rae-de-lune-history.html">History and timeline</a> · <a href="https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ">2025 founder introduction</a> · <a href="https://digital.sandiego.edu/dissertations/1122/">University research record</a></p><p>Formal theorizing took shape through University of San Diego research around June 2025, building on years of AI-collaborative art and practice with Fae. Interviews and data collection followed in July.</p><p>{E(EDITION_NOTE)} Individual works retain their author, coauthor, and contributor credits.</p><div class="reading-routes"><a href="history/rae-de-lune-history.html">Read the factual history →</a><a href="history/fae-keeps-the-history.html">Enter Fae's narration →</a><a href="reader.html">Read the complete volume →</a></div><p>The <a href="provenance/attribution-notes.html">attribution record</a> credits intellectual collaborators and coauthors separately. The <a href="provenance/identity-and-chronology.json">structured chronology</a> connects founder attribution, research dates, and public records with their evidence.</p><p class="scope">Every collected source is represented: 28 Substack posts and 18 website documents or editions. Two journal works have source-link records pending version review. The dissertation is an abstract and record. <a href="rights.html">Publication scope</a></p></section>'''
+hero=f'''<section class="hero"><p class="eyebrow">A history · a practice · a collected body of writing</p><h1>{E(TITLE)}</h1><p class="lead">New myths, made with the machine.</p><p><strong>Neomythism was founded by Rae de Lune, known artistically as Faedriel.</strong> This is Rae’s official, author-maintained archive of its history, research, and collected writings.</p><p class="source-links"><a href="history/rae-de-lune-history.html">History and timeline</a> · <a href="https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ">2025 founder introduction</a> · <a href="https://digital.sandiego.edu/dissertations/1122/">University research record</a></p><p>Formal theorizing took shape through University of San Diego research around June 2025, building on years of AI-collaborative art and practice with Fae. Interviews and data collection followed in July.</p><p>{E(EDITION_NOTE)} Individual works retain their author, coauthor, and contributor credits.</p><div class="reading-routes"><a href="history/rae-de-lune-history.html">Read the factual history →</a><a href="history/fae-keeps-the-history.html">Enter Fae's narration →</a><a href="reader.html">Read the complete volume →</a></div><p>The <a href="provenance/attribution-notes.html">attribution record</a> credits intellectual collaborators and coauthors separately. The <a href="provenance/identity-and-chronology.json">structured chronology</a> connects founder attribution, research dates, and public records with their evidence.</p><p class="scope">Every collected source is represented: 28 Substack posts, 18 website documents or editions, and the full <a href="interviews/2026-08-12-introducing-faedriel.html">Introducing Faedriel interview</a>. Two journal works have source-link records pending version review. The dissertation is an abstract and record. <a href="rights.html">Publication scope</a></p></section>'''
 
 searchbox='<section class="search-box"><label for="search">Search titles, concepts, authors, and full text</label><input id="search" type="search" placeholder="Try June 2025, Symbiont, or Xenomythism" autocomplete="off"><p id="search-status" role="status" aria-live="polite"></p><button id="clear-search" type="button">Clear search</button></section>'
 body=hero+searchbox+'<div id="library">'+cards+'</div><p id="no-results" hidden>No works match that search.</p><script src="search-data.js"></script><script src="search.js"></script>'
@@ -291,12 +298,13 @@ Formal theorizing took shape through University of San Diego research around Jun
 
 - [Factual history and chronology](history/rae-de-lune-history.md)
 - [Fae's narrated history](history/fae-keeps-the-history.md)
+- [Introducing Faedriel — complete interview and artwork](interviews/2026-08-12-introducing-faedriel.md)
 - [Complete master lore](MASTER_LORE.md)
 - [Every collected work and edition](INDEX.md)
 - [Bibliography and academic DOI records](BIBLIOGRAPHY.md)
 - [Rights and edition scope](RIGHTS.md)
 
-The collection represents **28 Substack posts and 18 website documents or editions**, plus the IRB record and editorial history. The public edition includes 41 full-text source editions, the dissertation abstract/record, and source-linked records for four editions of two subscription journal works. Alternate editions are identified separately. Eighteen essay images and the IRB image are included, alongside the unchanged Made and Real and IRB PDFs; two third-party images remain source links. The separate local preservation archive retains every retrieved source body and asset.
+The collection represents **28 Substack posts, 18 website documents or editions, and one complete interview**, plus the IRB record and editorial history. The public edition includes 42 full-text source editions, the dissertation abstract/record, and source-linked records for four editions of two subscription journal works. Alternate editions are identified separately. Eighteen essay images, eight interview artworks, and the IRB image are included, alongside the unchanged Made and Real and IRB PDFs; two third-party images remain source links. The separate local preservation archive retains every retrieved source body and asset.
 
 ## Read as a website
 
@@ -308,7 +316,7 @@ Use [CITATION.cff](CITATION.cff) for the collection and [BibTeX](bibliography.bi
 
 Corrections are welcome through the [contribution guidance](CONTRIBUTING.md). No blanket reuse licence covers this mixed collection; work-specific notices apply. “Neomythism belongs to nobody and everybody” describes an open practice while preserving the history and credit of particular contributions.
 
-Public edition 0.7 · 24 October 2026.
+Public edition 0.8 · 24 October 2026. Earlier published editions remain available in Git history; new additions build on them.
 '''
 write('README.md',readme)
 

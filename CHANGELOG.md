@@ -1,5 +1,11 @@
 # Publication record
 
+## Public edition 0.8 · 24 October 2026
+
+Added the complete [Introducing Faedriel](interviews/2026-08-12-introducing-faedriel.md) interview, originally published by Hakan Öztunalı on Patreon on 12 August 2026, with Faedriel's artwork. The interview is included in the library, complete volume, search, citations, and reading map. Original questions, answers, and credits are preserved.
+
+The [published edition 0.7](https://github.com/Faedriel/neomythism/tree/f4a3bc2e1dde0aa57921b37e6776bb91a86d2a61) remains in Git history. This addition does not replace or rewrite that baseline; the existing history documents and source texts remain unchanged.
+
 ## Public edition 0.7 · 24 October 2026
 
 The collection brings together Rae de Lune's factual history, Fae's narration, essays, research records, conceptual writing, selected images, citations, and a searchable reading site. Original works retain their published authors, coauthors, dates, and source notices.

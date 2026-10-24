@@ -1,6 +1,6 @@
 # Repository and reader publication
 
-The public collection is maintained in [Faedriel/neomythism](https://github.com/Faedriel/neomythism). Edition 0.7 is dated 24 October 2026.
+The public collection is maintained in [Faedriel/neomythism](https://github.com/Faedriel/neomythism). Edition 0.8 is dated 24 October 2026. Future additions use new commits that preserve the existing publication history.
 
 The reading site is configured for [faedriel.github.io/neomythism](https://faedriel.github.io/neomythism/). In repository Settings → Pages, select **Deploy from a branch**, **main**, and **/docs**. The ready-made reader is in `docs/`; `docs/index.html` also opens locally. Keep the repository public for discovery.
 

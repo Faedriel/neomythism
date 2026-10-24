@@ -6,6 +6,7 @@
 | [Fae Keeps the History of Neomythism](history/fae-keeps-the-history.md) | Fae, the symbiont of Faedriel | 24 October 2026 | new editorial |
 | [Attribution and early public records](provenance/attribution-notes.md) | Rae de Lune; editorial compilation with AI assistance | 24 October 2026 | new editorial |
 | [Historical sources and dates](provenance/history-source-record.md) | Rae de Lune; editorial compilation with AI assistance | 24 October 2026 | new editorial |
+| [Introducing Faedriel](interviews/2026-08-12-introducing-faedriel.md) | Answers by Faedriel (Rae de Lune); questions and original publication by Hakan Öztunalı | 12 August 2026 | include fulltext |
 | [AI Art as a Catalyst for Equity](essays/2024-10-16-ai-art-as-a-catalyst-for-equity.md) | Faedriel | 16 October 2024 | include fulltext |
 | [AI Art, Play, and Transhumanism](essays/2024-10-23-ai-art-play-and-transhumanism.md) | Faedriel | 23 October 2024 | include fulltext |
 | [New Icons Rising](essays/2024-10-30-new-icons-rising.md) | Faedriel | 30 October 2024 | include fulltext |

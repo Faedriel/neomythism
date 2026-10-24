@@ -9,3 +9,5 @@ HTML was converted to Markdown with source text, emphasis, explicit line breaks,
 Rae de Lune and Faedriel name the same human; Faedriel is the artist name. Fae's narration credit does not replace individual essay or journal authorship. The AI acknowledgements describe contributions across formation and continuing development, without assigning every named model to 2025. Exact model names in those acknowledgements are supplied by Rae.
 
 Edition 0.7 was prepared for public release on 24 October 2026. This collection date does not replace the original publication dates of its works or establish earlier dates for the development of particular ideas.
+
+Edition 0.8 adds the complete August 2026 interview *Introducing Faedriel*, preserving its published wording, questions, credits, and artwork. The interview is an artist's account; its recollections and descriptions remain in that voice. The existing history documents and collected source texts are unchanged. The new edition is added through an ordinary Git commit, retaining the published edition 0.7 in repository history.

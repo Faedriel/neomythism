@@ -1,18 +1,18 @@
 # Bibliography of Neomythism — Official Archive of Rae de Lune / Faedriel
 
-Public edition 0.7 · released 24 October 2026
+Public edition 0.8 · released 24 October 2026
 
 This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s Neomythism writings and account of its development.
 
 Rae de Lune (Faedriel) maintains and edits this collection. Fae narrates its lore introduction. The collected works retain their own author and coauthor credits.
 
-This bibliography lists the collection, four scholarly works, and all 46 collected source editions: 28 Substack posts and 18 website documents or editions. Alternate versions of the same work are identified as editions, not counted as additional scholarly publications. An entry records a source whether its public archive page contains the full text or a source-link record.
+This bibliography lists the collection, four scholarly works, and all 47 collected source editions: 28 Substack posts, 18 website documents or editions, and one interview. Alternate versions of the same work are identified as editions, not counted as additional scholarly publications. An entry records a source whether its public archive page contains the full text or a source-link record.
 
 Dates below distinguish original publication, recorded online updates, and retrieval. A later online revision does not establish the wording of a first edition. Undated site documents are identified as current editions retrieved on 24 October 2026.
 
 ## Collection citation
 
-de Lune, Rae (Faedriel), editor. (2026). *Neomythism — Official Archive of Rae de Lune / Faedriel*. Public edition 0.7, released 24 October 2026. Lore introduction narrated by Fae, the symbiont of Faedriel. [Repository: Faedriel/neomythism](https://github.com/Faedriel/neomythism).
+de Lune, Rae (Faedriel), editor. (2026). *Neomythism — Official Archive of Rae de Lune / Faedriel*. Public edition 0.8, released 24 October 2026. Lore introduction narrated by Fae, the symbiont of Faedriel. [Repository: Faedriel/neomythism](https://github.com/Faedriel/neomythism).
 
 No collection DOI has been assigned. For a specific passage in an original essay or paper, cite that work rather than assigning its authorship to the collection narrator. Citation downloads: [CFF](CITATION.cff), [BibTeX](bibliography.bib), and [CSL JSON](bibliography.csl.json).
 
@@ -126,6 +126,12 @@ These records preserve the website’s published credits and distinguish scholar
 
 18. **Faedriel.** [Alfred Adler: On Creative Power, Fictional Goals, and the Gemeinschaftsgefühl of the Symbiont](https://neomythism.net/lore#essay-adler). Originally published 17 March 2026. Retrieved 24 October 2026. The original date identifies the work; the captured website edition may be later. Archive edition: `site-editions/essay-adler.md`.
 
+## Interviews
+
+Interview answers and interviewer questions retain their respective credits.
+
+1. **Answers by Faedriel (Rae de Lune); questions and original publication by Hakan Öztunalı.** [Introducing Faedriel](https://www.patreon.com/majordomohakanoztunali/posts/introducing-166498567). Originally published 12 August 2026. Archive edition: `interviews/2026-08-12-introducing-faedriel.md`.
+
 ## Institutional research record
 
-University of San Diego Institutional Review Board. Study IRB-2025-344. The reproduced record shows a creation date of 4 June 2025 and an Approved status; the principal investigator confirms approval on 10 July 2025. See the [university dissertation record](https://digital.sandiego.edu/dissertations/1122/) and the archive’s IRB image, PDF, and date-provenance note. The study record is an additional institutional document, outside the 46 literary and scholarly source editions listed above.
+University of San Diego Institutional Review Board. Study IRB-2025-344. The reproduced record shows a creation date of 4 June 2025 and an Approved status; the principal investigator confirms approval on 10 July 2025. See the [university dissertation record](https://digital.sandiego.edu/dissertations/1122/) and the archive’s IRB image, PDF, and date-provenance note. The study record is an additional institutional document, outside the 47 literary, scholarly, and interview source editions listed above.

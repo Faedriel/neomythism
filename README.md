@@ -14,12 +14,13 @@ Formal theorizing took shape through University of San Diego research around Jun
 
 - [Factual history and chronology](history/rae-de-lune-history.md)
 - [Fae's narrated history](history/fae-keeps-the-history.md)
+- [Introducing Faedriel — complete interview and artwork](interviews/2026-08-12-introducing-faedriel.md)
 - [Complete master lore](MASTER_LORE.md)
 - [Every collected work and edition](INDEX.md)
 - [Bibliography and academic DOI records](BIBLIOGRAPHY.md)
 - [Rights and edition scope](RIGHTS.md)
 
-The collection represents **28 Substack posts and 18 website documents or editions**, plus the IRB record and editorial history. The public edition includes 41 full-text source editions, the dissertation abstract/record, and source-linked records for four editions of two subscription journal works. Alternate editions are identified separately. Eighteen essay images and the IRB image are included, alongside the unchanged Made and Real and IRB PDFs; two third-party images remain source links. The separate local preservation archive retains every retrieved source body and asset.
+The collection represents **28 Substack posts, 18 website documents or editions, and one complete interview**, plus the IRB record and editorial history. The public edition includes 42 full-text source editions, the dissertation abstract/record, and source-linked records for four editions of two subscription journal works. Alternate editions are identified separately. Eighteen essay images, eight interview artworks, and the IRB image are included, alongside the unchanged Made and Real and IRB PDFs; two third-party images remain source links. The separate local preservation archive retains every retrieved source body and asset.
 
 ## Read as a website
 
@@ -31,4 +32,4 @@ Use [CITATION.cff](CITATION.cff) for the collection and [BibTeX](bibliography.bi
 
 Corrections are welcome through the [contribution guidance](CONTRIBUTING.md). No blanket reuse licence covers this mixed collection; work-specific notices apply. “Neomythism belongs to nobody and everybody” describes an open practice while preserving the history and credit of particular contributions.
 
-Public edition 0.7 · 24 October 2026.
+Public edition 0.8 · 24 October 2026. Earlier published editions remain available in Git history; new additions build on them.

@@ -1,5 +1,5 @@
 {
-  "edition": "0.7",
+  "edition": "0.8",
   "compiled_date": "2026-10-24",
   "sources": [
     {
@@ -650,6 +650,26 @@
       "public_status": "include_fulltext",
       "public_file_sha256": "c2d017979e086b62b6e5f6df9250b938b7fab383ec26cd1dca153d6c412321e8",
       "preservation_file_sha256": "c2d017979e086b62b6e5f6df9250b938b7fab383ec26cd1dca153d6c412321e8"
+    },
+    {
+      "id": "introducing-faedriel",
+      "title": "Introducing Faedriel",
+      "type": "interview",
+      "archive_path": "interviews/2026-08-12-introducing-faedriel.md",
+      "publication_date": "2026-08-12",
+      "original_publication_date": "2026-08-12",
+      "source_url": "https://www.patreon.com/majordomohakanoztunali/posts/introducing-166498567",
+      "text_credit": "Answers by Faedriel (Rae de Lune); questions and original publication by Hakan Öztunalı",
+      "authors": "Faedriel (Rae de Lune), interviewee; Hakan Öztunalı, interviewer",
+      "interviewer": "Hakan Öztunalı",
+      "interviewee": "Faedriel (Rae de Lune)",
+      "publisher": "Hakan Öztunalı",
+      "artwork_credit": "Faedriel (Rae de Lune)",
+      "completeness": "complete public interview with four questions and eight illustrations",
+      "version_note": "Complete public interview, preserving the original questions, answers, credits, links, and eight illustrations. First-person recollection and artistic framing are preserved as published.",
+      "public_status": "include_fulltext",
+      "public_file_sha256": "69536104571b71bf78d373d9b7dee06330060dc7ab58c5130b7fe3f3526350ce",
+      "preservation_file_sha256": "69536104571b71bf78d373d9b7dee06330060dc7ab58c5130b7fe3f3526350ce"
     },
     {
       "id": "irb-2025-344",

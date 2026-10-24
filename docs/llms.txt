@@ -17,6 +17,7 @@ Collected and maintained by Rae de Lune / Faedriel. Lore introduction narrated b
 - [Fae Keeps the History of Neomythism](https://faedriel.github.io/neomythism/history/fae-keeps-the-history.html): Fae, the symbiont of Faedriel; new editorial.
 - [Attribution and early public records](https://faedriel.github.io/neomythism/provenance/attribution-notes.html): Rae de Lune; editorial compilation with AI assistance; new editorial.
 - [Historical sources and dates](https://faedriel.github.io/neomythism/provenance/history-source-record.html): Rae de Lune; editorial compilation with AI assistance; new editorial.
+- [Introducing Faedriel](https://faedriel.github.io/neomythism/interviews/2026-08-12-introducing-faedriel.html): Answers by Faedriel (Rae de Lune); questions and original publication by Hakan Öztunalı; include fulltext.
 - [AI Art as a Catalyst for Equity](https://faedriel.github.io/neomythism/essays/2024-10-16-ai-art-as-a-catalyst-for-equity.html): Faedriel; include fulltext.
 - [AI Art, Play, and Transhumanism](https://faedriel.github.io/neomythism/essays/2024-10-23-ai-art-play-and-transhumanism.html): Faedriel; include fulltext.
 - [New Icons Rising](https://faedriel.github.io/neomythism/essays/2024-10-30-new-icons-rising.html): Faedriel; include fulltext.

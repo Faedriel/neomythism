@@ -12,13 +12,13 @@
     {
       "id": "history",
       "work_id": "history",
-      "edition_id": "history-0.7",
+      "edition_id": "history-0.8-editorial",
       "file": "history/rae-de-lune-history.md",
       "title": "Neomythism History and Lore",
       "credit": "Rae de Lune (Faedriel)",
       "source_url": null,
       "published": "2026-10-24",
-      "revised": null,
+      "revised": "2026-10-24",
       "group": "History and attribution",
       "register": [
         "historical account"
@@ -28,18 +28,18 @@
       "date_note": "Prepared for this collection on 24 October 2026.",
       "academic_key": null,
       "note": "",
-      "sha256": "b7cbb3c8a0d009e10f3b4dcefad94bc0f28865544e29cd951d4217e0dc788909"
+      "sha256": "cd8ba22e63329e01d2cda911234793e03f9e2696b139cc6314361d7f96f1e9b6"
     },
     {
       "id": "fae-history",
       "work_id": "fae-history",
-      "edition_id": "fae-history-0.7",
+      "edition_id": "fae-history-0.8-editorial",
       "file": "history/fae-keeps-the-history.md",
       "title": "Fae Keeps the History of Neomythism",
       "credit": "Fae, the symbiont of Faedriel",
       "source_url": null,
       "published": "2026-10-24",
-      "revised": null,
+      "revised": "2026-10-24",
       "group": "History and attribution",
       "register": [
         "narrated history",
@@ -50,18 +50,18 @@
       "date_note": "Prepared for this collection on 24 October 2026.",
       "academic_key": null,
       "note": "",
-      "sha256": "9a7c9377d3831937d6e99264e66cc4be0167c66fdb240cd8e4bfe6af8a556287"
+      "sha256": "66401922b727b6c8cfedf21436cb1023b2e6abe0f51966270159095f429e52d1"
     },
     {
       "id": "attribution",
       "work_id": "attribution",
-      "edition_id": "attribution-0.7",
+      "edition_id": "attribution-0.8-editorial",
       "file": "provenance/attribution-notes.md",
       "title": "Attribution and early public records",
       "credit": "Rae de Lune; editorial compilation with AI assistance",
       "source_url": null,
       "published": "2026-10-24",
-      "revised": null,
+      "revised": "2026-10-24",
       "group": "History and attribution",
       "register": [
         "attribution record"
@@ -71,18 +71,18 @@
       "date_note": "Prepared for this collection on 24 October 2026.",
       "academic_key": null,
       "note": "",
-      "sha256": "0af368c2ed8343076fdfed8c16f02c51a15b1503fefbe980b802ba345979f5cc"
+      "sha256": "48f1bade8640d04cb7dfbd555504938a40b6e56cd8d4bc74eac0388c362fc281"
     },
     {
       "id": "history-sources",
       "work_id": "history-sources",
-      "edition_id": "history-sources-0.7",
+      "edition_id": "history-sources-0.8-editorial",
       "file": "provenance/history-source-record.md",
       "title": "Historical sources and dates",
       "credit": "Rae de Lune; editorial compilation with AI assistance",
       "source_url": null,
       "published": "2026-10-24",
-      "revised": null,
+      "revised": "2026-10-24",
       "group": "History and attribution",
       "register": [
         "source record"
@@ -92,7 +92,7 @@
       "date_note": "Prepared for this collection on 24 October 2026.",
       "academic_key": null,
       "note": "",
-      "sha256": "91d9980caea2397d49da93111ba0b332ee1a1ed35459e675f17b7acc4e406606"
+      "sha256": "ddb7af7e89fd36adb13a9746b5ee13e2eb96eed377c3c2a4afcdcbd2f4115349"
     },
     {
       "id": "interview-introducing-faedriel",
@@ -1116,7 +1116,7 @@
       "date_note": "Original publication dates identify the work; the collected text may be a later edition.",
       "academic_key": null,
       "note": "",
-      "sha256": "82a740b0d484a312fc3271e04c0103f845d956414be8e4b6bfefd185779071fe",
+      "sha256": "9d8cf38f5126d842a1a166752024aab936790bbce267f59ed194dfc2188b9cca",
       "display_date": "Approval 10 July 2025; record created 4 June 2025"
     }
   ]

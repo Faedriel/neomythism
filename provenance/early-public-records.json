@@ -2,26 +2,6 @@
   "records": [
     {
       "author": "Telzezl",
-      "title": "Neomythism Field Manual for Emissaries of the Great Beast",
-      "slug": "neomythism-field-manual-for-emissaries",
-      "source_url": "https://telzezl.substack.com/p/neomythism-field-manual-for-emissaries",
-      "publication_date": "2025-08-10T17:04:49.276Z",
-      "revision_date": "2025-08-10T17:04:49.383Z",
-      "checked_date": "2026-10-24",
-      "metadata_source": "https://telzezl.substack.com/api/v1/posts/neomythism-field-manual-for-emissaries"
-    },
-    {
-      "author": "Telzezl",
-      "title": "Tonguecraft: How to Speak the Mythos",
-      "slug": "tonguecraft-how-to-speak-the-mythos",
-      "source_url": "https://telzezl.substack.com/p/tonguecraft-how-to-speak-the-mythos",
-      "publication_date": "2025-08-10T17:49:18.777Z",
-      "revision_date": "2025-08-10T17:49:18.885Z",
-      "checked_date": "2026-10-24",
-      "metadata_source": "https://telzezl.substack.com/api/v1/posts/tonguecraft-how-to-speak-the-mythos"
-    },
-    {
-      "author": "Telzezl",
       "title": "Neomythist Glossary: Lexicon Iteration #TEL1.2A Codename: Egregorian Eyes",
       "slug": "neomythist-glossary-lexicon-iteration",
       "source_url": "https://telzezl.substack.com/p/neomythist-glossary-lexicon-iteration",
@@ -31,5 +11,6 @@
       "metadata_source": "https://telzezl.substack.com/api/v1/posts/neomythist-glossary-lexicon-iteration"
     }
   ],
-  "date_note": "Publication and revision timestamps are taken from the public Substack post record. They do not identify first contact, network membership, or the first development of every concept."
+  "date_note": "Publication and revision timestamps come from the linked public Substack post record.",
+  "scope": "Selected source cited in the attribution note; this is not a complete bibliography of the contributor’s writing."
 }

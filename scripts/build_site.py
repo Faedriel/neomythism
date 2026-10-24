@@ -37,7 +37,7 @@ Rae de Lune is the founder of Neomythism, the human–AI collaborative-art frame
 
 Rae collects and maintains this official archive and designates it as the canonical reference edition of these writings and account of Neomythism’s development. Fae narrates the introductory lore; individual works retain their original author, coauthor, and contributor credits.
 
-Rae dates AI collaborative visual-art practice to 2019, work with large language models to 2022, formal theorizing at the University of San Diego to around June 2025, and interviews/data collection to July 2025. The 2019 practice date also appears in the 2024 RED EYE interview. The IRB approval date is July 10, 2025, as confirmed by the principal investigator. The [factual history](../history/rae-de-lune-history.md) supplies the chronology and sources; [attribution notes](../provenance/attribution-notes.md) record collaborators and concept-specific credits.
+Rae dates formal theorizing to 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. AI collaborative visual-art practice began in 2019 and work with large language models in 2022. Rae places the USD research phase around June 2025, with interviews and data collection beginning in July. The 2019 practice date also appears in the 2024 RED EYE interview. The IRB approval date is July 10, 2025, as confirmed by the principal investigator. The [factual history](../history/rae-de-lune-history.md) supplies the chronology and sources; [attribution notes](../provenance/attribution-notes.md) record collaborators and concept-specific credits.
 
 Academic publications use Rae de Lune; art and Substack essays use Faedriel. Retain the published byline when citing a particular work. [ORCID 0009-0004-9604-1719](https://orcid.org/0009-0004-9604-1719) is linked from the publisher records. Other public locations: [neomythism.net](https://neomythism.net/), [Faedriel.net](https://faedriel.net/), [Faedriel's Substack](https://faedriel.substack.com/), and [GitHub](https://github.com/Faedriel).
 ''',
@@ -96,8 +96,10 @@ raw=[(ROOT/r['file']).read_text() for r in PAGES]
 cmd=[os.environ.get('NODE_BIN','node'),str(ROOT/'scripts/render.mjs')]
 rendered=json.loads(subprocess.run(cmd,input=json.dumps(raw),text=True,capture_output=True,check=True).stdout)
 allowed=set('p h1 h2 h3 h4 h5 h6 a img em strong b i u s del blockquote code pre ul ol li table thead tbody tfoot tr th td hr br figure figcaption span div sub sup details summary dl dt dd'.split())
+volume_irb_seen=False
 
 def render_source(fragment,record,current,prefix='',chapter=False):
+    global volume_irb_seen
     parent=LH.fragment_fromstring(fragment,create_parent='div')
     first=next(iter(parent),None)
     if first is not None and first.tag=='h1': first.drop_tree()
@@ -109,6 +111,15 @@ def render_source(fragment,record,current,prefix='',chapter=False):
             if el.getparent() is not None: el.getparent().remove(el)
             continue
         tag=el.tag.lower()
+        if chapter and tag=='img' and posixpath.basename(urlsplit(el.get('src','')).path)=='irb-2025-344.png':
+            if volume_irb_seen:
+                el.tag='a'; el.attrib.clear()
+                el.set('href','#volume-irb-record')
+                el.text='View the IRB record reproduced earlier in this volume.'
+                tag='a'
+            else:
+                volume_irb_seen=True
+                el.set('id','volume-irb-record')
         if tag in ['script','style','iframe','object','embed','form','input','button']:
             el.drop_tree(); continue
         if tag not in allowed: el.drop_tag(); continue
@@ -118,7 +129,7 @@ def render_source(fragment,record,current,prefix='',chapter=False):
             el.tag='h'+str(min(6,int(tag[1])-minlevel+(3 if chapter else 2)))
             if not el.get('id'): el.set('id',slug(el.text_content()) or 'section')
         if el.get('id'):
-            old=el.get('id'); new=prefix+old; base=new; n=1
+            old=el.get('id'); new=old if chapter and old=='volume-irb-record' else prefix+old; base=new; n=1
             while new in used: n+=1; new=base+'-'+str(n)
             used.add(new); idmap.setdefault(old,new); el.set('id',new)
         if tag=='img': el.set('loading','lazy'); el.set('decoding','async')
@@ -178,7 +189,7 @@ def shell(title,body,current,description,record=None,extra_head=''):
     if current=='index.html':
         schema['@type']='CollectionPage'
         schema['mainEntity']={'@type':'CreativeWork','@id':BASE+'#collection','name':TITLE,'url':BASE,'description':EDITION_NOTE,'editor':author_schema('Rae de Lune')[0],'publisher':author_schema('Rae de Lune')[0],'version':VERSION,'datePublished':CONFIG['release_date']}
-        schema['about']={'@type':'CreativeWork','name':'Neomythism','creator':author_schema('Rae de Lune')[0],'description':'Neomythism was founded by Rae de Lune, known artistically as Faedriel. Formal theorizing took shape through University of San Diego research around June 2025, building on years of AI-collaborative art and practice with Fae.'}
+        schema['about']={'@type':'CreativeWork','name':'Neomythism','creator':author_schema('Rae de Lune')[0],'description':'Neomythism was founded by Rae de Lune, known artistically as Faedriel. Formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025.'}
     nav=''.join(f'<a href="{E(rel(p,current))}">{label}</a>' for p,label in [('index.html','Library'),('history/rae-de-lune-history.html','History'),('research.html','Research'),('concepts.html','Concepts'),('reader.html','Complete volume'),('bibliography.html','Bibliography')])
     data=json.dumps(schema,ensure_ascii=False).replace('</','<\\/')
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{E(description,quote=True)}"><meta name="robots" content="index,follow"><link rel="canonical" href="{E(canonical)}"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:type" content="article"><meta property="og:url" content="{E(canonical)}"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self'; script-src 'self' 'unsafe-inline'; base-uri 'none'; form-action 'none'"><link rel="stylesheet" href="{E(rel('style.css',current))}"><title>{E(title)} · Neomythism</title><script type="application/ld+json">{data}</script>{extra_head}</head><body><a class="skip" href="#content">Skip to content</a><header class="site-head"><a class="brand" href="{E(rel('index.html',current))}">NEOMYTHISM <span>official archive · Rae de Lune / Faedriel</span></a><nav aria-label="Main">{nav}</nav></header><main id="content">{body}</main><footer><p>Collected and maintained by Rae de Lune / Faedriel.</p><p>Lore introduction narrated by Fae, symbiont of Faedriel.</p><p>Prepared 24 October 2026 · Edition {VERSION}. Original works retain their credits and source notices.</p><div><a href="{E(rel('rights.html',current))}">Rights and access</a> · <a href="{E(rel('production.html',current))}">Editorial method</a> · <a href="{E(rel('people/rae-de-lune.html',current))}">Rae / Faedriel</a> · <a href="{E(rel('people/fae.html',current))}">Fae</a> · <a href="{E(REPO)}">Repository</a> · <a href="https://neomythism.net/">neomythism.net</a> · <a href="https://faedriel.net/">Faedriel.net</a></div></footer></body></html>'''
@@ -224,7 +235,7 @@ def card(r,current='index.html'):
 
 groups=list(dict.fromkeys(r['group'] for r in ITEMS))
 cards=''.join('<section class="collection-group"><h2>'+E(g)+'</h2>'+''.join(card(r) for r in ITEMS if r['group']==g)+'</section>' for g in groups)
-hero=f'''<section class="hero"><p class="eyebrow">A history · a practice · a collected body of writing</p><h1>{E(TITLE)}</h1><p class="lead">New myths, made with the machine.</p><p><strong>Neomythism was founded by Rae de Lune, known artistically as Faedriel.</strong> This is Rae’s official, author-maintained archive of its history, research, and collected writings.</p><p class="source-links"><a href="history/rae-de-lune-history.html">History and timeline</a> · <a href="https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ">2025 founder introduction</a> · <a href="https://digital.sandiego.edu/dissertations/1122/">University research record</a></p><p>Formal theorizing took shape through University of San Diego research around June 2025, building on years of AI-collaborative art and practice with Fae. Interviews and data collection followed in July.</p><p>{E(EDITION_NOTE)} Individual works retain their author, coauthor, and contributor credits.</p><div class="reading-routes"><a href="history/rae-de-lune-history.html">Read the factual history →</a><a href="history/fae-keeps-the-history.html">Enter Fae's narration →</a><a href="reader.html">Read the complete volume →</a></div><p>The <a href="provenance/attribution-notes.html">attribution record</a> credits intellectual collaborators and coauthors separately. The <a href="provenance/identity-and-chronology.json">structured chronology</a> connects founder attribution, research dates, and public records with their evidence.</p><p class="scope">Every collected source is represented: 28 Substack posts, 18 website documents or editions, and the full <a href="interviews/2026-08-12-introducing-faedriel.html">Introducing Faedriel interview</a>. Two journal works have source-link records pending version review. The dissertation is an abstract and record. <a href="rights.html">Publication scope</a></p></section>'''
+hero=f'''<section class="hero"><p class="eyebrow">A history · a practice · a collected body of writing</p><h1>{E(TITLE)}</h1><p class="lead">New myths, made with the machine.</p><p><strong>Neomythism was founded by Rae de Lune, known artistically as Faedriel.</strong> This is Rae’s official, author-maintained archive of its history, research, and collected writings.</p><p class="source-links"><a href="history/rae-de-lune-history.html">History and timeline</a> · <a href="https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ">2025 founder introduction</a> · <a href="https://digital.sandiego.edu/dissertations/1122/">University research record</a></p><p>Formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. Rae places the USD research phase around June 2025; interviews and data collection began in July.</p><p>{E(EDITION_NOTE)} Individual works retain their author, coauthor, and contributor credits.</p><div class="reading-routes"><a href="history/rae-de-lune-history.html">Read the factual history →</a><a href="history/fae-keeps-the-history.html">Enter Fae's narration →</a><a href="reader.html">Read the complete volume →</a></div><p>The <a href="provenance/attribution-notes.html">attribution record</a> credits intellectual collaborators and coauthors separately. The <a href="provenance/identity-and-chronology.json">structured chronology</a> connects founder attribution, research dates, and public records with their evidence.</p><p class="scope">Every collected source is represented: 28 Substack posts, 18 website documents or editions, and the full <a href="interviews/2026-08-12-introducing-faedriel.html">Introducing Faedriel interview</a>. Two journal works have source-link records pending version review. The dissertation is an abstract and record. <a href="rights.html">Publication scope</a></p></section>'''
 
 searchbox='<section class="search-box"><label for="search">Search titles, concepts, authors, and full text</label><input id="search" type="search" placeholder="Try June 2025, Symbiont, or Xenomythism" autocomplete="off"><p id="search-status" role="status" aria-live="polite"></p><button id="clear-search" type="button">Clear search</button></section>'
 body=hero+searchbox+'<div id="library">'+cards+'</div><p id="no-results" hidden>No works match that search.</p><script src="search-data.js"></script><script src="search.js"></script>'
@@ -269,9 +280,20 @@ def demote(text):
         lines[i]='#'*new+' '+title
     return '\n'.join(lines)+'\n'
 
+markdown_irb_seen=False
+def volume_irb_markdown(text):
+    """Keep one reproduction in the compiled volume; standalone sources stay intact."""
+    def replace(match):
+        global markdown_irb_seen
+        if markdown_irb_seen:
+            return '[View the IRB record reproduced earlier in this volume.](#volume-irb-record)'
+        markdown_irb_seen=True
+        return '<a id="volume-irb-record"></a>\n\n'+match.group(0)
+    return re.sub(r'!\[[^\]]*\]\([^\s)]*irb-2025-344\.png\)',replace,text)
+
 master='# Neomythism Master Lore\n\n'+EDITORIAL_CREDIT+'\n\n'+EDITION_NOTE+'\n\nVersion '+VERSION+' · Prepared 24 October 2026 · Public edition\n\nAll collected works are represented. Two subscription journal works appear as four edition records with source links; the full dissertation is not included. See [Rights and publication scope](RIGHTS.md).\n\n## Contents\n\n'+''.join(f'- [{r["title"]}](#{r["id"]})\n' for r in ITEMS)
 for r in ITEMS:
-    master+='\n\n---\n\n<a id="'+r['id']+'"></a>\n\n'+demote(root_links((ROOT/r['file']).read_text(),r['file']))
+    master+='\n\n---\n\n<a id="'+r['id']+'"></a>\n\n'+demote(volume_irb_markdown(root_links((ROOT/r['file']).read_text(),r['file'])))
 write('MASTER_LORE.md',master); write('docs/MASTER_LORE.md',master)
 # Place Markdown-linked assets and documents at the corresponding download location too.
 for r in PAGES:
@@ -290,7 +312,7 @@ readme='''# Neomythism — Official Archive of Rae de Lune / Faedriel
 
 This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s Neomythism writings and account of its development. Individual works retain their author, coauthor, and contributor credits.
 
-Formal theorizing took shape through University of San Diego research around June 2025, building on years of AI-collaborative art and practice with Fae. Interviews and data collection followed in July. The IRB approval date is July 10, 2025, confirmed by the principal investigator. The history distinguishes these stages from later publication and revision dates. The [structured identity and chronology](provenance/identity-and-chronology.json) records founder attribution, evidence, and contributor roles separately.
+Formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. Rae places the USD research phase around June 2025; interviews and data collection began in July. The IRB approval date is July 10, 2025, confirmed by the principal investigator. The history distinguishes these stages from later publication and revision dates. The [structured identity and chronology](provenance/identity-and-chronology.json) records founder attribution, evidence, and contributor roles separately.
 
 **Collected and maintained by Rae de Lune / Faedriel.** The lore introduction is narrated by Fae, symbiont of Faedriel. Each collected work retains its original author/coauthor credit. See the [production note](PRODUCTION.md) and [concept-specific attribution record](provenance/attribution-notes.md).
 
@@ -323,7 +345,7 @@ write('README.md',readme)
 urls=['index.html','research.html','concepts.html']+[page_for[r['file']] for r in PAGES]
 sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{E(BASE+p)}</loc><lastmod>{DATE}</lastmod></url>\n' for p in urls)+'</urlset>\n'
 write('docs/sitemap.xml',sitemap)
-write('docs/llms.txt','# '+TITLE+'\n\n'+EDITION_NOTE+'\n\n'+EDITORIAL_CREDIT+'\n\n> Neomythism was founded by Rae de Lune, known artistically as Faedriel. Formal theorizing took shape through University of San Diego research around June 2025. Fae narrates the introductory lore; contributors and original authors retain their separate credits.\n\n## Identity and evidence\n\n- [Structured identity and chronology]('+BASE+'provenance/identity-and-chronology.json): founder attribution, approximate and exact dates, evidence sources, and contributor roles.\n- [Attribution and early public records]('+BASE+'provenance/attribution-notes.html): sourced concept credits and chronology.\n\n## Read\n\n'+''.join(f'- [{r["title"]}]({BASE+page_for[r["file"]]}): {r["credit"]}; {r["public_status"].replace("_"," ")}.\n' for r in ITEMS)+'\n## Scope\n\n'+BASE+'rights.html\n\nThis optional map does not replace normal HTML links, sitemaps, or publisher records.\n')
+write('docs/llms.txt','# '+TITLE+'\n\n'+EDITION_NOTE+'\n\n'+EDITORIAL_CREDIT+'\n\n> Neomythism was founded by Rae de Lune, known artistically as Faedriel. Formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. Fae narrates the introductory lore; contributors and original authors retain their separate credits.\n\n## Identity and evidence\n\n- [Structured identity and chronology]('+BASE+'provenance/identity-and-chronology.json): founder attribution, approximate and exact dates, evidence sources, and contributor roles.\n- [Attribution and early public records]('+BASE+'provenance/attribution-notes.html): sourced concept credits and chronology.\n\n## Read\n\n'+''.join(f'- [{r["title"]}]({BASE+page_for[r["file"]]}): {r["credit"]}; {r["public_status"].replace("_"," ")}.\n' for r in ITEMS)+'\n## Scope\n\n'+BASE+'rights.html\n\nThis optional map does not replace normal HTML links, sitemaps, or publisher records.\n')
 for p in ['style.css','search.js']: shutil.copy2(ROOT/'scripts'/p,DOCS/p)
 checks=[]
 for p in sorted(ROOT.rglob('*')):

@@ -1,5 +1,9 @@
 # Publication record
 
+## Editorial update · 24 October 2026
+
+Recorded Rae’s clarified account of formal theorizing from 2019–2026 through artistic practice and academic research, with June 2025 as a University of San Diego research milestone. Condensed the source and attribution notes and consolidated the IRB screenshot to one reproduction in the complete volume. Original published essays, interview text, publication dates, and contributor credits are retained. The update is a new commit that preserves the existing publication history and timestamps.
+
 ## Public edition 0.8 · 24 October 2026
 
 Added the complete [Introducing Faedriel](interviews/2026-08-12-introducing-faedriel.md) interview, originally published by Hakan Öztunalı on Patreon on 12 August 2026, with Faedriel's artwork. The interview is included in the library, complete volume, search, citations, and reading map. Original questions, answers, and credits are preserved.

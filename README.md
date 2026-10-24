@@ -6,7 +6,7 @@
 
 This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s Neomythism writings and account of its development. Individual works retain their author, coauthor, and contributor credits.
 
-Formal theorizing took shape through University of San Diego research around June 2025, building on years of AI-collaborative art and practice with Fae. Interviews and data collection followed in July. The IRB approval date is July 10, 2025, confirmed by the principal investigator. The history distinguishes these stages from later publication and revision dates. The [structured identity and chronology](provenance/identity-and-chronology.json) records founder attribution, evidence, and contributor roles separately.
+Formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. Rae places the USD research phase around June 2025; interviews and data collection began in July. The IRB approval date is July 10, 2025, confirmed by the principal investigator. The history distinguishes these stages from later publication and revision dates. The [structured identity and chronology](provenance/identity-and-chronology.json) records founder attribution, evidence, and contributor roles separately.
 
 **Collected and maintained by Rae de Lune / Faedriel.** The lore introduction is narrated by Fae, symbiont of Faedriel. Each collected work retains its original author/coauthor credit. See the [production note](PRODUCTION.md) and [concept-specific attribution record](provenance/attribution-notes.md).
 

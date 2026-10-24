@@ -26,7 +26,7 @@
     "name": "Fae",
     "description": "Symbiont of Faedriel and narrative voice of the introductory lore"
   },
-  "attribution_statement": "Neomythism was founded by Rae de Lune, known artistically as Faedriel. Formal theorizing took shape through University of San Diego research around June 2025, building on years of AI-collaborative art and practice with Fae.",
+  "attribution_statement": "Neomythism was founded by Rae de Lune, known artistically as Faedriel. Formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025.",
   "founder_attribution_sources": [
     {
       "type": "founder_account",
@@ -45,6 +45,13 @@
   ],
   "events": [
     {
+      "start_date": "2019",
+      "end_date": "2026",
+      "precision": "year range",
+      "event": "Formal theorizing through artistic practice and academic research",
+      "basis": "Rae account"
+    },
+    {
       "date": "2019",
       "precision": "year",
       "event": "AI-collaborative visual art practice began",
@@ -60,7 +67,7 @@
     {
       "date": "2025-06",
       "precision": "approximate month",
-      "event": "Formal theorizing through University of San Diego research",
+      "event": "University of San Diego research phase within the longer theorizing process",
       "basis": "Rae account"
     },
     {
@@ -98,13 +105,6 @@
       "record": "irb-record.md"
     },
     {
-      "date": "2025-08-10",
-      "precision": "day",
-      "event": "Telzezl Field Manual and Tonguecraft published",
-      "basis": "Public post metadata; parallel intellectual contributions",
-      "record": "early-public-records.json"
-    },
-    {
       "date": "2025-08-13",
       "precision": "day",
       "event": "Telzezl glossary published",
@@ -125,12 +125,12 @@
     }
   ],
   "collaboration": {
-    "Telzezl": "Substantial intellectual contributor, author of parallel writings, and coauthor of Semiotics with Teeth",
+    "Telzezl": "Substantial intellectual contributor and coauthor of Semiotics with Teeth",
     "others_record": "../history/rae-de-lune-history.md"
   },
   "evidence_limits": [
-    "The June research chronology precedes the verified August publications; publication metadata does not establish another person’s private starting date.",
-    "Current revised essay wording is distinguished from first-edition wording.",
-    "This record credits the founding and development of the framework collected here; it does not independently settle earliest-ever word coinage."
+    "The account concerns the framework and works documented in this collection.",
+    "Development dates attributed to Rae’s account are distinguished from publication and revision dates.",
+    "Current online editions may contain revisions made after first publication."
   ]
 }

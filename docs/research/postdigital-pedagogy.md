@@ -13,7 +13,7 @@ Working with image and language models, some people build the symbolic forms, re
 
 ## Editions and access
 
-- [substack edition](../essays/2026-06-23-neomythism-as-postdigital-pedagogy.md): [original source](https://faedriel.substack.com/p/neomythism-as-postdigital-pedagogy).
-- [website edition](../academic/essay-pedagogy.md): [original source](https://neomythism.net/lore#essay-pedagogy).
+- [Read the full Substack edition](../essays/2026-06-23-neomythism-as-postdigital-pedagogy.md): [original source](https://faedriel.substack.com/p/neomythism-as-postdigital-pedagogy).
+- [Read the full author website edition](../academic/essay-pedagogy.md): [original source](https://neomythism.net/lore#essay-pedagogy).
 
-Full text is linked at its original locations. The manuscript stage and applicable sharing terms for the retrieved copies remain unresolved, so this public edition does not reproduce those bodies.
+The author-hosted Substack and website editions are reproduced here with permission confirmed by Rae de Lune on 25 October 2026. Each preserves its source text, credits, and publication dates. The journal publication is linked by DOI above.

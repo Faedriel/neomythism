@@ -13,7 +13,7 @@ The world we act in is already storied. Before anyone reasons about her life, a 
 
 ## Editions and access
 
-- [substack edition](../essays/2026-10-09-made-and-real.md): [original source](https://faedriel.substack.com/p/made-and-real).
-- [website edition](../academic/essay-made-and-real.md): [original source](https://neomythism.net/lore#essay-made-and-real).
+- [Read the full Substack edition](../essays/2026-10-09-made-and-real.md): [original source](https://faedriel.substack.com/p/made-and-real).
+- [Read the full author website edition](../academic/essay-made-and-real.md): [original source](https://neomythism.net/lore#essay-made-and-real).
 
 [Read the unchanged PDF](made-and-real.pdf). Rae de Lune (2026), Global Philosophy 36, article 31. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); source notices and third-party exceptions apply. Markdown/HTML editions adjust formatting and navigation, with original text retained.

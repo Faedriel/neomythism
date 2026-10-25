@@ -20,7 +20,7 @@ Formal theorizing developed from 2019–2026 through artistic practice and acade
 - [Bibliography and academic DOI records](BIBLIOGRAPHY.md)
 - [Rights and edition scope](RIGHTS.md)
 
-The collection represents **28 Substack posts, 18 website documents or editions, and one complete interview**, plus the IRB record and editorial history. The public edition includes 42 full-text source editions, the dissertation abstract/record, and source-linked records for four editions of two subscription journal works. Alternate editions are identified separately. Eighteen essay images, eight interview artworks, and the IRB image are included, alongside the unchanged Made and Real and IRB PDFs; two third-party images remain source links. The separate local preservation archive retains every retrieved source body and asset.
+The collection represents **28 Substack posts, 18 website documents or editions, and one complete interview**, plus the IRB record and editorial history. The public edition includes 46 full-text source editions and the dissertation abstract/record. The author-hosted editions of *Neomythism as Postdigital Pedagogy* and *A Neomythist Attitude Toward Machine Consciousness* are included with permission confirmed by Rae de Lune. Alternate editions are identified separately. Eighteen essay images, eight interview artworks, and the IRB image are included, alongside the unchanged Made and Real and IRB PDFs; two third-party images remain source links. The separate local preservation archive retains every retrieved source body and asset.
 
 ## Read as a website
 
@@ -32,4 +32,4 @@ Use [CITATION.cff](CITATION.cff) for the collection and [BibTeX](bibliography.bi
 
 Corrections are welcome through the [contribution guidance](CONTRIBUTING.md). No blanket reuse licence covers this mixed collection; work-specific notices apply. “Neomythism belongs to nobody and everybody” describes an open practice while preserving the history and credit of particular contributions.
 
-Public edition 0.8 · 24 October 2026. Earlier published editions remain available in Git history; new additions build on them.
+Public edition 0.8 · 24 October 2026. Full-text addition · 25 October 2026. Earlier published editions remain available in Git history; new additions build on them.

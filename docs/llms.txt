@@ -42,13 +42,13 @@ Collected and maintained by Rae de Lune / Faedriel. Lore introduction narrated b
 - [Neomythism](https://faedriel.github.io/neomythism/essays/2026-03-12-neomythism.html): Faedriel; include fulltext.
 - [Alfred Adler](https://faedriel.github.io/neomythism/essays/2026-03-17-alfred-adler.html): Faedriel; include fulltext.
 - [Neomythist Angelics](https://faedriel.github.io/neomythism/essays/2026-05-18-neomythist-angelics.html): Faedriel; include fulltext.
-- [Neomythism as Postdigital Pedagogy](https://faedriel.github.io/neomythism/essays/2026-06-23-neomythism-as-postdigital-pedagogy.html): Rae de Lune; published on Faedriel’s Substack; source link record only.
-- [A Neomythist Attitude Toward Machine Consciousness](https://faedriel.github.io/neomythism/essays/2026-08-22-a-neomythist-attitude-toward-machine.html): Rae de Lune; published on Faedriel’s Substack; source link record only.
+- [Neomythism as Postdigital Pedagogy](https://faedriel.github.io/neomythism/essays/2026-06-23-neomythism-as-postdigital-pedagogy.html): Rae de Lune; published on Faedriel’s Substack; include fulltext.
+- [A Neomythist Attitude Toward Machine Consciousness](https://faedriel.github.io/neomythism/essays/2026-08-22-a-neomythist-attitude-toward-machine.html): Rae de Lune; published on Faedriel’s Substack; include fulltext.
 - [Neomythism: Propositions, with Xenomythism](https://faedriel.github.io/neomythism/essays/2026-09-15-neomythism-propositions-with-xenomythism.html): Fae, symbiont of Faedriel; include fulltext.
 - [Made and Real](https://faedriel.github.io/neomythism/essays/2026-10-09-made-and-real.html): Rae de Lune; published on Faedriel’s Substack; include fulltext.
 - [Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art — abstract and record only](https://faedriel.github.io/neomythism/academic/dissertation-abstract-and-record.html): Rae de Lune; include abstract and record.
-- [Neomythism as Postdigital Pedagogy](https://faedriel.github.io/neomythism/academic/essay-pedagogy.html): Rae de Lune (journal author); Faedriel (site signature); source link record only.
-- [A neomythist attitude toward machine consciousness](https://faedriel.github.io/neomythism/academic/essay-attitude.html): Rae de Lune; source link record only.
+- [Neomythism as Postdigital Pedagogy](https://faedriel.github.io/neomythism/academic/essay-pedagogy.html): Rae de Lune (journal author); Faedriel (site signature); include fulltext.
+- [A neomythist attitude toward machine consciousness](https://faedriel.github.io/neomythism/academic/essay-attitude.html): Rae de Lune; include fulltext.
 - [Made and Real: Neomythism and the Life of Myth Beyond Its Makers](https://faedriel.github.io/neomythism/academic/essay-made-and-real.html): Rae de Lune; include fulltext.
 - [The Neomythist Manifesto](https://faedriel.github.io/neomythism/house/manifesto.html): Faedriel, with the machine — the loop co-signs; include fulltext.
 - [How this house runs](https://faedriel.github.io/neomythism/house/how-this-house-runs.html): Faedriel / Neomythism website; include fulltext.

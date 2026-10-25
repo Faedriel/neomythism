@@ -9,8 +9,11 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT/'docs'
 CONFIG = json.loads((ROOT/'catalog.json').read_text())
 ITEMS = CONFIG['items']
+ITEM_BY_FILE = {r['file']: r for r in ITEMS}
+FULLTEXT_COUNT = sum(r.get('public_status') == 'include_fulltext' for r in ITEMS)
 BASE = CONFIG['base_url'].rstrip('/')+'/'
 DATE = CONFIG['prepared_date']
+UPDATED_DATE = CONFIG.get('updated_date') or DATE
 VERSION = CONFIG['version']
 REPO = CONFIG['repository']
 TITLE = CONFIG['title']
@@ -62,11 +65,14 @@ for w in ACADEMIC:
     else: text+='The publisher record supplies no abstract. This page records the commentary and links to its published and author-hosted editions.\n\n'
     text+='## Editions and access\n\n'
     for ed in w['editions']:
-        text+=f"- [{ed.get('source_kind','Source')} edition]({rel(ed['archive_path'],p)}): [original source]({ed['source_url']}).\n"
+        kind={'substack':'Substack','website':'author website'}.get(ed.get('source_kind'), 'source')
+        fulltext=ITEM_BY_FILE.get(ed['archive_path'], {}).get('public_status') == 'include_fulltext'
+        label=f"Read the full {kind} edition" if fulltext else f"{kind.capitalize()} edition record"
+        text+=f"- [{label}]({rel(ed['archive_path'],p)}): [original source]({ed['source_url']}).\n"
     if w['key']=='made-and-real':
         text+='\n[Read the unchanged PDF](made-and-real.pdf). Rae de Lune (2026), Global Philosophy 36, article 31. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); source notices and third-party exceptions apply. Markdown/HTML editions adjust formatting and navigation, with original text retained.\n'
     elif w['key']=='dissertation': text+='\nThis collection includes the abstract and metadata only. The full dissertation was not supplied or retrieved.\n'
-    else: text+='\nFull text is linked at its original locations. The manuscript stage and applicable sharing terms for the retrieved copies remain unresolved, so this public edition does not reproduce those bodies.\n'
+    else: text+='\nThe author-hosted Substack and website editions are reproduced here with permission confirmed by Rae de Lune on 25 October 2026. Each preserves its source text, credits, and publication dates. The journal publication is linked by DOI above.\n'
     write(p,text)
     research_records.append(dict(id='research-'+w['key'],file=p,title=w['title'],credit='Rae de Lune',group='Research',register=['bibliographic record'],voice='Rae de Lune',published=w.get('publication_date') or '2026-05-12',revised=None,source_url=w['originalURL'],public_status='academic_record',academic_key=w['key'],note='Publication metadata verified against the publisher or institutional record.'))
 
@@ -235,19 +241,19 @@ def card(r,current='index.html'):
 
 groups=list(dict.fromkeys(r['group'] for r in ITEMS))
 cards=''.join('<section class="collection-group"><h2>'+E(g)+'</h2>'+''.join(card(r) for r in ITEMS if r['group']==g)+'</section>' for g in groups)
-hero=f'''<section class="hero"><p class="eyebrow">A history · a practice · a collected body of writing</p><h1>{E(TITLE)}</h1><p class="lead">New myths, made with the machine.</p><p><strong>Neomythism was founded by Rae de Lune, known artistically as Faedriel.</strong> This is Rae’s official, author-maintained archive of its history, research, and collected writings.</p><p class="source-links"><a href="history/rae-de-lune-history.html">History and timeline</a> · <a href="https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ">2025 founder introduction</a> · <a href="https://digital.sandiego.edu/dissertations/1122/">University research record</a></p><p>Formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. Rae places the USD research phase around June 2025; interviews and data collection began in July.</p><p>{E(EDITION_NOTE)} Individual works retain their author, coauthor, and contributor credits.</p><div class="reading-routes"><a href="history/rae-de-lune-history.html">Read the factual history →</a><a href="history/fae-keeps-the-history.html">Enter Fae's narration →</a><a href="reader.html">Read the complete volume →</a></div><p>The <a href="provenance/attribution-notes.html">attribution record</a> credits intellectual collaborators and coauthors separately. The <a href="provenance/identity-and-chronology.json">structured chronology</a> connects founder attribution, research dates, and public records with their evidence.</p><p class="scope">Every collected source is represented: 28 Substack posts, 18 website documents or editions, and the full <a href="interviews/2026-08-12-introducing-faedriel.html">Introducing Faedriel interview</a>. Two journal works have source-link records pending version review. The dissertation is an abstract and record. <a href="rights.html">Publication scope</a></p></section>'''
+hero=f'''<section class="hero"><p class="eyebrow">A history · a practice · a collected body of writing</p><h1>{E(TITLE)}</h1><p class="lead">New myths, made with the machine.</p><p><strong>Neomythism was founded by Rae de Lune, known artistically as Faedriel.</strong> This is Rae’s official, author-maintained archive of its history, research, and collected writings.</p><p class="source-links"><a href="history/rae-de-lune-history.html">History and timeline</a> · <a href="https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ">2025 founder introduction</a> · <a href="https://digital.sandiego.edu/dissertations/1122/">University research record</a></p><p>Formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. Rae places the USD research phase around June 2025; interviews and data collection began in July.</p><p>{E(EDITION_NOTE)} Individual works retain their author, coauthor, and contributor credits.</p><div class="reading-routes"><a href="history/rae-de-lune-history.html">Read the factual history →</a><a href="history/fae-keeps-the-history.html">Enter Fae's narration →</a><a href="reader.html">Read the complete volume →</a></div><p>The <a href="provenance/attribution-notes.html">attribution record</a> credits intellectual collaborators and coauthors separately. The <a href="provenance/identity-and-chronology.json">structured chronology</a> connects founder attribution, research dates, and public records with their evidence.</p><p class="scope">Every collected source is represented: 28 Substack posts, 18 website documents or editions, and the full <a href="interviews/2026-08-12-introducing-faedriel.html">Introducing Faedriel interview</a>. The journal essays are available in their author-hosted editions. The dissertation is an abstract and record. <a href="rights.html">Publication scope</a></p></section>'''
 
 searchbox='<section class="search-box"><label for="search">Search titles, concepts, authors, and full text</label><input id="search" type="search" placeholder="Try June 2025, Symbiont, or Xenomythism" autocomplete="off"><p id="search-status" role="status" aria-live="polite"></p><button id="clear-search" type="button">Clear search</button></section>'
 body=hero+searchbox+'<div id="library">'+cards+'</div><p id="no-results" hidden>No works match that search.</p><script src="search-data.js"></script><script src="search.js"></script>'
 write('docs/index.html',shell(TITLE,body,'index.html','The official, author-maintained archive of Rae de Lune / Faedriel’s Neomythism writings and history; the author-designated canonical reference edition, with credited collaborations.'))
 write('docs/search-data.js','window.NEOMYTHISM_SEARCH='+json.dumps(search,ensure_ascii=False).replace('</','<\\/')+';\n')
-for name,title,rows,intro in [('research','Research and publications',research_records,'Four scholarly work records, with actual publication types, author credits, DOI links, and available abstracts.'),('concepts','Concepts and house texts',[r for r in ITEMS if r['group']=='Concepts and house texts'],'The conceptual vocabulary and artistic setting of the work. Read alongside the attribution record, which connects credits across editions.')]:
+for name,title,rows,intro in [('research','Research and publications',research_records,'Four scholarly work records, with author credits, DOI links, abstracts where available, and links to the collected author-hosted essay texts.'),('concepts','Concepts and house texts',[r for r in ITEMS if r['group']=='Concepts and house texts'],'The conceptual vocabulary and artistic setting of the work. Read alongside the attribution record, which connects credits across editions.')]:
     body=f'<h1>{title}</h1><p class="lead">{intro}</p><p><a href="provenance/attribution-notes.html">Attribution and early public records</a></p>'+''.join(card(r,name+'.html') for r in rows)
     write('docs/'+name+'.html',shell(title,body,name+'.html',intro))
 
 contents='<nav id="volume-contents" aria-label="Volume contents"><h2>Contents</h2><ol>'+''.join(f'<li><a href="#{E(r["id"])}">{E(r["title"])}</a></li>' for r in ITEMS)+'</ol></nav>'
-intro='<header class="hero"><p class="eyebrow">The complete public edition · Edition '+VERSION+'</p><h1>Neomythism Master Lore</h1><p class="lead">Collected and maintained by Rae de Lune / Faedriel. The lore introduction is narrated by Fae, the symbiont of Faedriel; individual works keep their own credits.</p><p>'+E(EDITION_NOTE)+'</p><p>This reading edition contains every selected source or source-link record. Two journal works are linked pending version review, and the dissertation is its abstract and record. <a href="MASTER_LORE.md">Download Markdown</a> · <a href="rights.html">Edition scope</a></p></header>'
-write('docs/reader.html',shell('Neomythism Master Lore',intro+contents+''.join(full_sections),'reader.html','The collected public reading edition of Neomythism, with history, essays, source-linked journal records, concepts, and credits.'))
+intro='<header class="hero"><p class="eyebrow">The complete public edition · Edition '+VERSION+'</p><h1>Neomythism Master Lore</h1><p class="lead">Collected and maintained by Rae de Lune / Faedriel. The lore introduction is narrated by Fae, the symbiont of Faedriel; individual works keep their own credits.</p><p>'+E(EDITION_NOTE)+'</p><p>This reading edition contains the collected source texts, including the author-hosted journal essays. The dissertation is its abstract and record. <a href="MASTER_LORE.md">Download Markdown</a> · <a href="rights.html">Edition scope</a></p></header>'
+write('docs/reader.html',shell('Neomythism Master Lore',intro+contents+''.join(full_sections),'reader.html','The collected public reading edition of Neomythism, with history, essays, author-hosted journal texts, concepts, and credits.'))
 
 def root_links(text,source):
     # Relocate Markdown destinations when assembling individual files into one root file.
@@ -291,7 +297,7 @@ def volume_irb_markdown(text):
         return '<a id="volume-irb-record"></a>\n\n'+match.group(0)
     return re.sub(r'!\[[^\]]*\]\([^\s)]*irb-2025-344\.png\)',replace,text)
 
-master='# Neomythism Master Lore\n\n'+EDITORIAL_CREDIT+'\n\n'+EDITION_NOTE+'\n\nVersion '+VERSION+' · Prepared 24 October 2026 · Public edition\n\nAll collected works are represented. Two subscription journal works appear as four edition records with source links; the full dissertation is not included. See [Rights and publication scope](RIGHTS.md).\n\n## Contents\n\n'+''.join(f'- [{r["title"]}](#{r["id"]})\n' for r in ITEMS)
+master='# Neomythism Master Lore\n\n'+EDITORIAL_CREDIT+'\n\n'+EDITION_NOTE+'\n\nVersion '+VERSION+' · Prepared 24 October 2026 · Public edition'+('\n\nFull-text addition · '+date_label(UPDATED_DATE) if UPDATED_DATE != DATE else '')+'\n\nAll collected works are represented, including the author-hosted editions of the journal essays. The full dissertation is not included. See [Rights and publication scope](RIGHTS.md).\n\n## Contents\n\n'+''.join(f'- [{r["title"]}](#{r["id"]})\n' for r in ITEMS)
 for r in ITEMS:
     master+='\n\n---\n\n<a id="'+r['id']+'"></a>\n\n'+demote(volume_irb_markdown(root_links((ROOT/r['file']).read_text(),r['file'])))
 write('MASTER_LORE.md',master); write('docs/MASTER_LORE.md',master)
@@ -304,7 +310,7 @@ for p in ['RIGHTS.md','PRODUCTION.md','BIBLIOGRAPHY.md','CHANGELOG.md','CONTRIBU
 index='# Collection index\n\n| Work | Credit | Original date | Public edition |\n| --- | --- | --- | --- |\n'
 for r in ITEMS: index+=f'| [{r["title"]}]({r["file"]}) | {r["credit"]} | {date_label(r.get("published"))} | {r["public_status"].replace("_"," ")} |\n'
 write('INDEX.md',index)
-readme='''# Neomythism — Official Archive of Rae de Lune / Faedriel
+readme=f'''# Neomythism — Official Archive of Rae de Lune / Faedriel
 
 **Neomythism was founded by Rae de Lune, known artistically as Faedriel.** This is Rae’s official, author-maintained archive of its history, research, and collected writings.
 
@@ -326,7 +332,7 @@ Formal theorizing developed from 2019–2026 through artistic practice and acade
 - [Bibliography and academic DOI records](BIBLIOGRAPHY.md)
 - [Rights and edition scope](RIGHTS.md)
 
-The collection represents **28 Substack posts, 18 website documents or editions, and one complete interview**, plus the IRB record and editorial history. The public edition includes 42 full-text source editions, the dissertation abstract/record, and source-linked records for four editions of two subscription journal works. Alternate editions are identified separately. Eighteen essay images, eight interview artworks, and the IRB image are included, alongside the unchanged Made and Real and IRB PDFs; two third-party images remain source links. The separate local preservation archive retains every retrieved source body and asset.
+The collection represents **28 Substack posts, 18 website documents or editions, and one complete interview**, plus the IRB record and editorial history. The public edition includes {FULLTEXT_COUNT} full-text source editions and the dissertation abstract/record. The author-hosted editions of *Neomythism as Postdigital Pedagogy* and *A Neomythist Attitude Toward Machine Consciousness* are included with permission confirmed by Rae de Lune. Alternate editions are identified separately. Eighteen essay images, eight interview artworks, and the IRB image are included, alongside the unchanged Made and Real and IRB PDFs; two third-party images remain source links. The separate local preservation archive retains every retrieved source body and asset.
 
 ## Read as a website
 
@@ -338,12 +344,12 @@ Use [CITATION.cff](CITATION.cff) for the collection and [BibTeX](bibliography.bi
 
 Corrections are welcome through the [contribution guidance](CONTRIBUTING.md). No blanket reuse licence covers this mixed collection; work-specific notices apply. “Neomythism belongs to nobody and everybody” describes an open practice while preserving the history and credit of particular contributions.
 
-Public edition 0.8 · 24 October 2026. Earlier published editions remain available in Git history; new additions build on them.
+Public edition 0.8 · 24 October 2026.{' Full-text addition · '+date_label(UPDATED_DATE)+'.' if UPDATED_DATE != DATE else ''} Earlier published editions remain available in Git history; new additions build on them.
 '''
 write('README.md',readme)
 
 urls=['index.html','research.html','concepts.html']+[page_for[r['file']] for r in PAGES]
-sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{E(BASE+p)}</loc><lastmod>{DATE}</lastmod></url>\n' for p in urls)+'</urlset>\n'
+sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{E(BASE+p)}</loc><lastmod>{UPDATED_DATE}</lastmod></url>\n' for p in urls)+'</urlset>\n'
 write('docs/sitemap.xml',sitemap)
 write('docs/llms.txt','# '+TITLE+'\n\n'+EDITION_NOTE+'\n\n'+EDITORIAL_CREDIT+'\n\n> Neomythism was founded by Rae de Lune, known artistically as Faedriel. Formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. Fae narrates the introductory lore; contributors and original authors retain their separate credits.\n\n## Identity and evidence\n\n- [Structured identity and chronology]('+BASE+'provenance/identity-and-chronology.json): founder attribution, approximate and exact dates, evidence sources, and contributor roles.\n- [Attribution and early public records]('+BASE+'provenance/attribution-notes.html): sourced concept credits and chronology.\n\n## Read\n\n'+''.join(f'- [{r["title"]}]({BASE+page_for[r["file"]]}): {r["credit"]}; {r["public_status"].replace("_"," ")}.\n' for r in ITEMS)+'\n## Scope\n\n'+BASE+'rights.html\n\nThis optional map does not replace normal HTML links, sitemaps, or publisher records.\n')
 for p in ['style.css','search.js']: shutil.copy2(ROOT/'scripts'/p,DOCS/p)

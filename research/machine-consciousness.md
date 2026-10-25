@@ -11,7 +11,7 @@ The publisher record supplies no abstract. This page records the commentary and 
 
 ## Editions and access
 
-- [substack edition](../essays/2026-08-22-a-neomythist-attitude-toward-machine.md): [original source](https://faedriel.substack.com/p/a-neomythist-attitude-toward-machine).
-- [website edition](../academic/essay-attitude.md): [original source](https://neomythism.net/lore#essay-attitude).
+- [Read the full Substack edition](../essays/2026-08-22-a-neomythist-attitude-toward-machine.md): [original source](https://faedriel.substack.com/p/a-neomythist-attitude-toward-machine).
+- [Read the full author website edition](../academic/essay-attitude.md): [original source](https://neomythism.net/lore#essay-attitude).
 
-Full text is linked at its original locations. The manuscript stage and applicable sharing terms for the retrieved copies remain unresolved, so this public edition does not reproduce those bodies.
+The author-hosted Substack and website editions are reproduced here with permission confirmed by Rae de Lune on 25 October 2026. Each preserves its source text, credits, and publication dates. The journal publication is linked by DOI above.

@@ -1,5 +1,9 @@
 # Publication record
 
+## Full-text addition · 25 October 2026
+
+Added the complete author-hosted Substack and website editions of [Neomythism as Postdigital Pedagogy](essays/2026-06-23-neomythism-as-postdigital-pedagogy.md) and [A Neomythist Attitude Toward Machine Consciousness](essays/2026-08-22-a-neomythist-attitude-toward-machine.md), with permission confirmed by Rae de Lune. The original words, author credits, publication dates, source notices, and DOI links are retained. Both works are readable in the library and complete volume and included in search. This addition preserves all existing commits and their timestamps.
+
 ## Editorial update · 24 October 2026
 
 Recorded Rae’s clarified account of formal theorizing from 2019–2026 through artistic practice and academic research, with June 2025 as a University of San Diego research milestone. Condensed the source and attribution notes and consolidated the IRB screenshot to one reproduction in the complete volume. Original published essays, interview text, publication dates, and contributor credits are retained. The update is a new commit that preserves the existing publication history and timestamps.

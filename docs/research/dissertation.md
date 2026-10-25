@@ -15,6 +15,6 @@ This qualitative inquiry with arts-based analytic dimensions introduces Neomythi
 
 ## Editions and access
 
-- [website edition](../academic/dissertation-abstract-and-record.md): [original source](https://digital.sandiego.edu/dissertations/1122/).
+- [Author website edition record](../academic/dissertation-abstract-and-record.md): [original source](https://digital.sandiego.edu/dissertations/1122/).
 
 This collection includes the abstract and metadata only. The full dissertation was not supplied or retrieved.

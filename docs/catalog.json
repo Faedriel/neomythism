@@ -4,6 +4,7 @@
   "editorial_credit": "Collected and maintained by Rae de Lune / Faedriel. Lore introduction narrated by Fae, symbiont of Faedriel. Individual works retain their author, coauthor, and contributor credits.",
   "version": "0.8",
   "prepared_date": "2026-10-24",
+  "updated_date": "2026-10-25",
   "repository": "https://github.com/Faedriel/neomythism",
   "base_url": "https://faedriel.github.io/neomythism/",
   "publication_status": "official author-maintained edition",
@@ -639,14 +640,14 @@
       "revised": "2026-06-23T14:55:50.048Z",
       "group": "Essays",
       "register": [
-        "bibliographic record"
+        "academic"
       ],
       "voice": "Rae de Lune; published on Faedriel’s Substack",
-      "public_status": "source_link_record_only",
+      "public_status": "include_fulltext",
       "date_note": "Original publication dates identify the work; the collected text may be a later edition.",
       "academic_key": "postdigital-pedagogy",
       "note": "",
-      "sha256": "0ccde72425fa2c24422af3d1c8e02a19fd68a3d879a973e9d9b8906dc8a8c42a"
+      "sha256": "4ee6261e9ff3033d6bb13176d413b06e52e7dcb6ba9919ee6f44993e7bc025f7"
     },
     {
       "id": "post-a-neomythist-attitude-toward-machine",
@@ -660,14 +661,14 @@
       "revised": "2026-08-22T18:09:23.477Z",
       "group": "Essays",
       "register": [
-        "bibliographic record"
+        "academic"
       ],
       "voice": "Rae de Lune; published on Faedriel’s Substack",
-      "public_status": "source_link_record_only",
+      "public_status": "include_fulltext",
       "date_note": "Original publication dates identify the work; the collected text may be a later edition.",
       "academic_key": "machine-consciousness",
       "note": "",
-      "sha256": "1950a932a6e2119580924f91d521a857731ee2fbac977072ee84611d0bb4aeb0"
+      "sha256": "99a3fa1e543b920a855e1973a460e43b7542d439a3e0781ea77f1bb54fcb4135"
     },
     {
       "id": "post-neomythism-propositions-with-xenomythism",
@@ -746,14 +747,14 @@
       "revised": null,
       "group": "Research editions",
       "register": [
-        "bibliographic record"
+        "academic"
       ],
       "voice": "Rae de Lune (journal author); Faedriel (site signature)",
-      "public_status": "source_link_record_only",
+      "public_status": "include_fulltext",
       "date_note": "Original publication dates identify the work; the collected text may be a later edition.",
       "academic_key": "postdigital-pedagogy",
       "note": "The site labels this text as from Substack and signs it Faedriel. It starts at Introduction and ends after Conclusion. The site version omits the journal abstract, reference list, and declarations; it is not labeled a complete version of record.",
-      "sha256": "58973bad129bf0bcdb819cf6087a0d85000b6e3d73fb5ca6ff323b8c82c54f93"
+      "sha256": "e98a2e974d682791cd0badbd8bff04ddcba1cf997b9ddfaab16d480249f9d0f3"
     },
     {
       "id": "site-essay-attitude",
@@ -767,14 +768,14 @@
       "revised": null,
       "group": "Research editions",
       "register": [
-        "bibliographic record"
+        "academic"
       ],
       "voice": "Rae de Lune",
-      "public_status": "source_link_record_only",
+      "public_status": "include_fulltext",
       "date_note": "Original publication dates identify the work; the collected text may be a later edition.",
       "academic_key": "machine-consciousness",
       "note": "Author-hosted current text in the website’s typography. References and the source’s received/accepted/publisher notice are retained.",
-      "sha256": "012b5c76594d5ceeeeb653fa321e9d0646cd50ae20aa3429c5492bc550165518"
+      "sha256": "7fc3d7aafd6207779501e785b63c8f5117a83a1fb510cec50b82ca307d1a7812"
     },
     {
       "id": "site-essay-made-and-real",

@@ -1,7 +1,7 @@
 {
-  "review_date": "2026-10-24",
+  "review_date": "2026-10-25",
   "scope": "Publication selection for the reviewed public GitHub edition, preserving all originals in the local archive.",
-  "decision_basis": "This is an evidence-based packaging decision, not a conclusion that unresolved items can never be republished.",
+  "decision_basis": "Author direction and item-specific permission confirmations, with source notices and edition labels retained.",
   "default_text_action": "include author-directed essays and website works with original credits and source notices, except explicit item overrides below",
   "no_blanket_license": true,
   "texts": [
@@ -65,7 +65,7 @@
       "rationale": "On 2026-10-24 the author confirmed retained rights or permission to republish all three Glitch-associated essays. Preserve the existing magazine attribution and copyright notices; this confirmation does not grant a blanket reuse licence.",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "evidence_urls": [
         "https://faedriel.substack.com/p/the-self-reimagined"
       ]
@@ -106,7 +106,7 @@
       "rationale": "On 2026-10-24 the author confirmed retained rights or permission to republish all three Glitch-associated essays. Preserve the existing magazine attribution and copyright notices; this confirmation does not grant a blanket reuse licence.",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "evidence_urls": [
         "https://faedriel.substack.com/p/where-code-meets-couture"
       ]
@@ -171,7 +171,7 @@
       "rationale": "On 2026-10-24 the author confirmed retained rights or permission to republish all three Glitch-associated essays. Preserve the existing magazine attribution and copyright notices; this confirmation does not grant a blanket reuse licence.",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "evidence_urls": [
         "https://faedriel.substack.com/p/the-queer-self-reimagined"
       ]
@@ -314,17 +314,18 @@
       "title": "Neomythism as Postdigital Pedagogy",
       "archive_path": "essays/2026-06-23-neomythism-as-postdigital-pedagogy.md",
       "source_url": "https://faedriel.substack.com/p/neomythism-as-postdigital-pedagogy",
-      "action": "source_link_record_only",
-      "review_status": "subscription_version_unresolved",
+      "action": "include_fulltext",
+      "review_status": "author_confirmed_republication_permission",
       "license": null,
-      "rationale": "Publisher record is subscription content. The retrieved author-hosted text is not verified as the accepted manuscript; its formatting alone does not identify its stage. The applicable agreement and permitted venue remain unverified.",
-      "requires_user_evidence": true,
+      "rationale": "On 2026-10-25 Rae de Lune confirmed permission to publish the full text of this work in the GitHub archive. Include the preserved author-hosted edition with its original text, credits, source notices, and DOI links. This confirmation does not identify the text as an accepted manuscript or grant a blanket public reuse licence.",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-25",
+      "confirmation_source": "Author confirmation, 2026-10-25",
       "doi_url": "https://doi.org/10.1007/s42438-026-00677-x",
-      "verification_needed": "A version-specific basis for public GitHub redistribution, such as the relevant author agreement/permission and an identified manuscript edition. Do not relabel the existing text as an accepted manuscript.",
+      "edition": "Substack author-hosted edition",
       "evidence_urls": [
-        "https://link.springer.com/article/10.1007/s42438-026-00677-x",
-        "https://support.springernature.com/en/support/solutions/articles/6000257341-self-archiving",
-        "https://support.springernature.com/en/support/solutions/articles/6000081233-electronic-offprint-sharing"
+        "https://faedriel.substack.com/p/neomythism-as-postdigital-pedagogy",
+        "https://link.springer.com/article/10.1007/s42438-026-00677-x"
       ]
     },
     {
@@ -333,17 +334,18 @@
       "title": "A Neomythist Attitude Toward Machine Consciousness",
       "archive_path": "essays/2026-08-22-a-neomythist-attitude-toward-machine.md",
       "source_url": "https://faedriel.substack.com/p/a-neomythist-attitude-toward-machine",
-      "action": "source_link_record_only",
-      "review_status": "subscription_version_unresolved",
+      "action": "include_fulltext",
+      "review_status": "author_confirmed_republication_permission",
       "license": null,
-      "rationale": "Publisher record is subscription content. The retrieved author-hosted text is not verified as the accepted manuscript; its formatting alone does not identify its stage. The applicable agreement and permitted venue remain unverified.",
-      "requires_user_evidence": true,
+      "rationale": "On 2026-10-25 Rae de Lune confirmed permission to publish the full text of this work in the GitHub archive. Include the preserved author-hosted edition with its original text, credits, source notices, and DOI links. This confirmation does not identify the text as an accepted manuscript or grant a blanket public reuse licence.",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-25",
+      "confirmation_source": "Author confirmation, 2026-10-25",
       "doi_url": "https://doi.org/10.1007/s00146-026-03329-7",
-      "verification_needed": "A version-specific basis for public GitHub redistribution, such as the relevant author agreement/permission and an identified manuscript edition. Do not relabel the existing text as an accepted manuscript.",
+      "edition": "Substack author-hosted edition",
       "evidence_urls": [
-        "https://link.springer.com/article/10.1007/s00146-026-03329-7",
-        "https://support.springernature.com/en/support/solutions/articles/6000257341-self-archiving",
-        "https://support.springernature.com/en/support/solutions/articles/6000081233-electronic-offprint-sharing"
+        "https://faedriel.substack.com/p/a-neomythist-attitude-toward-machine",
+        "https://link.springer.com/article/10.1007/s00146-026-03329-7"
       ]
     },
     {
@@ -398,17 +400,18 @@
       "title": "A neomythist attitude toward machine consciousness",
       "archive_path": "academic/essay-attitude.md",
       "source_url": "https://neomythism.net/lore#essay-attitude",
-      "action": "source_link_record_only",
-      "review_status": "subscription_version_unresolved",
+      "action": "include_fulltext",
+      "review_status": "author_confirmed_republication_permission",
       "license": null,
-      "rationale": "Publisher record is subscription content. The retrieved author-hosted text is not verified as the accepted manuscript; its formatting alone does not identify its stage. The applicable agreement and permitted venue remain unverified.",
-      "requires_user_evidence": true,
+      "rationale": "On 2026-10-25 Rae de Lune confirmed permission to publish the full text of this work in the GitHub archive. Include the preserved author-hosted edition with its original text, credits, source notices, and DOI links. This confirmation does not identify the text as an accepted manuscript or grant a blanket public reuse licence.",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-25",
+      "confirmation_source": "Author confirmation, 2026-10-25",
       "doi_url": "https://doi.org/10.1007/s00146-026-03329-7",
-      "verification_needed": "A version-specific basis for public GitHub redistribution, such as the relevant author agreement/permission and an identified manuscript edition. Do not relabel the existing text as an accepted manuscript.",
+      "edition": "Author website edition",
       "evidence_urls": [
-        "https://link.springer.com/article/10.1007/s00146-026-03329-7",
-        "https://support.springernature.com/en/support/solutions/articles/6000257341-self-archiving",
-        "https://support.springernature.com/en/support/solutions/articles/6000081233-electronic-offprint-sharing"
+        "https://neomythism.net/lore#essay-attitude",
+        "https://link.springer.com/article/10.1007/s00146-026-03329-7"
       ]
     },
     {
@@ -417,17 +420,18 @@
       "title": "Neomythism as Postdigital Pedagogy",
       "archive_path": "academic/essay-pedagogy.md",
       "source_url": "https://neomythism.net/lore#essay-pedagogy",
-      "action": "source_link_record_only",
-      "review_status": "subscription_version_unresolved",
+      "action": "include_fulltext",
+      "review_status": "author_confirmed_republication_permission",
       "license": null,
-      "rationale": "Publisher record is subscription content. The retrieved author-hosted text is not verified as the accepted manuscript; its formatting alone does not identify its stage. The applicable agreement and permitted venue remain unverified.",
-      "requires_user_evidence": true,
+      "rationale": "On 2026-10-25 Rae de Lune confirmed permission to publish the full text of this work in the GitHub archive. Include the preserved author-hosted edition with its original text, credits, source notices, and DOI links. This confirmation does not identify the text as an accepted manuscript or grant a blanket public reuse licence.",
+      "requires_user_evidence": false,
+      "confirmation_date": "2026-10-25",
+      "confirmation_source": "Author confirmation, 2026-10-25",
       "doi_url": "https://doi.org/10.1007/s42438-026-00677-x",
-      "verification_needed": "A version-specific basis for public GitHub redistribution, such as the relevant author agreement/permission and an identified manuscript edition. Do not relabel the existing text as an accepted manuscript.",
+      "edition": "Author website edition",
       "evidence_urls": [
-        "https://link.springer.com/article/10.1007/s42438-026-00677-x",
-        "https://support.springernature.com/en/support/solutions/articles/6000257341-self-archiving",
-        "https://support.springernature.com/en/support/solutions/articles/6000081233-electronic-offprint-sharing"
+        "https://neomythism.net/lore#essay-pedagogy",
+        "https://link.springer.com/article/10.1007/s42438-026-00677-x"
       ]
     },
     {
@@ -638,7 +642,7 @@
       "rationale": "On 2026-10-24 the user confirmed permission for the whole interview, including Hakan Öztunalı’s questions and the images, to be republished on GitHub. Original questions, answers, links, artwork and credits are preserved. No blanket reuse licence is assigned.",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "evidence_urls": [
         "https://www.patreon.com/majordomohakanoztunali/posts/introducing-166498567"
       ]
@@ -659,7 +663,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -676,7 +680,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -693,7 +697,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -710,7 +714,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -748,7 +752,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "Caption identifies a photograph of St. Nectarios Greek Orthodox Church. The author confirmed on 2026-10-24 that remaining essay images are owned or cleared for republication. The photographer is still not named; do not invent that credit."
     },
     {
@@ -765,7 +769,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -782,7 +786,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -818,7 +822,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -835,7 +839,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -852,7 +856,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -869,7 +873,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -886,7 +890,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -905,7 +909,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -922,7 +926,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -941,7 +945,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "Original caption identifies Tender Machines, Faedriel, AI + Digital, 2026. Include under the user’s direction to publish their collected work; retain this credit. No general reuse licence is assigned."
     },
     {
@@ -958,7 +962,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -975,7 +979,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -994,7 +998,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "On 2026-10-24 the author confirmed that all essay images apart from the identified Google Veo and World of Warcraft images are their own work or cleared for republication. Precise creator is not established by this combined confirmation; preserve available credits and do not infer a blanket reuse licence."
     },
     {
@@ -1009,7 +1013,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "Publisher confirms CC BY 4.0. Preserve this author-hosted PDF unchanged and retain author, journal, DOI and licence credit; retain any third-party exceptions in the source.",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "evidence_urls": [
@@ -1028,7 +1032,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "User supplied the record and explicitly requested inclusion. Existing contact redactions remain. PNG is a full-page rendering; original PDF is unchanged. No collection-wide licence is inferred.",
       "source_url_note": "Public dissertation record supplied as institutional context; direct public URL for this exact IRB PDF/image was not independently located."
     },
@@ -1044,7 +1048,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "User supplied the record and explicitly requested inclusion. Existing contact redactions remain. PNG is a full-page rendering; original PDF is unchanged. No collection-wide licence is inferred.",
       "source_url_note": "Public dissertation record supplied as institutional context; direct public URL for this exact IRB PDF/image was not independently located."
     },
@@ -1062,7 +1066,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
     },
     {
@@ -1079,7 +1083,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
     },
     {
@@ -1096,7 +1100,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
     },
     {
@@ -1113,7 +1117,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
     },
     {
@@ -1130,7 +1134,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
     },
     {
@@ -1147,7 +1151,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
     },
     {
@@ -1164,7 +1168,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
     },
     {
@@ -1181,7 +1185,7 @@
       "action": "include",
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
-      "confirmation_source": "Author confirmation, 24 October 2026",
+      "confirmation_source": "Author confirmation, 2026-10-24",
       "rationale": "The user confirmed permission for all images in this interview and separately stated that they are their own art pieces. Credit Faedriel (Rae de Lune); the original interview describes the artwork as made with Fae. No blanket reuse licence is assigned."
     }
   ],
@@ -1206,13 +1210,13 @@
     "Do not label unknown journal text versions as accepted manuscripts."
   ],
   "counts": {
-    "source_records": 47,
-    "fulltext": 41,
+    "source_records": 48,
+    "fulltext": 46,
     "abstract_record": 1,
     "irb_record_note": 1,
-    "source_link_records": 4,
-    "assets_reviewed": 23,
-    "assets_include": 21,
+    "source_link_records": 0,
+    "assets_reviewed": 31,
+    "assets_include": 29,
     "assets_link_only": 2
   }
 }

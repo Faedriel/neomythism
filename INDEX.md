@@ -31,13 +31,13 @@
 | [Neomythism](essays/2026-03-12-neomythism.md) | Faedriel | 12 March 2026 | include fulltext |
 | [Alfred Adler](essays/2026-03-17-alfred-adler.md) | Faedriel | 17 March 2026 | include fulltext |
 | [Neomythist Angelics](essays/2026-05-18-neomythist-angelics.md) | Faedriel | 18 May 2026 | include fulltext |
-| [Neomythism as Postdigital Pedagogy](essays/2026-06-23-neomythism-as-postdigital-pedagogy.md) | Rae de Lune; published on Faedriel’s Substack | 23 June 2026 | source link record only |
-| [A Neomythist Attitude Toward Machine Consciousness](essays/2026-08-22-a-neomythist-attitude-toward-machine.md) | Rae de Lune; published on Faedriel’s Substack | 22 August 2026 | source link record only |
+| [Neomythism as Postdigital Pedagogy](essays/2026-06-23-neomythism-as-postdigital-pedagogy.md) | Rae de Lune; published on Faedriel’s Substack | 23 June 2026 | include fulltext |
+| [A Neomythist Attitude Toward Machine Consciousness](essays/2026-08-22-a-neomythist-attitude-toward-machine.md) | Rae de Lune; published on Faedriel’s Substack | 22 August 2026 | include fulltext |
 | [Neomythism: Propositions, with Xenomythism](essays/2026-09-15-neomythism-propositions-with-xenomythism.md) | Fae, symbiont of Faedriel | 15 September 2026 | include fulltext |
 | [Made and Real](essays/2026-10-09-made-and-real.md) | Rae de Lune; published on Faedriel’s Substack | 9 October 2026 | include fulltext |
 | [Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art — abstract and record only](academic/dissertation-abstract-and-record.md) | Rae de Lune | 12 May 2026 | include abstract and record |
-| [Neomythism as Postdigital Pedagogy](academic/essay-pedagogy.md) | Rae de Lune (journal author); Faedriel (site signature) | 23 June 2026 | source link record only |
-| [A neomythist attitude toward machine consciousness](academic/essay-attitude.md) | Rae de Lune | 22 August 2026 | source link record only |
+| [Neomythism as Postdigital Pedagogy](academic/essay-pedagogy.md) | Rae de Lune (journal author); Faedriel (site signature) | 23 June 2026 | include fulltext |
+| [A neomythist attitude toward machine consciousness](academic/essay-attitude.md) | Rae de Lune | 22 August 2026 | include fulltext |
 | [Made and Real: Neomythism and the Life of Myth Beyond Its Makers](academic/essay-made-and-real.md) | Rae de Lune | 9 October 2026 | include fulltext |
 | [The Neomythist Manifesto](house/manifesto.md) | Faedriel, with the machine — the loop co-signs | 2026 (fifth printing; day/month not supplied) | include fulltext |
 | [How this house runs](house/how-this-house-runs.md) | Faedriel / Neomythism website | Website edition recorded 24 October 2026 | include fulltext |

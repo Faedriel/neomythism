@@ -1,0 +1,252 @@
+name: Refine reading edition
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [refine-reading-edition-20261029]
+    paths:
+      - .github/workflows/refine-reading-edition.yml
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: neomythism-reviewed-addition
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.repository == 'Faedriel/neomythism' && github.ref == 'refs/heads/refine-reading-edition-20261029'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the reviewed addition branch
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+
+      - name: Add the reviewed edition while preserving main history
+        shell: bash
+        env:
+          EXPECTED_BASE_HEAD: 8a74cc7e3dfce593bca8fa0290c68578eb9702d7
+          EXPECTED_OLD_MANIFEST_SHA256: b3aabbd9ff738e827009f07b6a606268698283f985b4e52d5f67ebd3d404337b
+          EXPECTED_OLD_FILES: '293'
+          EXPECTED_ARCHIVE_SHA256: a75dbab60b6e9b3df7c193a28b365e6dbfce599fe90c7ca21fffbb3cd165bc9f
+          EXPECTED_NEW_FILES: '293'
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib
+          import os
+          import re
+          import shutil
+          import stat
+          import subprocess
+          import tempfile
+          import urllib.error
+          import urllib.request
+          import zipfile
+          from pathlib import Path
+
+          root = Path(os.environ['GITHUB_WORKSPACE']).resolve()
+          archive_name = 'neomythism-update.zip'
+          archive = root / archive_name
+          workflow = '.github/workflows/refine-reading-edition.yml'
+          manifest_name = 'SHA256SUMS.txt'
+          base = os.environ['EXPECTED_BASE_HEAD']
+          expected_archive = os.environ['EXPECTED_ARCHIVE_SHA256']
+          expected_old_manifest = os.environ['EXPECTED_OLD_MANIFEST_SHA256']
+
+          def fail(message):
+              raise SystemExit(message)
+
+          def git(*args, capture=False, index=None):
+              env = os.environ.copy()
+              if index is not None:
+                  env['GIT_INDEX_FILE'] = str(index)
+              return subprocess.run(['git', *args], cwd=root, check=True, env=env,
+                                    stdout=subprocess.PIPE if capture else None).stdout
+
+          def digest(path):
+              with path.open('rb') as stream:
+                  return hashlib.file_digest(stream, 'sha256').hexdigest()
+
+          def safe_relative(relative):
+              parts = relative.split('/')
+              return (bool(relative) and '\\' not in relative and ':' not in relative
+                      and not any(p in ('', '.', '..') for p in parts)
+                      and not any(ord(c) < 32 for c in relative)
+                      and not any(p.lower() == '.git' for p in parts)
+                      and relative not in (archive_name, 'neomythism-release.zip')
+                      and not relative.startswith('.github/workflows/'))
+
+          def require_regular(relative):
+              path = root / relative
+              for parent in path.parents:
+                  if parent == root:
+                      break
+                  if parent.is_symlink() or not parent.is_dir():
+                      fail('Unsafe existing parent path: ' + str(parent.relative_to(root)))
+              if path.is_symlink() or not path.is_file():
+                  fail('Expected an existing regular file: ' + relative)
+              return path
+
+          def read_manifest(data, expected_count):
+              sums = {}
+              for line in data.decode('utf-8').splitlines():
+                  match = re.fullmatch(r'([0-9a-f]{64})  (.+)', line)
+                  if not match:
+                      fail('Malformed checksum manifest.')
+                  value, relative = match.groups()
+                  if (not safe_relative(relative) or relative == manifest_name
+                          or relative in sums):
+                      fail('Unexpected or duplicate checksum path: ' + relative)
+                  sums[relative] = value
+              if len(sums) != expected_count - 1:
+                  fail('Checksum record count differs from the reviewed file count.')
+              return sums
+
+          def remote_main():
+              git('fetch', '--no-tags', 'origin', 'refs/heads/main')
+              return git('rev-parse', 'FETCH_HEAD', capture=True).decode().strip()
+
+          if not re.fullmatch(r'[0-9a-f]{40}', base):
+              fail('Expected main commit is not configured.')
+          if not all(re.fullmatch(r'[0-9a-f]{64}', value)
+                     for value in (expected_archive, expected_old_manifest)):
+              fail('Expected SHA-256 values are not configured.')
+          try:
+              old_count = int(os.environ['EXPECTED_OLD_FILES'])
+              new_count = int(os.environ['EXPECTED_NEW_FILES'])
+          except ValueError:
+              fail('Reviewed file counts are not configured.')
+          if not 2 <= old_count <= new_count <= 5000:
+              fail('Unexpected reviewed file counts.')
+          if git('status', '--porcelain', capture=True).strip():
+              fail('Checkout is not clean; no publication was attempted.')
+          local_test = os.environ.get('NEOMYTHISM_LOCAL_TEST') == '1'
+          if local_test and not Path(git('remote', 'get-url', 'origin', capture=True).decode().strip()).is_absolute():
+              fail('Local testing requires a local filesystem origin.')
+          if remote_main() != base:
+              fail('Main changed from the reviewed baseline; no publication was attempted.')
+          git('merge-base', '--is-ancestor', base, 'HEAD')
+          baseline_manifest = git('show', base + ':' + manifest_name, capture=True)
+          if hashlib.sha256(baseline_manifest).hexdigest() != expected_old_manifest:
+              fail('Main checksum manifest differs from the reviewed baseline.')
+          old_sums = read_manifest(baseline_manifest, old_count)
+          old_paths = set(old_sums) | {manifest_name}
+          baseline_paths = {p.decode('utf-8') for p in
+                            git('ls-tree', '-r', '--name-only', '-z', base, capture=True).split(b'\0') if p}
+          if baseline_paths != old_paths:
+              fail('Main contains files outside its reviewed checksum manifest.')
+          tracked = {p.decode('utf-8') for p in git('ls-files', '-z', capture=True).split(b'\0') if p}
+          if tracked != old_paths | {archive_name, workflow}:
+              fail('Addition branch must contain only the baseline, reviewed ZIP, and helper workflow.')
+          if require_regular(manifest_name).read_bytes() != baseline_manifest:
+              fail('Addition branch changed the baseline checksum manifest.')
+          for relative, value in old_sums.items():
+              if digest(require_regular(relative)) != value:
+                  fail('Addition branch changed a baseline file: ' + relative)
+              if hashlib.sha256(git('show', base + ':' + relative, capture=True)).hexdigest() != value:
+                  fail('Main baseline file differs from its checksum: ' + relative)
+          require_regular(workflow)
+          require_regular(archive_name)
+          if archive.stat().st_size > 128 * 1024 * 1024:
+              fail('Archive exceeds the expected size limit.')
+          if digest(archive) != expected_archive:
+              fail('Archive SHA-256 does not match the reviewed package.')
+
+          with tempfile.TemporaryDirectory(prefix='neomythism-addition-', dir=os.environ['RUNNER_TEMP']) as temp:
+              stage = Path(temp) / 'payload'
+              stage.mkdir()
+              entries = {}
+              with zipfile.ZipFile(archive) as bundle:
+                  members = bundle.infolist()
+                  if len(members) != new_count:
+                      fail('Archive member count differs from the reviewed file count.')
+                  if sum(info.file_size for info in members) > 512 * 1024 * 1024:
+                      fail('Expanded archive exceeds the expected size limit.')
+                  for info in members:
+                      raw = info.orig_filename
+                      prefix = 'neomythism-release/'
+                      if raw != info.filename or not raw.startswith(prefix):
+                          fail('Unexpected archive root: ' + repr(raw))
+                      relative = raw[len(prefix):]
+                      if not safe_relative(relative):
+                          fail('Unsafe archive path: ' + repr(raw))
+                      mode = (info.external_attr >> 16) & 0xffff
+                      if info.is_dir() or stat.S_IFMT(mode) not in (0, stat.S_IFREG):
+                          fail('Only regular files are permitted; no links or special files.')
+                      if relative in entries:
+                          fail('Duplicate archive member: ' + relative)
+                      entries[relative] = info
+                  if not old_paths <= set(entries):
+                      fail('This additive edition must retain every existing archive path.')
+                  for relative, info in entries.items():
+                      target = stage / relative
+                      target.parent.mkdir(parents=True, exist_ok=True)
+                      with bundle.open(info) as source, target.open('wb') as destination:
+                          shutil.copyfileobj(source, destination)
+                      if target.stat().st_size != info.file_size:
+                          fail('Extracted file size mismatch: ' + relative)
+
+              new_sums = read_manifest((stage / manifest_name).read_bytes(), new_count)
+              if set(new_sums) != set(entries) - {manifest_name}:
+                  fail('New checksum manifest does not cover exactly the reviewed payload.')
+              for relative, value in new_sums.items():
+                  if digest(stage / relative) != value:
+                      fail('Extracted checksum mismatch: ' + relative)
+
+              print('Validated additive package and original main history.', flush=True)
+              for relative, info in entries.items():
+                  destination = root / relative
+                  destination.parent.mkdir(parents=True, exist_ok=True)
+                  shutil.copyfile(stage / relative, destination)
+                  mode = (info.external_attr >> 16) & 0xffff
+                  destination.chmod(0o755 if mode & stat.S_IXUSR else 0o644)
+              index = Path(temp) / 'publication-index'
+              git('read-tree', '--empty', index=index)
+              git('--literal-pathspecs', 'add', '-f', '--', *sorted(entries), index=index)
+              indexed = {p.decode('utf-8') for p in
+                         git('ls-files', '-z', capture=True, index=index).split(b'\0') if p}
+              if indexed != set(entries):
+                  fail('Publication index differs from the exact reviewed payload.')
+              tree = git('write-tree', capture=True, index=index).decode().strip()
+              if tree == git('rev-parse', base + '^{tree}', capture=True).decode().strip():
+                  fail('Reviewed package contains no changes to publish.')
+              git('config', 'user.name', 'github-actions[bot]')
+              git('config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com')
+              commit = git('commit-tree', tree, '-p', base,
+                           '-m', 'Refine reading edition', capture=True).decode().strip()
+              if git('rev-list', '--parents', '-n', '1', commit, capture=True).decode().split() != [commit, base]:
+                  fail('Publication must have exactly the preserved main commit as its parent.')
+              git('merge-base', '--is-ancestor', base, commit)
+              if remote_main() != base:
+                  fail('Main changed during package validation; no publication was attempted.')
+              # Normal fast-forward push: a concurrent update is rejected by Git.
+              # The old edition and every earlier main commit remain ancestors.
+              git('push', 'origin', commit + ':refs/heads/main')
+              print('Published additive commit ' + commit + ' with preserved parent ' + base, flush=True)
+              if local_test:
+                  print('Local smoke test: GitHub Pages request skipped; origin is a local filesystem repository.')
+              else:
+                  request = urllib.request.Request(
+                      'https://api.github.com/repos/Faedriel/neomythism/pages/builds',
+                      data=b'{}', method='POST', headers={
+                          'Authorization': 'Bearer ' + os.environ['GITHUB_TOKEN'],
+                          'Accept': 'application/vnd.github+json',
+                          'X-GitHub-Api-Version': '2022-11-28',
+                          'Content-Type': 'application/json',
+                          'User-Agent': 'neomythism-publication'})
+                  try:
+                      with urllib.request.urlopen(request, timeout=30) as response:
+                          print('GitHub Pages build requested: HTTP ' + str(response.status))
+                  except urllib.error.HTTPError as error:
+                      print('Collection published; Pages build request returned HTTP ' + str(error.code)
+                            + '. Request a Pages build through GitHub if needed.')
+                  except urllib.error.URLError:
+                      print('Collection published; Pages build request could not connect. Request a Pages build through GitHub.')
+          PY

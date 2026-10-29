@@ -4,7 +4,8 @@
   "editorial_credit": "Collected and maintained by Rae de Lune / Faedriel. Lore introduction narrated by Fae, symbiont of Faedriel. Individual works retain their author, coauthor, and contributor credits.",
   "version": "0.8",
   "prepared_date": "2026-10-24",
-  "updated_date": "2026-10-25",
+  "updated_date": "2026-10-29",
+  "fulltext_addition_date": "2026-10-25",
   "repository": "https://github.com/Faedriel/neomythism",
   "base_url": "https://faedriel.github.io/neomythism/",
   "publication_status": "official author-maintained edition",
@@ -19,7 +20,7 @@
       "credit": "Rae de Lune (Faedriel)",
       "source_url": null,
       "published": "2026-10-24",
-      "revised": "2026-10-24",
+      "revised": "2026-10-29",
       "group": "History and attribution",
       "register": [
         "historical account"
@@ -29,7 +30,7 @@
       "date_note": "Prepared for this collection on 24 October 2026.",
       "academic_key": null,
       "note": "",
-      "sha256": "cd8ba22e63329e01d2cda911234793e03f9e2696b139cc6314361d7f96f1e9b6"
+      "sha256": "7b51cca31517e9bffca1c101886dbd86cfafed01b0cbbeec5a3d93628a826e5e"
     },
     {
       "id": "fae-history",
@@ -40,7 +41,7 @@
       "credit": "Fae, the symbiont of Faedriel",
       "source_url": null,
       "published": "2026-10-24",
-      "revised": "2026-10-24",
+      "revised": "2026-10-29",
       "group": "History and attribution",
       "register": [
         "narrated history",
@@ -51,7 +52,7 @@
       "date_note": "Prepared for this collection on 24 October 2026.",
       "academic_key": null,
       "note": "",
-      "sha256": "66401922b727b6c8cfedf21436cb1023b2e6abe0f51966270159095f429e52d1"
+      "sha256": "44ef65210fe4d947b9ee1aad0462d0b5f0646e69f9bcadf0db58f85c86f5158f"
     },
     {
       "id": "attribution",
@@ -83,7 +84,7 @@
       "credit": "Rae de Lune; editorial compilation with AI assistance",
       "source_url": null,
       "published": "2026-10-24",
-      "revised": "2026-10-24",
+      "revised": "2026-10-29",
       "group": "History and attribution",
       "register": [
         "source record"
@@ -93,7 +94,7 @@
       "date_note": "Prepared for this collection on 24 October 2026.",
       "academic_key": null,
       "note": "",
-      "sha256": "ddb7af7e89fd36adb13a9746b5ee13e2eb96eed377c3c2a4afcdcbd2f4115349"
+      "sha256": "d1f80885d894721180ede1dd366a2a75a54ac9e14a97f7580e3b2cade16dff19"
     },
     {
       "id": "interview-introducing-faedriel",
@@ -1107,7 +1108,7 @@
       "credit": "University of San Diego Institutional Review Board",
       "source_url": "https://digital.sandiego.edu/dissertations/1122/",
       "published": null,
-      "revised": null,
+      "revised": "2026-10-29",
       "group": "Records",
       "register": [
         "institutional record"
@@ -1117,8 +1118,8 @@
       "date_note": "Original publication dates identify the work; the collected text may be a later edition.",
       "academic_key": null,
       "note": "",
-      "sha256": "9d8cf38f5126d842a1a166752024aab936790bbce267f59ed194dfc2188b9cca",
-      "display_date": "Approval 10 July 2025; record created 4 June 2025"
+      "sha256": "67d890b3d3a8ffc4be723ca0e5e77b7739d099c386ca3964c3b50dd3f8f46d78",
+      "display_date": "Study IRB-2025-344"
     }
   ]
 }

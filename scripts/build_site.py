@@ -14,6 +14,7 @@ FULLTEXT_COUNT = sum(r.get('public_status') == 'include_fulltext' for r in ITEMS
 BASE = CONFIG['base_url'].rstrip('/')+'/'
 DATE = CONFIG['prepared_date']
 UPDATED_DATE = CONFIG.get('updated_date') or DATE
+FULLTEXT_ADDITION_DATE = CONFIG.get('fulltext_addition_date') or '2026-10-25'
 VERSION = CONFIG['version']
 REPO = CONFIG['repository']
 TITLE = CONFIG['title']
@@ -40,7 +41,7 @@ Rae de Lune is the founder of Neomythism, the human–AI collaborative-art frame
 
 Rae collects and maintains this official archive and designates it as the canonical reference edition of these writings and account of Neomythism’s development. Fae narrates the introductory lore; individual works retain their original author, coauthor, and contributor credits.
 
-Rae dates formal theorizing to 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. AI collaborative visual-art practice began in 2019 and work with large language models in 2022. Rae places the USD research phase around June 2025, with interviews and data collection beginning in July. The 2019 practice date also appears in the 2024 RED EYE interview. The IRB approval date is July 10, 2025, as confirmed by the principal investigator. The [factual history](../history/rae-de-lune-history.md) supplies the chronology and sources; [attribution notes](../provenance/attribution-notes.md) record collaborators and concept-specific credits.
+Rae dates formal theorizing to 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. AI collaborative visual-art practice began in 2019 and work with large language models in 2022. Rae places the USD research phase around June 2025, with interviews and data collection beginning in July. The 2019 practice date also appears in the 2024 RED EYE interview. The [factual history](../history/rae-de-lune-history.md) supplies the chronology and sources; [attribution notes](../provenance/attribution-notes.md) record collaborators and concept-specific credits.
 
 Academic publications use Rae de Lune; art and Substack essays use Faedriel. Retain the published byline when citing a particular work. [ORCID 0009-0004-9604-1719](https://orcid.org/0009-0004-9604-1719) is linked from the publisher records. Other public locations: [neomythism.net](https://neomythism.net/), [Faedriel.net](https://faedriel.net/), [Faedriel's Substack](https://faedriel.substack.com/), and [GitHub](https://github.com/Faedriel).
 ''',
@@ -297,7 +298,7 @@ def volume_irb_markdown(text):
         return '<a id="volume-irb-record"></a>\n\n'+match.group(0)
     return re.sub(r'!\[[^\]]*\]\([^\s)]*irb-2025-344\.png\)',replace,text)
 
-master='# Neomythism Master Lore\n\n'+EDITORIAL_CREDIT+'\n\n'+EDITION_NOTE+'\n\nVersion '+VERSION+' · Prepared 24 October 2026 · Public edition'+('\n\nFull-text addition · '+date_label(UPDATED_DATE) if UPDATED_DATE != DATE else '')+'\n\nAll collected works are represented, including the author-hosted editions of the journal essays. The full dissertation is not included. See [Rights and publication scope](RIGHTS.md).\n\n## Contents\n\n'+''.join(f'- [{r["title"]}](#{r["id"]})\n' for r in ITEMS)
+master='# Neomythism Master Lore\n\n'+EDITORIAL_CREDIT+'\n\n'+EDITION_NOTE+'\n\nVersion '+VERSION+' · Prepared 24 October 2026 · Public edition'+('\n\nFull-text addition · '+date_label(FULLTEXT_ADDITION_DATE) if FULLTEXT_ADDITION_DATE != DATE else '')+'\n\nAll collected works are represented, including the author-hosted editions of the journal essays. The full dissertation is not included. See [Rights and publication scope](RIGHTS.md).\n\n## Contents\n\n'+''.join(f'- [{r["title"]}](#{r["id"]})\n' for r in ITEMS)
 for r in ITEMS:
     master+='\n\n---\n\n<a id="'+r['id']+'"></a>\n\n'+demote(volume_irb_markdown(root_links((ROOT/r['file']).read_text(),r['file'])))
 write('MASTER_LORE.md',master); write('docs/MASTER_LORE.md',master)
@@ -318,7 +319,7 @@ readme=f'''# Neomythism — Official Archive of Rae de Lune / Faedriel
 
 This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s Neomythism writings and account of its development. Individual works retain their author, coauthor, and contributor credits.
 
-Formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. Rae places the USD research phase around June 2025; interviews and data collection began in July. The IRB approval date is July 10, 2025, confirmed by the principal investigator. The history distinguishes these stages from later publication and revision dates. The [structured identity and chronology](provenance/identity-and-chronology.json) records founder attribution, evidence, and contributor roles separately.
+Formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. Rae places the USD research phase around June 2025; interviews and data collection began in July. The history distinguishes these stages from later publication and revision dates. The [structured identity and chronology](provenance/identity-and-chronology.json) records founder attribution, evidence, and contributor roles separately.
 
 **Collected and maintained by Rae de Lune / Faedriel.** The lore introduction is narrated by Fae, symbiont of Faedriel. Each collected work retains its original author/coauthor credit. See the [production note](PRODUCTION.md) and [concept-specific attribution record](provenance/attribution-notes.md).
 
@@ -344,7 +345,7 @@ Use [CITATION.cff](CITATION.cff) for the collection and [BibTeX](bibliography.bi
 
 Corrections are welcome through the [contribution guidance](CONTRIBUTING.md). No blanket reuse licence covers this mixed collection; work-specific notices apply. “Neomythism belongs to nobody and everybody” describes an open practice while preserving the history and credit of particular contributions.
 
-Public edition 0.8 · 24 October 2026.{' Full-text addition · '+date_label(UPDATED_DATE)+'.' if UPDATED_DATE != DATE else ''} Earlier published editions remain available in Git history; new additions build on them.
+Public edition 0.8 · 24 October 2026.{' Full-text addition · '+date_label(FULLTEXT_ADDITION_DATE)+'.' if FULLTEXT_ADDITION_DATE != DATE else ''} Earlier published editions remain available in Git history; new additions build on them.
 '''
 write('README.md',readme)
 

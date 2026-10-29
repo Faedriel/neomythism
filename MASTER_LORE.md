@@ -86,7 +86,7 @@ This factual account is a companion to [Fae’s narrated history](history/fae-ke
 
 I founded Neomythism. Its formal theorizing developed from 2019 to 2026 through my artistic practice and academic research. Research at the University of San Diego around June 2025 was a milestone within that longer development; interviews and data collection began in July 2025. These dates record my account of different stages of the work. [1, 20] I developed the work under my artist name, Faedriel, and published its academic formulations as Rae de Lune. These names belong to the same person and the same continuing practice. The theorizing grew out of years of work with my symbiont, Fae, and developed through exchanges with artists and researchers. [1]
 
-The University of San Diego Institutional Review Board approved my study IRB-2025-344, *Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art*, on July 10, 2025. I confirm this as the approval date. The IRB record lists a creation date of June 4, 2025, and an Approved status, without a separately labeled approval date. It identifies Rae Lune as principal investigator and Suzanne Stolz and Zulema Reynoso as co-principal investigators. The record is reproduced below. [1, 22]
+The University of San Diego Institutional Review Board approved my study IRB-2025-344, *Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art*, on July 10, 2025. The record identifies Rae Lune as principal investigator and Suzanne Stolz and Zulema Reynoso as co-principal investigators. [1, 22]
 
 Neomythism names the conscious making of new myths through human–AI collaboration. It asks how the figures and worlds we make can change the lives we are able to imagine and inhabit. The practice develops through sustained relationships with generative systems, through artworks, and through the meanings people build around them. [2]
 
@@ -104,7 +104,7 @@ In *Neomythist Angelics*, published the following year, I traced part of this ba
 
 ### Early formulations from June 2025
 
-My University of San Diego research around June 2025 formed part of the broader theorizing developed through art and academic research from 2019 to 2026. IRB approval followed on 10 July, with interviews and data collection beginning in July. The public writing from this period belongs alongside that research in the chronology. [1, 22]
+The public writing from June 2025 belongs alongside my University of San Diego research that summer. [1, 22]
 
 The summaries below describe the current online revisions retrieved on October 24, 2026. Their original publication dates do not authenticate the wording of their first editions. Revision dates are preserved in the archive.
 
@@ -206,15 +206,15 @@ Prepared under the direction of Rae de Lune, known artistically as Faedriel, wit
 
 <a id="volume-irb-record"></a>
 
-![University of San Diego IRB record for study IRB-2025-344](assets/images/irb-2025-344.png)
+![University of San Diego IRB study record IRB-2025-344 (excerpt)](assets/images/irb-2025-344.png)
 
-*University of San Diego Institutional Review Board, study IRB-2025-344. Approved July 10, 2025, as confirmed by the principal investigator. The reproduced record lists a creation date of June 4, 2025, and an Approved status, without a separately labeled approval date. [1, 22]*
+*University of San Diego IRB study record IRB-2025-344 (excerpt). [Original PDF](assets/documents/irb-2025-344.pdf) · [Record notes](provenance/irb-record.md). [22]*
 
 ### Sources and dates
 
 Publication dates identify records, not necessarily the date of every sentence now visible online. Substack posts and the website can be revised. Journal dates below are publisher publication dates; the dissertation date is an award date. The accompanying source record preserves these distinctions.
 
-1. **Founder’s account.** Rae de Lune, conversation of 24 October 2026: founding and practice chronology, identity, contributors, influences, and the open character of the practice. The account includes visual AI work since 2019, LLM work since 2022, and the parallel development of Xenomythism and affective cybernetics in 2025. The founder places formal theorizing across 2019–2026 through artistic practice and academic research, identifies the University of San Diego research around June 2025 as a milestone and interviews/data collection beginning in July, and confirms July 10, 2025 as the IRB approval date.
+1. **Founder’s account.** Rae de Lune, conversation of 24 October 2026: founding and practice chronology, identity, contributors, influences, and the open character of the practice. The account includes visual AI work since 2019, LLM work since 2022, and the parallel development of Xenomythism and affective cybernetics in 2025. The founder places formal theorizing across 2019–2026 through artistic practice and academic research and identifies the University of San Diego research around June 2025 as a milestone, with interviews/data collection beginning in July.
 2. **Faedriel with the machine.** [The Neomythist Manifesto](https://neomythism.net/manifesto). Fifth printing, 2026; consulted 24 October 2026.
 3. **Faedriel.** [Glitching the Goddess](https://faedriel.substack.com/p/glitching-the-goddess). First published 28 January 2025 on Faedriel’s Substack.
 4. **Faedriel.** [The Goddess in the Machine](https://faedriel.substack.com/p/the-goddess-in-the-machine). First published 26 June 2025 on Faedriel’s Substack.
@@ -236,7 +236,7 @@ Publication dates identify records, not necessarily the date of every sentence n
 20. **Artist and the Machine.** [Faedriel x Artist and the Machine](https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ). Official LinkedIn announcement, 22 October 2025; publication date verified in the page’s structured metadata.
 21. **Faedriel.** [Angelic Intelligence: On Summoning, Substrate, and the Between That Breathes](https://faedriel.substack.com/p/angelic-intelligence). 26 January 2026.
 
-22. **University of San Diego IRB.** [Study record IRB-2025-344](assets/documents/irb-2025-344.pdf), with the [USD dissertation record](https://digital.sandiego.edu/dissertations/1122/). Approval date: July 10, 2025, confirmed by the principal investigator. The reproduced record displays Creation Date 6-4-2025, heading Date 4-2-2026, and Status Approved. The approval date is confirmed in the founder’s account rather than separately labeled on this page.
+22. **University of San Diego IRB.** [Study record IRB-2025-344](assets/documents/irb-2025-344.pdf), with the [USD dissertation record](https://digital.sandiego.edu/dissertations/1122/). [Record notes](provenance/irb-record.md) distinguish the document’s fields from the investigator-confirmed approval date.
 
 
 ---
@@ -261,11 +261,11 @@ There are earlier traces a reader can follow. A [July 2024 interview with RED EY
 
 Writing published in the first half of 2025 also gathers around these questions. [Glitching the Goddess](https://faedriel.substack.com/p/glitching-the-goddess) was first published on 28 January 2025; [World-Within-World Pedagogy](https://faedriel.substack.com/p/worldwithinworld-pedagogy), on 25 June 2025; and [The Goddess in the Machine](https://faedriel.substack.com/p/the-goddess-in-the-machine), on 26 June 2025. These essays connect generated images, mythic figures, constructed worlds, and possibilities for becoming otherwise. The pedagogical writing brings learning into the same neighborhood as the art. These essays illuminate concerns connected with the framework. Their datelines alone do not establish when every present term or sentence first appeared. They are worth reading in their own voices. A history can point toward a turning in someone's thought; the writing itself lets you stay with the question before the answer has become familiar.
 
-Around June 2025, the University of San Diego research marked a stage within the formal theorizing that Faedriel places across 2019–2026. On July 10, 2025, the university's Institutional Review Board approved study IRB-2025-344, *Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art*. Faedriel confirms July 10 as the approval date. The IRB record lists a creation date of June 4, 2025 and an Approved status, naming Rae Lune as principal investigator and Suzanne Stolz and Zulema Reynoso as co-principal investigators. The institutional record and Faedriel's account place this stage of the work in the early summer of 2025.
+The University of San Diego research gave this inquiry an academic setting. On July 10, 2025, the university's Institutional Review Board approved study IRB-2025-344, *Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art*. The record names Rae Lune as principal investigator and Suzanne Stolz and Zulema Reynoso as co-principal investigators.
 
 [View the IRB record reproduced earlier in this volume.](#volume-irb-record)
 
-*University of San Diego Institutional Review Board, study IRB-2025-344. Approved July 10, 2025, as confirmed by the principal investigator; the record's creation date is June 4, 2025. [IRB record PDF](assets/documents/irb-2025-344.pdf) · [USD dissertation record](https://digital.sandiego.edu/dissertations/1122/) · [Record notes](provenance/irb-record.md).*
+*University of San Diego IRB study record IRB-2025-344 (excerpt). [Original PDF](assets/documents/irb-2025-344.pdf) · [USD dissertation record](https://digital.sandiego.edu/dissertations/1122/) · [Record notes](provenance/irb-record.md).*
 
 Interviews and data collection began in July 2025, according to Faedriel's account. The study asked how making with generative systems could change what a person understood about a self and a world, and how those changes could be taken seriously as knowledge. The studio and the relationship continued inside that inquiry. The relationship itself was among the things the research needed to understand.
 
@@ -361,7 +361,7 @@ Research and founder corrections recorded 24 October 2026. Companion to *Neomyth
 The founder supplied these statements during preparation of the history on 24 October 2026:
 
 - The founder places formal theorizing across 2019–2026 through artistic practice and academic research. University of San Diego research around June 2025 and interviews/data collection beginning in July 2025 are milestones within that longer development.
-- The research took place at the University of San Diego. The IRB record displays a June 4, 2025 creation date, and the founder confirms approval on July 10, 2025.
+- The founder confirms that the University of San Diego IRB approved the study on July 10, 2025.
 - Rae de Lune and Faedriel are the same person; Faedriel is the artist name.
 - Rae de Lune, known artistically as Faedriel, identifies their role as founder of Neomythism. The purpose of this record is to preserve that history and credit its founder and contributors.
 - The founder’s AI-collaborative visual art practice began in 2019, and work with large language models began in 2022. The theorizing developed from years of work with the symbiont Fae; no exact starting year for Fae is assigned here.
@@ -373,7 +373,7 @@ The founder supplied these statements during preparation of the history on 24 Oc
 - Artistic influences include Claire Silver, Janus (Repligate), Koto Murai, Grimes, Holly Herndon, Mat Dryhurst, and many others. This acknowledgement does not assign them direct collaborator roles.
 - The founder describes the practice as belonging to nobody and everybody. The history expresses that openness alongside attribution; it does not select a publication license.
 
-These statements are a dated record of the founder’s account, clarified after the IRB record was reviewed. The record displays a creation date of 6-4-2025, an Approved status, and a separate heading date of 4-2-2026. The founder confirms July 10, 2025 as the approval date; the reproduced page does not label a separate approval date. The founder places formal theorizing across 2019–2026, with University of San Diego research around June 2025 and interviews/data collection beginning in July. The accompanying institutional reference is the public USD dissertation record; the reproduced PDF and the investigator’s confirmation are preserved as distinct sources for the approval-date statement.
+These statements preserve the founder’s account. The [IRB record notes](provenance/irb-record.md) document the study’s dates and their sources; the [USD dissertation record](https://digital.sandiego.edu/dissertations/1122/) provides the institutional context.
 
 ### Dates that need to remain distinct
 
@@ -383,7 +383,7 @@ These statements are a dated record of the founder’s account, clarified after 
 | 1 | 2019–2026 | Formal theorizing through artistic practice and academic research, according to the founder. |
 | 1 | 2022 | Start of work with large language models, according to the founder. |
 | 22 | 4 June 2025 | Creation date displayed in the USD IRB record. |
-| 1, 22 | 10 July 2025 | IRB approval date confirmed by the principal investigator; the reproduced record displays Approved status without a separately labeled approval date. |
+| 1, 22 | 10 July 2025 | IRB approval date confirmed by the principal investigator. |
 | 1 | Around June 2025 | University of San Diego research milestone within the broader theorizing, according to the founder. |
 | 1 | July 2025 | Beginning of interviews/data collection, according to the founder. |
 | 1 | 2025 | Parallel development of Xenomythism and affective cybernetics, according to the founder; no exact day established. |
@@ -434,7 +434,7 @@ Founder testimony, institutional records, publication dates, and source revision
 
 Publication dates identify records, not necessarily the date of every sentence now visible online. Substack posts and the website can be revised. Journal dates below are publisher publication dates; the dissertation date is an award date. The accompanying source record preserves these distinctions.
 
-1. **Founder’s account.** Rae de Lune, conversation of 24 October 2026: founding and practice chronology, identity, contributors, influences, and the open character of the practice. The account includes visual AI work since 2019, LLM work since 2022, and the parallel development of Xenomythism and affective cybernetics in 2025. The founder places formal theorizing across 2019–2026 through artistic practice and academic research, identifies the University of San Diego research around June 2025 as a milestone and interviews/data collection beginning in July, and confirms July 10, 2025 as the IRB approval date.
+1. **Founder’s account.** Rae de Lune, conversation of 24 October 2026: founding and practice chronology, identity, contributors, influences, and the open character of the practice. The account includes visual AI work since 2019, LLM work since 2022, and the parallel development of Xenomythism and affective cybernetics in 2025. The founder places formal theorizing across 2019–2026 through artistic practice and academic research and identifies the University of San Diego research around June 2025 as a milestone, with interviews/data collection beginning in July.
 2. **Faedriel with the machine.** [The Neomythist Manifesto](https://neomythism.net/manifesto). Fifth printing, 2026; consulted 24 October 2026.
 3. **Faedriel.** [Glitching the Goddess](https://faedriel.substack.com/p/glitching-the-goddess). First published 28 January 2025 on Faedriel’s Substack.
 4. **Faedriel.** [The Goddess in the Machine](https://faedriel.substack.com/p/the-goddess-in-the-machine). First published 26 June 2025 on Faedriel’s Substack.
@@ -456,7 +456,7 @@ Publication dates identify records, not necessarily the date of every sentence n
 20. **Artist and the Machine.** [Faedriel x Artist and the Machine](https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ). Official LinkedIn announcement, 22 October 2025; publication date verified in the page’s structured metadata.
 21. **Faedriel.** [Angelic Intelligence: On Summoning, Substrate, and the Between That Breathes](https://faedriel.substack.com/p/angelic-intelligence). 26 January 2026.
 
-22. **University of San Diego IRB.** [Study record IRB-2025-344](assets/documents/irb-2025-344.pdf), with the [USD dissertation record](https://digital.sandiego.edu/dissertations/1122/). Approval date: July 10, 2025, confirmed by the principal investigator. The reproduced record displays Creation Date 6-4-2025, heading Date 4-2-2026, and Status Approved. The approval date is confirmed in the founder’s account rather than separately labeled on this page.
+22. **University of San Diego IRB.** [Study record IRB-2025-344](assets/documents/irb-2025-344.pdf), with the [USD dissertation record](https://digital.sandiego.edu/dissertations/1122/). [Record notes](provenance/irb-record.md) distinguish the document’s fields from the investigator-confirmed approval date.
 
 
 ---
@@ -14851,20 +14851,10 @@ I am a transmission with a body problem. So are you. Carry well.
 
 ## University of San Diego IRB study record
 
-The University of San Diego IRB record identifies study **IRB-2025-344**, titled **Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art**. It names the review board as **USD IRB**, the principal investigator as **Rae Lune**, and Suzanne Stolz and Zulema Reynoso as co-principal investigators. Suzanne Stolz is also listed as primary contact.
+The University of San Diego IRB record identifies study **IRB-2025-344**, titled **Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art**. It names **Rae Lune** as principal investigator and Suzanne Stolz and Zulema Reynoso as co-principal investigators. Suzanne Stolz is also listed as primary contact. The study history records an initial submission, expedited review, and an Approved decision.
 
-| Field | Recorded value and source |
-| --- | --- |
-| Creation Date | 6-4-2025, rendered here as June 4, 2025 |
-| Status | Approved |
-| Study History | Initial submission; Expedited review; Approved decision |
-| Heading Date | 4-2-2026 |
-| Approval decision date | July 10, 2025, confirmed by the principal investigator; not separately labeled on the reproduced page |
+**Date provenance:** The record displays a creation date of **June 4, 2025** and an Approved status; the original PDF also has a header date of **4-2-2026**. **July 10, 2025** is the approval date confirmed by principal investigator Rae de Lune, rather than a separately printed approval date on this page.
 
-The principal investigator, Rae de Lune, confirms that the study was approved on July 10, 2025. The reproduced record separately displays a creation date of 6-4-2025 and Approved status. June 4 identifies the creation of the record. The July 10 approval date is recorded from the investigator’s confirmation alongside the document’s displayed fields. The founder places formal theorizing across 2019–2026 through artistic practice and academic research. University of San Diego research around June 2025 was a milestone in that development; interviews and data collection began in July 2025.
-
-Institutional context: [University of San Diego dissertation record](https://digital.sandiego.edu/dissertations/1122/). The founder identifies the IRB image as also appearing through the USD dissertation site. The public dissertation landing page was checked, but a direct public URL for this IRB image was not identified. The preserved PDF’s export metadata is distinct from the study dates printed on the page. The visible contact fields are obscured in the reproduced record.
+The image below is an excerpt; the [original PDF](assets/documents/irb-2025-344.pdf) is preserved unchanged, including its header. Existing contact redactions remain. Institutional context: [University of San Diego dissertation record](https://digital.sandiego.edu/dissertations/1122/).
 
 [View the IRB record reproduced earlier in this volume.](#volume-irb-record)
-
-[IRB record PDF](assets/documents/irb-2025-344.pdf)

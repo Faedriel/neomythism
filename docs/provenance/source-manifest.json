@@ -1,7 +1,7 @@
 {
   "edition": "0.8",
   "compiled_date": "2026-10-24",
-  "updated_date": "2026-10-25",
+  "updated_date": "2026-10-29",
   "sources": [
     {
       "id": 150283068,
@@ -681,8 +681,8 @@
       "approval_date": "2025-07-10",
       "approval_date_basis": "Confirmed by principal investigator Rae de Lune; not separately labeled on reproduced page",
       "public_status": "include_record_note",
-      "public_file_sha256": "9d8cf38f5126d842a1a166752024aab936790bbce267f59ed194dfc2188b9cca",
-      "preservation_file_sha256": "9d8cf38f5126d842a1a166752024aab936790bbce267f59ed194dfc2188b9cca"
+      "public_file_sha256": "67d890b3d3a8ffc4be723ca0e5e77b7739d099c386ca3964c3b50dd3f8f46d78",
+      "preservation_file_sha256": "67d890b3d3a8ffc4be723ca0e5e77b7739d099c386ca3964c3b50dd3f8f46d78"
     }
   ]
 }

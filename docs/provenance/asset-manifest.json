@@ -346,12 +346,12 @@
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
       "confirmation_source": "Author confirmation, 2026-10-24",
-      "rationale": "User supplied the record and explicitly requested inclusion. Existing contact redactions remain. PNG is a full-page rendering; original PDF is unchanged. No collection-wide licence is inferred.",
+      "rationale": "User supplied the record and explicitly requested inclusion. Existing contact redactions remain. PNG is a display excerpt; original PDF is unchanged. No collection-wide licence is inferred.",
       "source_url_note": "Public dissertation record supplied as institutional context; direct public URL for this exact IRB PDF/image was not independently located."
     },
     {
       "archive_path": "assets/images/irb-2025-344.png",
-      "sha256": "cbf30d2085e328e6a40f359c7b1e6be201bfced851d5cb972d3fa10d4e20eb2b",
+      "sha256": "fffd0ba8c2307d387d26396e87f596066673c7714633730d819af2a328317113",
       "source_url": "https://digital.sandiego.edu/dissertations/1122/",
       "source_works": [],
       "source_captions": [],
@@ -362,7 +362,7 @@
       "requires_user_evidence": false,
       "confirmation_date": "2026-10-24",
       "confirmation_source": "Author confirmation, 2026-10-24",
-      "rationale": "User supplied the record and explicitly requested inclusion. Existing contact redactions remain. PNG is a full-page rendering; original PDF is unchanged. No collection-wide licence is inferred.",
+      "rationale": "User supplied the record and explicitly requested inclusion. Existing contact redactions remain. PNG is a display excerpt; original PDF is unchanged. No collection-wide licence is inferred.",
       "source_url_note": "Public dissertation record supplied as institutional context; direct public URL for this exact IRB PDF/image was not independently located."
     },
     {

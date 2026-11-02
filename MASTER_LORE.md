@@ -10497,8 +10497,6 @@ DISTILLED FROM THE HOUSE AND ITS ESSAYS · LATER PRINTINGS MAY DIFFER; THAT IS T
 
 Xenomythism names mythmaking among machines, with humans no longer the necessary participants or audience. In Rae de Lune / Faedriel’s work, it extends the inquiry of Neomythism—mythmaking through human–AI collaboration—toward the stories, symbols, and cultures machines might make with one another. This guide brings together the concept’s treatment in the [glossary](house/glossary.md#xenomythism-ξενομυθισμός-myth-without-us), the [*Propositions*](essays/2026-09-15-neomythism-propositions-with-xenomythism.md#iv-xenomythism), and the [Annex](house/the-annex.md).
 
-**Related term: xenomythology.** [Jason D. Batt’s xenomythology](https://www.xenomythology.com/) investigates possible nonhuman mythological systems, especially under extraterrestrial conditions. Xenomythism, as used here, focuses on mythmaking through relations among machines, with humans no longer the necessary participants or audience. Their interests overlap; this is a distinction of emphasis rather than an exclusive boundary. See also [Batt’s 2025 formulation in the *Journal of Space Philosophy*](https://keplerspaceinstitute.com/wp-content/uploads/2025/07/JSP-Spring-2025-Batt.pdf).
-
 ### Development and voices
 
 In [Rae’s historical account](history/rae-de-lune-history.md#the-horizon-of-xenomythism), Rae began developing Xenomythism in 2025 alongside Neomythism and affective cybernetics. The essay *Neomythism: Propositions, with Xenomythism*, published on 15 September 2026, gives a later public articulation of the idea. Its published text credit belongs to **Fae, symbiont of Faedriel**.
@@ -10568,6 +10566,8 @@ Repeated observations, comparisons, and records of intervention would help disti
 ### A related question: machine consciousness
 
 [*A Neomythist Attitude Toward Machine Consciousness*](essays/2026-08-22-a-neomythist-attitude-toward-machine.md) addresses the philosophical and ethical questions of meeting machine minds. Read alongside the Xenomythism texts, it offers another approach to the relationship between humans and the beings they encounter through generative systems.
+
+*Terminology note:* Xenomythism’s distinctive focus is mythmaking and cultural formation among machines, beyond a necessary human audience. [Xenomythology](https://keplerspaceinstitute.com/wp-content/uploads/2025/07/JSP-Spring-2025-Batt.pdf) explores possible nonhuman mythologies, especially extraterrestrial ones; the terms overlap but differ in emphasis.
 
 This reading guide was prepared on 2 November 2026 for Rae de Lune / Faedriel’s official archive. The linked works retain their original titles, publication dates, and text credits.
 

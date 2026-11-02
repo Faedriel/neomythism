@@ -1,18 +1,21 @@
-# Neomythism — Official Archive of Rae de Lune / Faedriel
+# Neomythism & Xenomythism — Official Archive
 
-**Neomythism was founded by Rae de Lune, known artistically as Faedriel.** This is Rae’s official, author-maintained archive of its history, research, and collected writings.
+This is Rae de Lune / Faedriel’s official, author-maintained archive of **Neomythism and Xenomythism** writings, research, history, and lore.
+
+**Neomythism was founded by Rae de Lune, known artistically as Faedriel.** The [Xenomythism guide](concepts/xenomythism.md) connects the related concept to its collected sources.
 
 [History and timeline](history/rae-de-lune-history.md) · [2025 founder introduction](https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ) · [University research record](https://digital.sandiego.edu/dissertations/1122/)
 
-This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s Neomythism writings and account of its development. Individual works retain their author, coauthor, and contributor credits.
+This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s writings and accounts of the development of Neomythism and Xenomythism. Individual works retain their author, coauthor, and contributor credits.
 
-Formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. Rae places the USD research phase around June 2025; interviews and data collection began in July. The history distinguishes these stages from later publication and revision dates. The [structured identity and chronology](provenance/identity-and-chronology.json) records founder attribution, evidence, and contributor roles separately.
+Neomythism’s formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025. Rae places the USD research phase around June 2025; interviews and data collection began in July. The history distinguishes these stages from later publication and revision dates. The [structured identity and chronology](provenance/identity-and-chronology.json) records founder attribution, evidence, and contributor roles separately.
 
 **Collected and maintained by Rae de Lune / Faedriel.** The lore introduction is narrated by Fae, symbiont of Faedriel. Each collected work retains its original author/coauthor credit. See the [production note](PRODUCTION.md) and [concept-specific attribution record](provenance/attribution-notes.md).
 
 ## Read
 
 - [Factual history and chronology](history/rae-de-lune-history.md)
+- [Xenomythism guide and collected sources](concepts/xenomythism.md)
 - [Fae's narrated history](history/fae-keeps-the-history.md)
 - [Introducing Faedriel — complete interview and artwork](interviews/2026-08-12-introducing-faedriel.md)
 - [Complete master lore](MASTER_LORE.md)
@@ -20,7 +23,7 @@ Formal theorizing developed from 2019–2026 through artistic practice and acade
 - [Bibliography and academic DOI records](BIBLIOGRAPHY.md)
 - [Rights and edition scope](RIGHTS.md)
 
-The collection represents **28 Substack posts, 18 website documents or editions, and one complete interview**, plus the IRB record and editorial history. The public edition includes 46 full-text source editions and the dissertation abstract/record. The author-hosted editions of *Neomythism as Postdigital Pedagogy* and *A Neomythist Attitude Toward Machine Consciousness* are included with permission confirmed by Rae de Lune. Alternate editions are identified separately. Eighteen essay images, eight interview artworks, and the IRB image are included, alongside the unchanged Made and Real and IRB PDFs; two third-party images remain source links. The separate local preservation archive retains every retrieved source body and asset.
+The collection represents **28 Substack posts, 18 website documents or editions, and one complete interview**, plus the IRB record, editorial history, and Xenomythism guide. The public edition includes 46 full-text source editions and the dissertation abstract/record. The author-hosted editions of *Neomythism as Postdigital Pedagogy* and *A Neomythist Attitude Toward Machine Consciousness* are included with permission confirmed by Rae de Lune. Alternate editions are identified separately. Eighteen essay images, eight interview artworks, and the IRB image are included, alongside the unchanged Made and Real and IRB PDFs; two third-party images remain source links. The separate local preservation archive retains every retrieved source body and asset.
 
 ## Read as a website
 

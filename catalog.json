@@ -1,10 +1,10 @@
 {
-  "title": "Neomythism — Official Archive of Rae de Lune / Faedriel",
-  "edition_note": "This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s Neomythism writings and account of its development.",
+  "title": "Neomythism & Xenomythism — Official Archive",
+  "edition_note": "This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s writings and accounts of the development of Neomythism and Xenomythism.",
   "editorial_credit": "Collected and maintained by Rae de Lune / Faedriel. Lore introduction narrated by Fae, symbiont of Faedriel. Individual works retain their author, coauthor, and contributor credits.",
   "version": "0.8",
   "prepared_date": "2026-10-24",
-  "updated_date": "2026-10-29",
+  "updated_date": "2026-11-02",
   "fulltext_addition_date": "2026-10-25",
   "repository": "https://github.com/Faedriel/neomythism",
   "base_url": "https://faedriel.github.io/neomythism/",
@@ -820,6 +820,28 @@
       "academic_key": null,
       "note": "Fifth printing as retrieved; preserves the original eighteen-theses subtitle, printer’s note, all 26 theses, and colophon.",
       "sha256": "9c1461273849288ce30d3221cfee319fd2d711b77696d14623f91414b08ed668"
+    },
+    {
+      "id": "xenomythism-guide",
+      "work_id": "xenomythism-guide",
+      "edition_id": "xenomythism-guide-2026-11-02",
+      "file": "concepts/xenomythism.md",
+      "title": "Xenomythism: agentic ecologies and alien cultures",
+      "credit": "Rae de Lune / Faedriel; exploratory theory and guide with AI assistance",
+      "source_url": null,
+      "published": "2026-11-02",
+      "revised": null,
+      "group": "Concepts and house texts",
+      "register": [
+        "exploratory theory",
+        "reading guide"
+      ],
+      "voice": "Editorial",
+      "public_status": "new_editorial",
+      "date_note": "Prepared for this collection on 2 November 2026.",
+      "academic_key": null,
+      "note": "",
+      "sha256": "0d764f9c0914d51d8d2ed65060e77a9f65fd95f1e07ec6a9d5d3039745007632"
     },
     {
       "id": "site-how-this-house-runs",

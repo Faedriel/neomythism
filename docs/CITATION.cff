@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: To cite the collection, use the preferred book citation below. Cite individual essays and papers
   under their own bylines and identifiers; see BIBLIOGRAPHY.md. This file describes public edition 0.8,
   released 24 October 2026.
-title: Neomythism — Official Archive of Rae de Lune / Faedriel
+title: Neomythism & Xenomythism — Official Archive
 authors:
 - family-names: de Lune
   given-names: Rae
@@ -13,11 +13,11 @@ date-released: '2026-10-24'
 url: https://github.com/Faedriel/neomythism
 repository: https://github.com/Faedriel/neomythism
 abstract: This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s
-  Neomythism writings and account of its development. Public edition 0.8, released 24 October 2026 under
-  Rae de Lune’s direction. Rae de Lune, known artistically as Faedriel, maintains and edits the collection;
-  Fae, the symbiont of Faedriel, narrates its lore introduction. Individual works retain their original
-  authors and coauthors. The collection is published at the linked repository. No collection DOI has been
-  assigned.
+  writings and accounts of the development of Neomythism and Xenomythism. Public edition 0.8, released
+  24 October 2026 under Rae de Lune’s direction. Rae de Lune, known artistically as Faedriel, maintains
+  and edits the collection; Fae, the symbiont of Faedriel, narrates its lore introduction. Individual
+  works retain their original authors and coauthors. The collection is published at the linked repository.
+  No collection DOI has been assigned.
 keywords:
 - Neomythism
 - Faedriel
@@ -28,7 +28,7 @@ keywords:
 - affective cybernetics
 preferred-citation:
   type: book
-  title: Neomythism — Official Archive of Rae de Lune / Faedriel
+  title: Neomythism & Xenomythism — Official Archive
   authors:
   - family-names: de Lune
     given-names: Rae
@@ -45,11 +45,11 @@ preferred-citation:
   date-published: '2026-10-24'
   url: https://github.com/Faedriel/neomythism
   notes: This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s
-    Neomythism writings and account of its development. Public edition 0.8, released 24 October 2026 under
-    Rae de Lune’s direction. Rae de Lune, known artistically as Faedriel, maintains and edits the collection;
-    Fae, the symbiont of Faedriel, narrates its lore introduction. Individual works retain their original
-    authors and coauthors. The collection is published at the linked repository. No collection DOI has
-    been assigned.
+    writings and accounts of the development of Neomythism and Xenomythism. Public edition 0.8, released
+    24 October 2026 under Rae de Lune’s direction. Rae de Lune, known artistically as Faedriel, maintains
+    and edits the collection; Fae, the symbiont of Faedriel, narrates its lore introduction. Individual
+    works retain their original authors and coauthors. The collection is published at the linked repository.
+    No collection DOI has been assigned.
 references:
 - type: article
   title: 'Made and Real: Neomythism and the Life of Myth Beyond Its Makers'

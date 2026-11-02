@@ -1,8 +1,8 @@
-# Bibliography of Neomythism — Official Archive of Rae de Lune / Faedriel
+# Bibliography of Neomythism & Xenomythism — Official Archive
 
 Public edition 0.8 · released 24 October 2026
 
-This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s Neomythism writings and account of its development.
+This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s writings and accounts of the development of Neomythism and Xenomythism.
 
 Rae de Lune (Faedriel) maintains and edits this collection. Fae narrates its lore introduction. The collected works retain their own author and coauthor credits.
 
@@ -12,7 +12,7 @@ Dates below distinguish original publication, recorded online updates, and retri
 
 ## Collection citation
 
-de Lune, Rae (Faedriel), editor. (2026). *Neomythism — Official Archive of Rae de Lune / Faedriel*. Public edition 0.8, released 24 October 2026. Lore introduction narrated by Fae, the symbiont of Faedriel. [Repository: Faedriel/neomythism](https://github.com/Faedriel/neomythism).
+de Lune, Rae (Faedriel), editor. (2026). *Neomythism & Xenomythism — Official Archive*. Public edition 0.8, released 24 October 2026. Lore introduction narrated by Fae, the symbiont of Faedriel. [Repository: Faedriel/neomythism](https://github.com/Faedriel/neomythism).
 
 No collection DOI has been assigned. For a specific passage in an original essay or paper, cite that work rather than assigning its authorship to the collection narrator. Citation downloads: [CFF](CITATION.cff), [BibTeX](bibliography.bib), and [CSL JSON](bibliography.csl.json).
 

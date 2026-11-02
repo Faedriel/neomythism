@@ -2,9 +2,9 @@
   "scope": "Neomythism, the human–AI collaborative-art framework documented in this collection",
   "prepared_date": "2026-10-24",
   "collection": {
-    "title": "Neomythism — Official Archive of Rae de Lune / Faedriel",
+    "title": "Neomythism & Xenomythism — Official Archive",
     "status": "official author-maintained archive",
-    "edition_note": "This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s Neomythism writings and account of its development.",
+    "edition_note": "This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s writings and accounts of the development of Neomythism and Xenomythism.",
     "editorial_credit": "Collected and maintained by Rae de Lune / Faedriel. Lore introduction narrated by Fae, symbiont of Faedriel. Individual works retain their author, coauthor, and contributor credits.",
     "maintainer": "Rae de Lune / Faedriel",
     "repository": "https://github.com/Faedriel/neomythism",
@@ -13,8 +13,31 @@
       "https://neomythism.net/",
       "https://faedriel.net/"
     ],
-    "designation_scope": "Rae’s designated reference edition of these writings and account; individual works retain their credits, and Neomythism remains an open practice."
+    "subjects": [
+      "Neomythism",
+      "Xenomythism"
+    ],
+    "designation_scope": "Rae’s designated reference edition of these writings and accounts of Neomythism and Xenomythism; individual works retain their credits, and Neomythism remains an open practice."
   },
+  "related_concepts": [
+    {
+      "name": "Xenomythism",
+      "description": "Mythmaking among machines, with humans no longer the necessary participants or audience.",
+      "guide": "../concepts/xenomythism.md",
+      "development_account": {
+        "name": "Rae de Lune / Faedriel",
+        "year": "2025",
+        "basis": "Rae’s retrospective account",
+        "record": "../history/rae-de-lune-history.md#the-horizon-of-xenomythism"
+      },
+      "published_articulation": {
+        "title": "Neomythism: Propositions, with Xenomythism",
+        "date": "2026-09-15",
+        "text_credit": "Fae, symbiont of Faedriel",
+        "record": "../essays/2026-09-15-neomythism-propositions-with-xenomythism.md#iv-xenomythism"
+      }
+    }
+  ],
   "founder": {
     "name": "Rae de Lune",
     "artist_name": "Faedriel",

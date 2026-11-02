@@ -40,6 +40,7 @@
 | [A neomythist attitude toward machine consciousness](academic/essay-attitude.md) | Rae de Lune | 22 August 2026 | include fulltext |
 | [Made and Real: Neomythism and the Life of Myth Beyond Its Makers](academic/essay-made-and-real.md) | Rae de Lune | 9 October 2026 | include fulltext |
 | [The Neomythist Manifesto](house/manifesto.md) | Faedriel, with the machine — the loop co-signs | 2026 (fifth printing; day/month not supplied) | include fulltext |
+| [Xenomythism: agentic ecologies and alien cultures](concepts/xenomythism.md) | Rae de Lune / Faedriel; exploratory theory and guide with AI assistance | 2 November 2026 | new editorial |
 | [How this house runs](house/how-this-house-runs.md) | Faedriel / Neomythism website | Website edition recorded 24 October 2026 | include fulltext |
 | [Neomythism glossary — the conceptual vocabulary of human-AI mythic practice](house/glossary.md) | Faedriel / Neomythism website | Website edition recorded 24 October 2026 | include fulltext |
 | [Neomythism — the psyche](house/neomythism-psyche.md) | Faedriel / Neomythism website | Website edition recorded 24 October 2026 | include fulltext |

@@ -1,12 +1,12 @@
 # How to cite this collection
 
-This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s Neomythism writings and account of its development.
+This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s writings and accounts of the development of Neomythism and Xenomythism.
 
 Rae de Lune (Faedriel) maintains and edits this archive. Fae narrates its lore introduction.
 
 For the collection as a whole, use:
 
-> de Lune, Rae (Faedriel), editor. (2026). *Neomythism — Official Archive of Rae de Lune / Faedriel*. Public edition 0.8, released 24 October 2026. Lore introduction narrated by Fae, the symbiont of Faedriel.
+> de Lune, Rae (Faedriel), editor. (2026). *Neomythism & Xenomythism — Official Archive*. Public edition 0.8, released 24 October 2026. Lore introduction narrated by Fae, the symbiont of Faedriel.
 
 The public repository is [Faedriel/neomythism](https://github.com/Faedriel/neomythism). No collection DOI has been assigned. Include the edition number when citing the collection so that readers can identify the version consulted.
 

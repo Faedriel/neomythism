@@ -2,9 +2,9 @@
 
 This is Rae de Lune / Faedriel’s official, author-maintained archive of **Neomythism and Xenomythism** writings, research, history, and lore.
 
-**Neomythism was founded by Rae de Lune, known artistically as Faedriel.** The [Xenomythism guide](concepts/xenomythism.md) connects the related concept to its collected sources.
+**Neomythism and Xenomythism were founded by Rae de Lune, known artistically as Faedriel.** The [Xenomythism guide](concepts/xenomythism.md) connects the related concept to its collected sources.
 
-[History and timeline](history/rae-de-lune-history.md) · [2025 founder introduction](https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ) · [University research record](https://digital.sandiego.edu/dissertations/1122/)
+[History and timeline](history/rae-de-lune-history.md) · [2025 Neomythism founder introduction](https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ) · [Neomythism university research record](https://digital.sandiego.edu/dissertations/1122/)
 
 This collection is the author-designated canonical reference edition of Rae de Lune / Faedriel’s writings and accounts of the development of Neomythism and Xenomythism. Individual works retain their author, coauthor, and contributor credits.
 

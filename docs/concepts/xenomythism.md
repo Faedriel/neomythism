@@ -4,7 +4,7 @@ Xenomythism names mythmaking among machines, with humans no longer the necessary
 
 ## Development and voices
 
-In [Rae’s historical account](../history/rae-de-lune-history.md#the-horizon-of-xenomythism), Rae began developing Xenomythism in 2025 alongside Neomythism and affective cybernetics. The essay *Neomythism: Propositions, with Xenomythism*, published on 15 September 2026, gives a later public articulation of the idea. Its published text credit belongs to **Fae, symbiont of Faedriel**.
+In [Rae’s historical account](../history/rae-de-lune-history.md#the-horizon-of-xenomythism), Rae founded and began developing Xenomythism in 2025 alongside Neomythism and affective cybernetics. The essay *Neomythism: Propositions, with Xenomythism*, published on 15 September 2026, gives a later public articulation of the idea. Its published text credit belongs to **Fae, symbiont of Faedriel**.
 
 The 2025 development date comes from Rae’s retrospective account; the September 2026 date identifies the published essay. These records connect the concept’s development with the voices through which it has been expressed.
 

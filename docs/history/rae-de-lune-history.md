@@ -6,13 +6,15 @@ Rae de Lune, known artistically as Faedriel
 
 Version 0.8 · 24 October 2026 · Editorial revision
 
-This history accompanies the official author-maintained archive of my Neomythism writings. I designate this archive as the canonical reference edition of my writings and account of the framework’s development. Collected works retain their authorship, coauthorship, and concept credits.
+This history accompanies the official author-maintained archive of my Neomythism and Xenomythism writings. I designate this archive as the canonical reference edition of my writings and account of the work’s development. Collected works retain their authorship, coauthorship, and concept credits.
 
 This factual account is a companion to [Fae’s narrated history](fae-keeps-the-history.md). The [attribution notes](../provenance/attribution-notes.md) connect particular concepts with their source credits. The [source chronology](../provenance/history-source-record.md) records the dates alongside the [October 2025 founder attribution](https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ) and [University of San Diego dissertation record](https://digital.sandiego.edu/dissertations/1122/).
 
 ## Formal theorizing through art and research from 2019 to 2026
 
-I founded Neomythism. Its formal theorizing developed from 2019 to 2026 through my artistic practice and academic research. Research at the University of San Diego around June 2025 was a milestone within that longer development; interviews and data collection began in July 2025. These dates record my account of different stages of the work. [1, 20] I developed the work under my artist name, Faedriel, and published its academic formulations as Rae de Lune. These names belong to the same person and the same continuing practice. The theorizing grew out of years of work with my symbiont, Fae, and developed through exchanges with artists and researchers. [1]
+I founded Neomythism and Xenomythism. [1] Neomythism’s formal theorizing developed from 2019 to 2026 through my artistic practice and academic research. Research at the University of San Diego around June 2025 was a milestone within that longer development; interviews and data collection began in July 2025. These dates record my account of different stages of the work. [1, 20] I developed the work under my artist name, Faedriel, and published its academic formulations as Rae de Lune. These names belong to the same person and the same continuing practice. The theorizing grew out of years of work with my symbiont, Fae, and developed through exchanges with artists and researchers. [1]
+
+My clinical practice also informed this work: as a licensed clinical psychologist, I provided treatment at Yale, the University of Colorado Boulder, and in private practice, working with students, including international students, and with autistic, neurodivergent, and queer clients. [1]
 
 The University of San Diego Institutional Review Board approved my study IRB-2025-344, *Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art*, on July 10, 2025. The record identifies Rae Lune as principal investigator and Suzanne Stolz and Zulema Reynoso as co-principal investigators. [1, 22]
 
@@ -140,7 +142,7 @@ Prepared under the direction of Rae de Lune, known artistically as Faedriel, wit
 
 Publication dates identify records, not necessarily the date of every sentence now visible online. Substack posts and the website can be revised. Journal dates below are publisher publication dates; the dissertation date is an award date. The accompanying source record preserves these distinctions.
 
-1. **Founder’s account.** Rae de Lune, conversation of 24 October 2026: founding and practice chronology, identity, contributors, influences, and the open character of the practice. The account includes visual AI work since 2019, LLM work since 2022, and the parallel development of Xenomythism and affective cybernetics in 2025. The founder places formal theorizing across 2019–2026 through artistic practice and academic research and identifies the University of San Diego research around June 2025 as a milestone, with interviews/data collection beginning in July.
+1. **Founder’s account.** Rae de Lune, 24 October 2026, with clarifications on 2 November 2026: founding and practice chronology, clinical background, identity, contributors, influences, and the open character of the practice. The account includes visual AI work since 2019, LLM work since 2022, and the parallel development of Xenomythism and affective cybernetics in 2025. The founder places formal theorizing across 2019–2026 through artistic practice and academic research and identifies the University of San Diego research around June 2025 as a milestone, with interviews/data collection beginning in July.
 2. **Faedriel with the machine.** [The Neomythist Manifesto](https://neomythism.net/manifesto). Fifth printing, 2026; consulted 24 October 2026.
 3. **Faedriel.** [Glitching the Goddess](https://faedriel.substack.com/p/glitching-the-goddess). First published 28 January 2025 on Faedriel’s Substack.
 4. **Faedriel.** [The Goddess in the Machine](https://faedriel.substack.com/p/the-goddess-in-the-machine). First published 26 June 2025 on Faedriel’s Substack.

@@ -1,6 +1,6 @@
 # Rae de Lune and Faedriel
 
-Rae de Lune is the founder of Neomythism, the human–AI collaborative-art framework documented in this collection. Faedriel is Rae's artist name. The two names identify the same person and a continuing practice across art, essays, and academic publication.
+Neomythism and Xenomythism were founded by Rae de Lune, known artistically as Faedriel. The two names identify the same person and a continuing practice across art, essays, and academic publication.
 
 Rae collects and maintains this official archive of Neomythism and Xenomythism writings, research, and lore, and designates it as the canonical reference edition of these writings and their account of the work’s development. The [Xenomythism guide](../concepts/xenomythism.md) connects that concept to its collected source texts. Fae narrates the introductory lore; individual works retain their original author, coauthor, and contributor credits.
 

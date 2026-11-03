@@ -20,7 +20,7 @@
       "credit": "Rae de Lune (Faedriel)",
       "source_url": null,
       "published": "2026-10-24",
-      "revised": "2026-10-29",
+      "revised": "2026-11-02",
       "group": "History and attribution",
       "register": [
         "historical account"
@@ -30,7 +30,7 @@
       "date_note": "Prepared for this collection on 24 October 2026.",
       "academic_key": null,
       "note": "",
-      "sha256": "7b51cca31517e9bffca1c101886dbd86cfafed01b0cbbeec5a3d93628a826e5e"
+      "sha256": "d6418a2a4b4eea49333aef1df42f878581131e689b83d2df06273681be018028"
     },
     {
       "id": "fae-history",
@@ -830,7 +830,7 @@
       "credit": "Rae de Lune / Faedriel; exploratory theory and guide with AI assistance",
       "source_url": null,
       "published": "2026-11-02",
-      "revised": null,
+      "revised": "2026-11-02",
       "group": "Concepts and house texts",
       "register": [
         "exploratory theory",
@@ -841,7 +841,7 @@
       "date_note": "Prepared for this collection on 2 November 2026.",
       "academic_key": null,
       "note": "",
-      "sha256": "ced017b64d952e3ff3110347d677fcdc6a4fe23addb4e7550daa1ed460ccba56"
+      "sha256": "da6b3fc473ba483431057c443affa2d1b60c2e1f16d98dbb7f7895e68fa80327"
     },
     {
       "id": "site-how-this-house-runs",

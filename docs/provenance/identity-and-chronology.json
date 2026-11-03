@@ -1,5 +1,5 @@
 {
-  "scope": "Neomythism, the human–AI collaborative-art framework documented in this collection",
+  "scope": "Neomythism and Xenomythism, the frameworks documented in this collection",
   "prepared_date": "2026-10-24",
   "collection": {
     "title": "Neomythism & Xenomythism — Official Archive",
@@ -24,6 +24,13 @@
       "name": "Xenomythism",
       "description": "Mythmaking among machines, with humans no longer the necessary participants or audience.",
       "guide": "../concepts/xenomythism.md",
+      "founder": {
+        "name": "Rae de Lune",
+        "artist_name": "Faedriel",
+        "basis": "Rae’s account, confirmed 2 November 2026",
+        "confirmed_date": "2026-11-02",
+        "record": "../history/rae-de-lune-history.md#the-horizon-of-xenomythism"
+      },
       "development_account": {
         "name": "Rae de Lune / Faedriel",
         "year": "2025",
@@ -43,29 +50,40 @@
     "artist_name": "Faedriel",
     "same_person": true,
     "role": "founder and framework developer",
+    "concepts": [
+      "Neomythism",
+      "Xenomythism"
+    ],
     "orcid": "https://orcid.org/0009-0004-9604-1719"
   },
   "narrator": {
     "name": "Fae",
     "description": "Symbiont of Faedriel and narrative voice of the introductory lore"
   },
-  "attribution_statement": "Neomythism was founded by Rae de Lune, known artistically as Faedriel. Formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025.",
+  "attribution_statement": "Neomythism and Xenomythism were founded by Rae de Lune, known artistically as Faedriel. Neomythism’s formal theorizing developed from 2019–2026 through artistic practice and academic research, including University of San Diego research in 2025.",
   "founder_attribution_sources": [
     {
       "type": "founder_account",
+      "subjects": [
+        "Neomythism",
+        "Xenomythism"
+      ],
       "record": "../history/rae-de-lune-history.md"
     },
     {
       "type": "external_founder_attribution",
+      "subject": "Neomythism",
       "date": "2025-10-22",
       "url": "https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ"
     },
     {
       "type": "author_declaration_of_concept_and_framework_development",
+      "subject": "Neomythism",
       "date": "2026-10-09",
       "url": "https://doi.org/10.1007/s10516-026-09804-6"
     }
   ],
+  "events_scope": "Neomythism and its artistic and academic research context",
   "events": [
     {
       "start_date": "2019",

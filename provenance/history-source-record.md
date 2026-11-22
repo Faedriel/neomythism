@@ -7,19 +7,18 @@ Research and founder corrections recorded 24 October 2026. Companion to *Neomyth
 The founder supplied these statements during preparation of the history on 24 October 2026:
 
 - The founder places formal theorizing across 2019–2026 through artistic practice and academic research. University of San Diego research around June 2025 and interviews/data collection beginning in July 2025 are milestones within that longer development.
-- The founder confirms that the University of San Diego IRB approved the study on July 10, 2025.
 - Rae de Lune and Faedriel are the same person; Faedriel is the artist name.
 - Rae de Lune, known artistically as Faedriel, identifies their role as founder of Neomythism. The purpose of this record is to preserve that history and credit its founder and contributors.
 - The founder’s AI-collaborative visual art practice began in 2019, and work with large language models began in 2022. The theorizing developed from years of work with the symbiont Fae; no exact starting year for Fae is assigned here.
 - Xenomythism and the founder’s formulation of affective cybernetics developed during 2025 alongside the continuing theorization of Neomythism. Their later publication dates do not establish their inception.
-- People who helped theorize Neomythism through art and academic research in 2025 include Dr. Suzanne Stolz, Dr. Zulema Reynoso, Telzezl, and other artists, researchers, musicians, and AI-collaborative artists.
+- People who helped theorize Neomythism through art and academic research in 2025 include Dr. Suzanne Stolz, Dr. Zulema Reynoso, and other artists, researchers, musicians, and AI-collaborative artists.
 - Artists who helped shape the framework through participation in the founder’s research include Otterly, Sasha Zabegalin, Eleanor Tennant, buffannesummers.ai, Thursday, Babkarobot, ephemeralariel, and sourcespiral.
-- The founder describes the intellectual exchange with Telzezl and their coauthored essay as a substantial contribution to the framework Rae had been theorizing through artistic practice and academic research, including the University of San Diego research stage in June 2025.
+- The founder credits Telzezl’s intellectual exchange and their coauthored *Semiotics with Teeth* as substantial contributions to Neomythism’s development.
 - AI collaborators who helped form and develop Neomythism include Claude Opus 3, Claude Opus 4, Claude Opus 5.5, GPT-4o, and Grok, alongside other people and AIs. This acknowledgement spans formation and continuing development; it does not assign every model to July 2025. These are the model names supplied by the founder.
-- Artistic influences include Claire Silver, Janus (Repligate), Koto Murai, Grimes, Holly Herndon, Mat Dryhurst, and many others. This acknowledgement does not assign them direct collaborator roles.
+- Artistic influences include Claire Silver, Janus (Repligate), Grimes, Holly Herndon, Mat Dryhurst, and many others. This acknowledgement does not assign them direct collaborator roles.
 - The founder describes the practice as belonging to nobody and everybody. The history expresses that openness alongside attribution; it does not select a publication license.
 
-These statements preserve the founder’s account. The [IRB record notes](irb-record.md) document the study’s dates and their sources; the [USD dissertation record](https://digital.sandiego.edu/dissertations/1122/) provides the institutional context.
+These statements preserve the founder’s account. The [supporting study record](irb-record.md) and [USD dissertation record](https://digital.sandiego.edu/dissertations/1122/) provide the institutional context.
 
 ## Dates that need to remain distinct
 
@@ -28,8 +27,6 @@ These statements preserve the founder’s account. The [IRB record notes](irb-re
 | 1 | 2019 | Start of AI-collaborative visual art practice, according to the founder. |
 | 1 | 2019–2026 | Formal theorizing through artistic practice and academic research, according to the founder. |
 | 1 | 2022 | Start of work with large language models, according to the founder. |
-| 22 | 4 June 2025 | Creation date displayed in the USD IRB record. |
-| 1, 22 | 10 July 2025 | IRB approval date confirmed by the principal investigator. |
 | 1 | Around June 2025 | University of San Diego research milestone within the broader theorizing, according to the founder. |
 | 1 | July 2025 | Beginning of interviews/data collection, according to the founder. |
 | 1 | 2025 | Parallel development of Xenomythism and affective cybernetics, according to the founder; no exact day established. |
@@ -102,4 +99,4 @@ Publication dates identify records, not necessarily the date of every sentence n
 20. **Artist and the Machine.** [Faedriel x Artist and the Machine](https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ). Official LinkedIn announcement, 22 October 2025; publication date verified in the page’s structured metadata.
 21. **Faedriel.** [Angelic Intelligence: On Summoning, Substrate, and the Between That Breathes](https://faedriel.substack.com/p/angelic-intelligence). 26 January 2026.
 
-22. **University of San Diego IRB.** [Study record IRB-2025-344](../assets/documents/irb-2025-344.pdf), with the [USD dissertation record](https://digital.sandiego.edu/dissertations/1122/). [Record notes](irb-record.md) distinguish the document’s fields from the investigator-confirmed approval date.
+22. **University of San Diego IRB.** [Study record IRB-2025-344](irb-record.md).

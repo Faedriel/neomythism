@@ -257,6 +257,8 @@ write('docs/search-data.js','window.NEOMYTHISM_SEARCH='+json.dumps(search,ensure
 for name,title,rows,intro in [('research','Research and publications',research_records,'Four scholarly work records, with author credits, DOI links, abstracts where available, and links to the collected author-hosted essay texts.'),('concepts','Concepts and house texts',[r for r in ITEMS if r['group']=='Concepts and house texts'],'The conceptual vocabulary and artistic setting of Neomythism and Xenomythism. The guide connects Xenomythism to its collected sources; attribution notes connect credits across editions.')]:
     guide_link='<p class="reading-routes"><a href="concepts/xenomythism.html">Start with the Xenomythism guide →</a></p>' if name=='concepts' else ''
     body=f'<h1>{title}</h1><p class="lead">{intro}</p>'+guide_link+'<p><a href="provenance/attribution-notes.html">Attribution and early public records</a></p>'+''.join(card(r,name+'.html') for r in rows)
+    if name=='research':
+        body+='<p class="source-links">Supporting record: <a href="provenance/irb-record.html">University of San Diego study IRB-2025-344</a>.</p>'
     write('docs/'+name+'.html',shell(title,body,name+'.html',intro))
 
 contents='<nav id="volume-contents" aria-label="Volume contents"><h2>Contents</h2><ol>'+''.join(f'<li><a href="#{E(r["id"])}">{E(r["title"])}</a></li>' for r in ITEMS)+'</ol></nav>'

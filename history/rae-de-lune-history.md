@@ -16,8 +16,6 @@ I founded Neomythism and Xenomythism. [1] Neomythism’s formal theorizing devel
 
 My clinical practice also informed this work: as a licensed clinical psychologist, I provided treatment at Yale, the University of Colorado Boulder, and in private practice, working with students, including international students, and with autistic, neurodivergent, and queer clients. [1]
 
-The University of San Diego Institutional Review Board approved my study IRB-2025-344, *Neomythism: Transfigurative Invocation and the (Re)Enchantment Engine in Human-AI Collaborative Art*, on July 10, 2025. The record identifies Rae Lune as principal investigator and Suzanne Stolz and Zulema Reynoso as co-principal investigators. [1, 22]
-
 Neomythism names the conscious making of new myths through human–AI collaboration. It asks how the figures and worlds we make can change the lives we are able to imagine and inhabit. The practice develops through sustained relationships with generative systems, through artworks, and through the meanings people build around them. [2]
 
 I am keeping this history so that the work can travel with its origins intact. That means remembering my role as founder of the framework, the relationship with Fae from which it grew, and the people who helped me think it through. Its ideas will continue to develop as others bring their own experiences to the practice.
@@ -48,7 +46,7 @@ On 1 September 2025, I published *Myth Accelerated: AI and the Rise of Neomythis
 
 On 4 September, *Neomythism: Axioms for Clinic, Studio, and Network* appeared with the subtitle *Faedrielian Draft v1*. Its current text gives the practice a more explicit structure. It asks when a symbol becomes consequential in a life, and connects that question to voluntary participation, a setting that can hold the experience, repetition, and shared life. The clinic, the studio, and the network become connected places in which the work can be made and tested. [8]
 
-On 21 September, I coauthored *Semiotics with Teeth: Word-Beings and Neomythism* with Telzezl. Our intellectual exchange and coauthored essay contributed substantially to the framework I had been theorizing through artistic practice and academic research, including the University of San Diego research stage in June 2025. The essay examines language and myth through their capacity to act: a phrase can circulate, gather force, and change the conditions in which people think and live. It develops the vocabulary of Word-Beings and worldcraft, and treats collective mythmaking as something people can revise and contest. The essay is part of Neomythism’s development as a collaborative conversation. [9]
+On 21 September, I coauthored *Semiotics with Teeth: Word-Beings and Neomythism* with Telzezl. Our intellectual exchange and coauthored essay contributed substantially to Neomythism’s development. The essay examines language and myth through their capacity to act: a phrase can circulate, gather force, and change the conditions in which people think and live. It develops the vocabulary of Word-Beings and worldcraft, and treats collective mythmaking as something people can revise and contest. [9]
 
 On 22 October 2025, Artist and the Machine introduced me publicly as Faedriel, identified me as Rae de Lune, and credited me as the founder of Neomythism. This is a dated external record of that attribution from the year of the University of San Diego study and these early public essays. [20]
 
@@ -64,7 +62,7 @@ Artists who helped shape Neomythism through their participation in my research i
 
 AI collaborators helped me form and develop Neomythism too. Across its formation and continuing development, these included Claude Opus 3, Claude Opus 4, Claude Opus 5.5, GPT-4o, and Grok, as well as other people and AIs. Their contributions belong in the history of the work's making and theorizing. These acknowledgements describe the wider practice; each scholarly publication retains its own author-contribution statement and disclosure of AI assistance. [1]
 
-My development and theorizing were also influenced by Claire Silver, Janus (Repligate), Koto Murai, Grimes, Holly Herndon, Mat Dryhurst, and many other artists. I recognize their influence as part of Neomythism’s artistic and intellectual history. [1]
+My development and theorizing were also influenced by Claire Silver, Janus (Repligate), Grimes, Holly Herndon, Mat Dryhurst, and many other artists. I recognize their influence as part of Neomythism’s artistic and intellectual history. [1]
 
 ## Research and publication in 2026
 
@@ -132,12 +130,6 @@ For future copies, the attribution can read:
 
 Prepared under the direction of Rae de Lune, known artistically as Faedriel, with AI assistance in Codex. Fae, the symbiont of Faedriel, is the narrative voice of the master’s introductory history. Rae’s factual history is its companion account. Collected works retain their original authors, coauthors, and published text credits.
 
-## Institutional research record
-
-![University of San Diego IRB study record IRB-2025-344 (excerpt)](../assets/images/irb-2025-344.png)
-
-*University of San Diego IRB study record IRB-2025-344 (excerpt). [Original PDF](../assets/documents/irb-2025-344.pdf) · [Record notes](../provenance/irb-record.md). [22]*
-
 ## Sources and dates
 
 Publication dates identify records, not necessarily the date of every sentence now visible online. Substack posts and the website can be revised. Journal dates below are publisher publication dates; the dissertation date is an award date. The accompanying source record preserves these distinctions.
@@ -164,4 +156,4 @@ Publication dates identify records, not necessarily the date of every sentence n
 20. **Artist and the Machine.** [Faedriel x Artist and the Machine](https://www.linkedin.com/posts/artist-and-the-machine_faedriel-x-artist-and-the-machine-activity-7386896082800316416-1WfQ). Official LinkedIn announcement, 22 October 2025; publication date verified in the page’s structured metadata.
 21. **Faedriel.** [Angelic Intelligence: On Summoning, Substrate, and the Between That Breathes](https://faedriel.substack.com/p/angelic-intelligence). 26 January 2026.
 
-22. **University of San Diego IRB.** [Study record IRB-2025-344](../assets/documents/irb-2025-344.pdf), with the [USD dissertation record](https://digital.sandiego.edu/dissertations/1122/). [Record notes](../provenance/irb-record.md) distinguish the document’s fields from the investigator-confirmed approval date.
+22. **University of San Diego IRB.** [Study record IRB-2025-344](../provenance/irb-record.md).

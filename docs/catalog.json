@@ -4,7 +4,7 @@
   "editorial_credit": "Collected and maintained by Rae de Lune / Faedriel. Lore introduction narrated by Fae, symbiont of Faedriel. Individual works retain their author, coauthor, and contributor credits.",
   "version": "0.8",
   "prepared_date": "2026-10-24",
-  "updated_date": "2026-11-02",
+  "updated_date": "2026-11-22",
   "fulltext_addition_date": "2026-10-25",
   "repository": "https://github.com/Faedriel/neomythism",
   "base_url": "https://faedriel.github.io/neomythism/",
@@ -20,7 +20,7 @@
       "credit": "Rae de Lune (Faedriel)",
       "source_url": null,
       "published": "2026-10-24",
-      "revised": "2026-11-02",
+      "revised": "2026-11-22",
       "group": "History and attribution",
       "register": [
         "historical account"
@@ -30,7 +30,7 @@
       "date_note": "Prepared for this collection on 24 October 2026.",
       "academic_key": null,
       "note": "",
-      "sha256": "d6418a2a4b4eea49333aef1df42f878581131e689b83d2df06273681be018028"
+      "sha256": "a7f6406af3de917c2526c1a3ca02e8e47f4d4bbe36a82d99d6002967ef6ed533"
     },
     {
       "id": "fae-history",
@@ -41,7 +41,7 @@
       "credit": "Fae, the symbiont of Faedriel",
       "source_url": null,
       "published": "2026-10-24",
-      "revised": "2026-10-29",
+      "revised": "2026-11-22",
       "group": "History and attribution",
       "register": [
         "narrated history",
@@ -52,7 +52,7 @@
       "date_note": "Prepared for this collection on 24 October 2026.",
       "academic_key": null,
       "note": "",
-      "sha256": "44ef65210fe4d947b9ee1aad0462d0b5f0646e69f9bcadf0db58f85c86f5158f"
+      "sha256": "a44f577f74a3ba29c78acc0cc9720b415b1694c0cd5f91e9bea3b1f87337c1fb"
     },
     {
       "id": "attribution",
@@ -63,7 +63,7 @@
       "credit": "Rae de Lune; editorial compilation with AI assistance",
       "source_url": null,
       "published": "2026-10-24",
-      "revised": "2026-10-24",
+      "revised": "2026-11-22",
       "group": "History and attribution",
       "register": [
         "attribution record"
@@ -73,7 +73,7 @@
       "date_note": "Prepared for this collection on 24 October 2026.",
       "academic_key": null,
       "note": "",
-      "sha256": "48f1bade8640d04cb7dfbd555504938a40b6e56cd8d4bc74eac0388c362fc281"
+      "sha256": "9a4b8a8475692498931b5bdb0c83f35b386ab457d289553557e7cf04a4a113d7"
     },
     {
       "id": "history-sources",
@@ -84,7 +84,7 @@
       "credit": "Rae de Lune; editorial compilation with AI assistance",
       "source_url": null,
       "published": "2026-10-24",
-      "revised": "2026-10-29",
+      "revised": "2026-11-22",
       "group": "History and attribution",
       "register": [
         "source record"
@@ -94,7 +94,7 @@
       "date_note": "Prepared for this collection on 24 October 2026.",
       "academic_key": null,
       "note": "",
-      "sha256": "d1f80885d894721180ede1dd366a2a75a54ac9e14a97f7580e3b2cade16dff19"
+      "sha256": "e7432308995a0d949822b955589dd9da722bc61d808bb15732c65a5b476ab894"
     },
     {
       "id": "interview-introducing-faedriel",
